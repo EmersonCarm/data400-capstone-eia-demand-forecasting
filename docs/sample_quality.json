@@ -1,0 +1,13 @@
+{
+  "source": "EIA Open Data v2: electricity/rto/region-data (Form EIA-930)",
+  "respondent": "PJM",
+  "start_utc": "2025-09-01T00",
+  "end_utc": "2025-09-30T23",
+  "hourly_rows_expected": 720,
+  "records_received_long_format": 1440,
+  "actual_demand_rows": 720,
+  "forecast_rows": 720,
+  "missing_actual_demand_hours": 0,
+  "missing_forecast_hours": 0,
+  "duplicate_hour_type_rows": 0
+}

@@ -1,0 +1,1441 @@
+period,respondent,respondent-name,type,type-name,value,value-units,timestamp_utc
+2025-09-01T00,PJM,"PJM Interconnection, LLC",D,Demand,90154,megawatthours,2025-09-01 00:00:00+00:00
+2025-09-01T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,91579,megawatthours,2025-09-01 00:00:00+00:00
+2025-09-01T01,PJM,"PJM Interconnection, LLC",D,Demand,88503,megawatthours,2025-09-01 01:00:00+00:00
+2025-09-01T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88996,megawatthours,2025-09-01 01:00:00+00:00
+2025-09-01T02,PJM,"PJM Interconnection, LLC",D,Demand,85101,megawatthours,2025-09-01 02:00:00+00:00
+2025-09-01T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84152,megawatthours,2025-09-01 02:00:00+00:00
+2025-09-01T03,PJM,"PJM Interconnection, LLC",D,Demand,81101,megawatthours,2025-09-01 03:00:00+00:00
+2025-09-01T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78946,megawatthours,2025-09-01 03:00:00+00:00
+2025-09-01T04,PJM,"PJM Interconnection, LLC",D,Demand,76915,megawatthours,2025-09-01 04:00:00+00:00
+2025-09-01T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75084,megawatthours,2025-09-01 04:00:00+00:00
+2025-09-01T05,PJM,"PJM Interconnection, LLC",D,Demand,74283,megawatthours,2025-09-01 05:00:00+00:00
+2025-09-01T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,71237,megawatthours,2025-09-01 05:00:00+00:00
+2025-09-01T06,PJM,"PJM Interconnection, LLC",D,Demand,72731,megawatthours,2025-09-01 06:00:00+00:00
+2025-09-01T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,69047,megawatthours,2025-09-01 06:00:00+00:00
+2025-09-01T07,PJM,"PJM Interconnection, LLC",D,Demand,70897,megawatthours,2025-09-01 07:00:00+00:00
+2025-09-01T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,67532,megawatthours,2025-09-01 07:00:00+00:00
+2025-09-01T08,PJM,"PJM Interconnection, LLC",D,Demand,69750,megawatthours,2025-09-01 08:00:00+00:00
+2025-09-01T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,66947,megawatthours,2025-09-01 08:00:00+00:00
+2025-09-01T09,PJM,"PJM Interconnection, LLC",D,Demand,69441,megawatthours,2025-09-01 09:00:00+00:00
+2025-09-01T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,67065,megawatthours,2025-09-01 09:00:00+00:00
+2025-09-01T10,PJM,"PJM Interconnection, LLC",D,Demand,69720,megawatthours,2025-09-01 10:00:00+00:00
+2025-09-01T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,67606,megawatthours,2025-09-01 10:00:00+00:00
+2025-09-01T11,PJM,"PJM Interconnection, LLC",D,Demand,70620,megawatthours,2025-09-01 11:00:00+00:00
+2025-09-01T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,69210,megawatthours,2025-09-01 11:00:00+00:00
+2025-09-01T12,PJM,"PJM Interconnection, LLC",D,Demand,70915,megawatthours,2025-09-01 12:00:00+00:00
+2025-09-01T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72200,megawatthours,2025-09-01 12:00:00+00:00
+2025-09-01T13,PJM,"PJM Interconnection, LLC",D,Demand,73073,megawatthours,2025-09-01 13:00:00+00:00
+2025-09-01T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75120,megawatthours,2025-09-01 13:00:00+00:00
+2025-09-01T14,PJM,"PJM Interconnection, LLC",D,Demand,76160,megawatthours,2025-09-01 14:00:00+00:00
+2025-09-01T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77892,megawatthours,2025-09-01 14:00:00+00:00
+2025-09-01T15,PJM,"PJM Interconnection, LLC",D,Demand,78509,megawatthours,2025-09-01 15:00:00+00:00
+2025-09-01T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80760,megawatthours,2025-09-01 15:00:00+00:00
+2025-09-01T16,PJM,"PJM Interconnection, LLC",D,Demand,81172,megawatthours,2025-09-01 16:00:00+00:00
+2025-09-01T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83741,megawatthours,2025-09-01 16:00:00+00:00
+2025-09-01T17,PJM,"PJM Interconnection, LLC",D,Demand,83873,megawatthours,2025-09-01 17:00:00+00:00
+2025-09-01T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,86648,megawatthours,2025-09-01 17:00:00+00:00
+2025-09-01T18,PJM,"PJM Interconnection, LLC",D,Demand,86394,megawatthours,2025-09-01 18:00:00+00:00
+2025-09-01T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,89359,megawatthours,2025-09-01 18:00:00+00:00
+2025-09-01T19,PJM,"PJM Interconnection, LLC",D,Demand,89143,megawatthours,2025-09-01 19:00:00+00:00
+2025-09-01T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92184,megawatthours,2025-09-01 19:00:00+00:00
+2025-09-01T20,PJM,"PJM Interconnection, LLC",D,Demand,92258,megawatthours,2025-09-01 20:00:00+00:00
+2025-09-01T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95079,megawatthours,2025-09-01 20:00:00+00:00
+2025-09-01T21,PJM,"PJM Interconnection, LLC",D,Demand,95759,megawatthours,2025-09-01 21:00:00+00:00
+2025-09-01T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97501,megawatthours,2025-09-01 21:00:00+00:00
+2025-09-01T22,PJM,"PJM Interconnection, LLC",D,Demand,98480,megawatthours,2025-09-01 22:00:00+00:00
+2025-09-01T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97507,megawatthours,2025-09-01 22:00:00+00:00
+2025-09-01T23,PJM,"PJM Interconnection, LLC",D,Demand,98616,megawatthours,2025-09-01 23:00:00+00:00
+2025-09-01T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95752,megawatthours,2025-09-01 23:00:00+00:00
+2025-09-02T00,PJM,"PJM Interconnection, LLC",D,Demand,96932,megawatthours,2025-09-02 00:00:00+00:00
+2025-09-02T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93582,megawatthours,2025-09-02 00:00:00+00:00
+2025-09-02T01,PJM,"PJM Interconnection, LLC",D,Demand,95133,megawatthours,2025-09-02 01:00:00+00:00
+2025-09-02T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90708,megawatthours,2025-09-02 01:00:00+00:00
+2025-09-02T02,PJM,"PJM Interconnection, LLC",D,Demand,91003,megawatthours,2025-09-02 02:00:00+00:00
+2025-09-02T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85722,megawatthours,2025-09-02 02:00:00+00:00
+2025-09-02T03,PJM,"PJM Interconnection, LLC",D,Demand,85421,megawatthours,2025-09-02 03:00:00+00:00
+2025-09-02T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80346,megawatthours,2025-09-02 03:00:00+00:00
+2025-09-02T04,PJM,"PJM Interconnection, LLC",D,Demand,81067,megawatthours,2025-09-02 04:00:00+00:00
+2025-09-02T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76083,megawatthours,2025-09-02 04:00:00+00:00
+2025-09-02T05,PJM,"PJM Interconnection, LLC",D,Demand,77888,megawatthours,2025-09-02 05:00:00+00:00
+2025-09-02T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,71895,megawatthours,2025-09-02 05:00:00+00:00
+2025-09-02T06,PJM,"PJM Interconnection, LLC",D,Demand,75298,megawatthours,2025-09-02 06:00:00+00:00
+2025-09-02T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,69958,megawatthours,2025-09-02 06:00:00+00:00
+2025-09-02T07,PJM,"PJM Interconnection, LLC",D,Demand,73447,megawatthours,2025-09-02 07:00:00+00:00
+2025-09-02T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,68899,megawatthours,2025-09-02 07:00:00+00:00
+2025-09-02T08,PJM,"PJM Interconnection, LLC",D,Demand,72502,megawatthours,2025-09-02 08:00:00+00:00
+2025-09-02T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,69457,megawatthours,2025-09-02 08:00:00+00:00
+2025-09-02T09,PJM,"PJM Interconnection, LLC",D,Demand,73093,megawatthours,2025-09-02 09:00:00+00:00
+2025-09-02T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72022,megawatthours,2025-09-02 09:00:00+00:00
+2025-09-02T10,PJM,"PJM Interconnection, LLC",D,Demand,75527,megawatthours,2025-09-02 10:00:00+00:00
+2025-09-02T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76507,megawatthours,2025-09-02 10:00:00+00:00
+2025-09-02T11,PJM,"PJM Interconnection, LLC",D,Demand,80458,megawatthours,2025-09-02 11:00:00+00:00
+2025-09-02T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80351,megawatthours,2025-09-02 11:00:00+00:00
+2025-09-02T12,PJM,"PJM Interconnection, LLC",D,Demand,84124,megawatthours,2025-09-02 12:00:00+00:00
+2025-09-02T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83323,megawatthours,2025-09-02 12:00:00+00:00
+2025-09-02T13,PJM,"PJM Interconnection, LLC",D,Demand,85957,megawatthours,2025-09-02 13:00:00+00:00
+2025-09-02T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85468,megawatthours,2025-09-02 13:00:00+00:00
+2025-09-02T14,PJM,"PJM Interconnection, LLC",D,Demand,87725,megawatthours,2025-09-02 14:00:00+00:00
+2025-09-02T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88226,megawatthours,2025-09-02 14:00:00+00:00
+2025-09-02T15,PJM,"PJM Interconnection, LLC",D,Demand,90082,megawatthours,2025-09-02 15:00:00+00:00
+2025-09-02T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,91041,megawatthours,2025-09-02 15:00:00+00:00
+2025-09-02T16,PJM,"PJM Interconnection, LLC",D,Demand,92146,megawatthours,2025-09-02 16:00:00+00:00
+2025-09-02T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,94375,megawatthours,2025-09-02 16:00:00+00:00
+2025-09-02T17,PJM,"PJM Interconnection, LLC",D,Demand,94512,megawatthours,2025-09-02 17:00:00+00:00
+2025-09-02T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97875,megawatthours,2025-09-02 17:00:00+00:00
+2025-09-02T18,PJM,"PJM Interconnection, LLC",D,Demand,97169,megawatthours,2025-09-02 18:00:00+00:00
+2025-09-02T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100883,megawatthours,2025-09-02 18:00:00+00:00
+2025-09-02T19,PJM,"PJM Interconnection, LLC",D,Demand,99943,megawatthours,2025-09-02 19:00:00+00:00
+2025-09-02T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103390,megawatthours,2025-09-02 19:00:00+00:00
+2025-09-02T20,PJM,"PJM Interconnection, LLC",D,Demand,102496,megawatthours,2025-09-02 20:00:00+00:00
+2025-09-02T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105916,megawatthours,2025-09-02 20:00:00+00:00
+2025-09-02T21,PJM,"PJM Interconnection, LLC",D,Demand,104840,megawatthours,2025-09-02 21:00:00+00:00
+2025-09-02T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,107556,megawatthours,2025-09-02 21:00:00+00:00
+2025-09-02T22,PJM,"PJM Interconnection, LLC",D,Demand,106707,megawatthours,2025-09-02 22:00:00+00:00
+2025-09-02T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,106685,megawatthours,2025-09-02 22:00:00+00:00
+2025-09-02T23,PJM,"PJM Interconnection, LLC",D,Demand,107126,megawatthours,2025-09-02 23:00:00+00:00
+2025-09-02T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103634,megawatthours,2025-09-02 23:00:00+00:00
+2025-09-03T00,PJM,"PJM Interconnection, LLC",D,Demand,104292,megawatthours,2025-09-03 00:00:00+00:00
+2025-09-03T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100817,megawatthours,2025-09-03 00:00:00+00:00
+2025-09-03T01,PJM,"PJM Interconnection, LLC",D,Demand,101922,megawatthours,2025-09-03 01:00:00+00:00
+2025-09-03T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97153,megawatthours,2025-09-03 01:00:00+00:00
+2025-09-03T02,PJM,"PJM Interconnection, LLC",D,Demand,96892,megawatthours,2025-09-03 02:00:00+00:00
+2025-09-03T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,91085,megawatthours,2025-09-03 02:00:00+00:00
+2025-09-03T03,PJM,"PJM Interconnection, LLC",D,Demand,89950,megawatthours,2025-09-03 03:00:00+00:00
+2025-09-03T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84758,megawatthours,2025-09-03 03:00:00+00:00
+2025-09-03T04,PJM,"PJM Interconnection, LLC",D,Demand,83963,megawatthours,2025-09-03 04:00:00+00:00
+2025-09-03T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,79477,megawatthours,2025-09-03 04:00:00+00:00
+2025-09-03T05,PJM,"PJM Interconnection, LLC",D,Demand,80663,megawatthours,2025-09-03 05:00:00+00:00
+2025-09-03T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76205,megawatthours,2025-09-03 05:00:00+00:00
+2025-09-03T06,PJM,"PJM Interconnection, LLC",D,Demand,78391,megawatthours,2025-09-03 06:00:00+00:00
+2025-09-03T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73799,megawatthours,2025-09-03 06:00:00+00:00
+2025-09-03T07,PJM,"PJM Interconnection, LLC",D,Demand,76285,megawatthours,2025-09-03 07:00:00+00:00
+2025-09-03T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72514,megawatthours,2025-09-03 07:00:00+00:00
+2025-09-03T08,PJM,"PJM Interconnection, LLC",D,Demand,75132,megawatthours,2025-09-03 08:00:00+00:00
+2025-09-03T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72908,megawatthours,2025-09-03 08:00:00+00:00
+2025-09-03T09,PJM,"PJM Interconnection, LLC",D,Demand,75621,megawatthours,2025-09-03 09:00:00+00:00
+2025-09-03T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75585,megawatthours,2025-09-03 09:00:00+00:00
+2025-09-03T10,PJM,"PJM Interconnection, LLC",D,Demand,78451,megawatthours,2025-09-03 10:00:00+00:00
+2025-09-03T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80341,megawatthours,2025-09-03 10:00:00+00:00
+2025-09-03T11,PJM,"PJM Interconnection, LLC",D,Demand,82105,megawatthours,2025-09-03 11:00:00+00:00
+2025-09-03T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84261,megawatthours,2025-09-03 11:00:00+00:00
+2025-09-03T12,PJM,"PJM Interconnection, LLC",D,Demand,85045,megawatthours,2025-09-03 12:00:00+00:00
+2025-09-03T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,86669,megawatthours,2025-09-03 12:00:00+00:00
+2025-09-03T13,PJM,"PJM Interconnection, LLC",D,Demand,87411,megawatthours,2025-09-03 13:00:00+00:00
+2025-09-03T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88472,megawatthours,2025-09-03 13:00:00+00:00
+2025-09-03T14,PJM,"PJM Interconnection, LLC",D,Demand,89283,megawatthours,2025-09-03 14:00:00+00:00
+2025-09-03T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90747,megawatthours,2025-09-03 14:00:00+00:00
+2025-09-03T15,PJM,"PJM Interconnection, LLC",D,Demand,91627,megawatthours,2025-09-03 15:00:00+00:00
+2025-09-03T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93274,megawatthours,2025-09-03 15:00:00+00:00
+2025-09-03T16,PJM,"PJM Interconnection, LLC",D,Demand,93387,megawatthours,2025-09-03 16:00:00+00:00
+2025-09-03T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96219,megawatthours,2025-09-03 16:00:00+00:00
+2025-09-03T17,PJM,"PJM Interconnection, LLC",D,Demand,95859,megawatthours,2025-09-03 17:00:00+00:00
+2025-09-03T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99456,megawatthours,2025-09-03 17:00:00+00:00
+2025-09-03T18,PJM,"PJM Interconnection, LLC",D,Demand,98858,megawatthours,2025-09-03 18:00:00+00:00
+2025-09-03T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102110,megawatthours,2025-09-03 18:00:00+00:00
+2025-09-03T19,PJM,"PJM Interconnection, LLC",D,Demand,101736,megawatthours,2025-09-03 19:00:00+00:00
+2025-09-03T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104633,megawatthours,2025-09-03 19:00:00+00:00
+2025-09-03T20,PJM,"PJM Interconnection, LLC",D,Demand,104652,megawatthours,2025-09-03 20:00:00+00:00
+2025-09-03T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,107120,megawatthours,2025-09-03 20:00:00+00:00
+2025-09-03T21,PJM,"PJM Interconnection, LLC",D,Demand,107618,megawatthours,2025-09-03 21:00:00+00:00
+2025-09-03T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,108816,megawatthours,2025-09-03 21:00:00+00:00
+2025-09-03T22,PJM,"PJM Interconnection, LLC",D,Demand,109245,megawatthours,2025-09-03 22:00:00+00:00
+2025-09-03T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,107975,megawatthours,2025-09-03 22:00:00+00:00
+2025-09-03T23,PJM,"PJM Interconnection, LLC",D,Demand,108259,megawatthours,2025-09-03 23:00:00+00:00
+2025-09-03T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105260,megawatthours,2025-09-03 23:00:00+00:00
+2025-09-04T00,PJM,"PJM Interconnection, LLC",D,Demand,105635,megawatthours,2025-09-04 00:00:00+00:00
+2025-09-04T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102405,megawatthours,2025-09-04 00:00:00+00:00
+2025-09-04T01,PJM,"PJM Interconnection, LLC",D,Demand,103589,megawatthours,2025-09-04 01:00:00+00:00
+2025-09-04T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,98653,megawatthours,2025-09-04 01:00:00+00:00
+2025-09-04T02,PJM,"PJM Interconnection, LLC",D,Demand,98859,megawatthours,2025-09-04 02:00:00+00:00
+2025-09-04T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92262,megawatthours,2025-09-04 02:00:00+00:00
+2025-09-04T03,PJM,"PJM Interconnection, LLC",D,Demand,92036,megawatthours,2025-09-04 03:00:00+00:00
+2025-09-04T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85796,megawatthours,2025-09-04 03:00:00+00:00
+2025-09-04T04,PJM,"PJM Interconnection, LLC",D,Demand,86253,megawatthours,2025-09-04 04:00:00+00:00
+2025-09-04T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80891,megawatthours,2025-09-04 04:00:00+00:00
+2025-09-04T05,PJM,"PJM Interconnection, LLC",D,Demand,83066,megawatthours,2025-09-04 05:00:00+00:00
+2025-09-04T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77342,megawatthours,2025-09-04 05:00:00+00:00
+2025-09-04T06,PJM,"PJM Interconnection, LLC",D,Demand,80381,megawatthours,2025-09-04 06:00:00+00:00
+2025-09-04T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74910,megawatthours,2025-09-04 06:00:00+00:00
+2025-09-04T07,PJM,"PJM Interconnection, LLC",D,Demand,78221,megawatthours,2025-09-04 07:00:00+00:00
+2025-09-04T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73522,megawatthours,2025-09-04 07:00:00+00:00
+2025-09-04T08,PJM,"PJM Interconnection, LLC",D,Demand,76839,megawatthours,2025-09-04 08:00:00+00:00
+2025-09-04T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73881,megawatthours,2025-09-04 08:00:00+00:00
+2025-09-04T09,PJM,"PJM Interconnection, LLC",D,Demand,77107,megawatthours,2025-09-04 09:00:00+00:00
+2025-09-04T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76611,megawatthours,2025-09-04 09:00:00+00:00
+2025-09-04T10,PJM,"PJM Interconnection, LLC",D,Demand,80233,megawatthours,2025-09-04 10:00:00+00:00
+2025-09-04T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,81351,megawatthours,2025-09-04 10:00:00+00:00
+2025-09-04T11,PJM,"PJM Interconnection, LLC",D,Demand,83777,megawatthours,2025-09-04 11:00:00+00:00
+2025-09-04T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85275,megawatthours,2025-09-04 11:00:00+00:00
+2025-09-04T12,PJM,"PJM Interconnection, LLC",D,Demand,86808,megawatthours,2025-09-04 12:00:00+00:00
+2025-09-04T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87773,megawatthours,2025-09-04 12:00:00+00:00
+2025-09-04T13,PJM,"PJM Interconnection, LLC",D,Demand,88945,megawatthours,2025-09-04 13:00:00+00:00
+2025-09-04T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,89516,megawatthours,2025-09-04 13:00:00+00:00
+2025-09-04T14,PJM,"PJM Interconnection, LLC",D,Demand,90469,megawatthours,2025-09-04 14:00:00+00:00
+2025-09-04T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,91592,megawatthours,2025-09-04 14:00:00+00:00
+2025-09-04T15,PJM,"PJM Interconnection, LLC",D,Demand,92225,megawatthours,2025-09-04 15:00:00+00:00
+2025-09-04T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93799,megawatthours,2025-09-04 15:00:00+00:00
+2025-09-04T16,PJM,"PJM Interconnection, LLC",D,Demand,93898,megawatthours,2025-09-04 16:00:00+00:00
+2025-09-04T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96140,megawatthours,2025-09-04 16:00:00+00:00
+2025-09-04T17,PJM,"PJM Interconnection, LLC",D,Demand,96455,megawatthours,2025-09-04 17:00:00+00:00
+2025-09-04T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,98803,megawatthours,2025-09-04 17:00:00+00:00
+2025-09-04T18,PJM,"PJM Interconnection, LLC",D,Demand,99961,megawatthours,2025-09-04 18:00:00+00:00
+2025-09-04T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100834,megawatthours,2025-09-04 18:00:00+00:00
+2025-09-04T19,PJM,"PJM Interconnection, LLC",D,Demand,101995,megawatthours,2025-09-04 19:00:00+00:00
+2025-09-04T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102645,megawatthours,2025-09-04 19:00:00+00:00
+2025-09-04T20,PJM,"PJM Interconnection, LLC",D,Demand,103395,megawatthours,2025-09-04 20:00:00+00:00
+2025-09-04T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104499,megawatthours,2025-09-04 20:00:00+00:00
+2025-09-04T21,PJM,"PJM Interconnection, LLC",D,Demand,104227,megawatthours,2025-09-04 21:00:00+00:00
+2025-09-04T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105802,megawatthours,2025-09-04 21:00:00+00:00
+2025-09-04T22,PJM,"PJM Interconnection, LLC",D,Demand,104847,megawatthours,2025-09-04 22:00:00+00:00
+2025-09-04T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104993,megawatthours,2025-09-04 22:00:00+00:00
+2025-09-04T23,PJM,"PJM Interconnection, LLC",D,Demand,103763,megawatthours,2025-09-04 23:00:00+00:00
+2025-09-04T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102414,megawatthours,2025-09-04 23:00:00+00:00
+2025-09-05T00,PJM,"PJM Interconnection, LLC",D,Demand,102279,megawatthours,2025-09-05 00:00:00+00:00
+2025-09-05T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100012,megawatthours,2025-09-05 00:00:00+00:00
+2025-09-05T01,PJM,"PJM Interconnection, LLC",D,Demand,100675,megawatthours,2025-09-05 01:00:00+00:00
+2025-09-05T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96749,megawatthours,2025-09-05 01:00:00+00:00
+2025-09-05T02,PJM,"PJM Interconnection, LLC",D,Demand,96495,megawatthours,2025-09-05 02:00:00+00:00
+2025-09-05T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90814,megawatthours,2025-09-05 02:00:00+00:00
+2025-09-05T03,PJM,"PJM Interconnection, LLC",D,Demand,91147,megawatthours,2025-09-05 03:00:00+00:00
+2025-09-05T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84760,megawatthours,2025-09-05 03:00:00+00:00
+2025-09-05T04,PJM,"PJM Interconnection, LLC",D,Demand,86236,megawatthours,2025-09-05 04:00:00+00:00
+2025-09-05T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80281,megawatthours,2025-09-05 04:00:00+00:00
+2025-09-05T05,PJM,"PJM Interconnection, LLC",D,Demand,83720,megawatthours,2025-09-05 05:00:00+00:00
+2025-09-05T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75967,megawatthours,2025-09-05 05:00:00+00:00
+2025-09-05T06,PJM,"PJM Interconnection, LLC",D,Demand,80720,megawatthours,2025-09-05 06:00:00+00:00
+2025-09-05T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73833,megawatthours,2025-09-05 06:00:00+00:00
+2025-09-05T07,PJM,"PJM Interconnection, LLC",D,Demand,78463,megawatthours,2025-09-05 07:00:00+00:00
+2025-09-05T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72738,megawatthours,2025-09-05 07:00:00+00:00
+2025-09-05T08,PJM,"PJM Interconnection, LLC",D,Demand,77071,megawatthours,2025-09-05 08:00:00+00:00
+2025-09-05T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73167,megawatthours,2025-09-05 08:00:00+00:00
+2025-09-05T09,PJM,"PJM Interconnection, LLC",D,Demand,77496,megawatthours,2025-09-05 09:00:00+00:00
+2025-09-05T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75814,megawatthours,2025-09-05 09:00:00+00:00
+2025-09-05T10,PJM,"PJM Interconnection, LLC",D,Demand,80327,megawatthours,2025-09-05 10:00:00+00:00
+2025-09-05T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80257,megawatthours,2025-09-05 10:00:00+00:00
+2025-09-05T11,PJM,"PJM Interconnection, LLC",D,Demand,85250,megawatthours,2025-09-05 11:00:00+00:00
+2025-09-05T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84293,megawatthours,2025-09-05 11:00:00+00:00
+2025-09-05T12,PJM,"PJM Interconnection, LLC",D,Demand,88814,megawatthours,2025-09-05 12:00:00+00:00
+2025-09-05T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87625,megawatthours,2025-09-05 12:00:00+00:00
+2025-09-05T13,PJM,"PJM Interconnection, LLC",D,Demand,91246,megawatthours,2025-09-05 13:00:00+00:00
+2025-09-05T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90188,megawatthours,2025-09-05 13:00:00+00:00
+2025-09-05T14,PJM,"PJM Interconnection, LLC",D,Demand,92624,megawatthours,2025-09-05 14:00:00+00:00
+2025-09-05T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93006,megawatthours,2025-09-05 14:00:00+00:00
+2025-09-05T15,PJM,"PJM Interconnection, LLC",D,Demand,95317,megawatthours,2025-09-05 15:00:00+00:00
+2025-09-05T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96145,megawatthours,2025-09-05 15:00:00+00:00
+2025-09-05T16,PJM,"PJM Interconnection, LLC",D,Demand,97848,megawatthours,2025-09-05 16:00:00+00:00
+2025-09-05T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99672,megawatthours,2025-09-05 16:00:00+00:00
+2025-09-05T17,PJM,"PJM Interconnection, LLC",D,Demand,100778,megawatthours,2025-09-05 17:00:00+00:00
+2025-09-05T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103355,megawatthours,2025-09-05 17:00:00+00:00
+2025-09-05T18,PJM,"PJM Interconnection, LLC",D,Demand,104679,megawatthours,2025-09-05 18:00:00+00:00
+2025-09-05T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,106556,megawatthours,2025-09-05 18:00:00+00:00
+2025-09-05T19,PJM,"PJM Interconnection, LLC",D,Demand,108162,megawatthours,2025-09-05 19:00:00+00:00
+2025-09-05T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,109404,megawatthours,2025-09-05 19:00:00+00:00
+2025-09-05T20,PJM,"PJM Interconnection, LLC",D,Demand,110870,megawatthours,2025-09-05 20:00:00+00:00
+2025-09-05T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,111765,megawatthours,2025-09-05 20:00:00+00:00
+2025-09-05T21,PJM,"PJM Interconnection, LLC",D,Demand,112673,megawatthours,2025-09-05 21:00:00+00:00
+2025-09-05T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,113084,megawatthours,2025-09-05 21:00:00+00:00
+2025-09-05T22,PJM,"PJM Interconnection, LLC",D,Demand,113326,megawatthours,2025-09-05 22:00:00+00:00
+2025-09-05T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,111495,megawatthours,2025-09-05 22:00:00+00:00
+2025-09-05T23,PJM,"PJM Interconnection, LLC",D,Demand,110977,megawatthours,2025-09-05 23:00:00+00:00
+2025-09-05T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,107753,megawatthours,2025-09-05 23:00:00+00:00
+2025-09-06T00,PJM,"PJM Interconnection, LLC",D,Demand,108136,megawatthours,2025-09-06 00:00:00+00:00
+2025-09-06T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103938,megawatthours,2025-09-06 00:00:00+00:00
+2025-09-06T01,PJM,"PJM Interconnection, LLC",D,Demand,105472,megawatthours,2025-09-06 01:00:00+00:00
+2025-09-06T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100327,megawatthours,2025-09-06 01:00:00+00:00
+2025-09-06T02,PJM,"PJM Interconnection, LLC",D,Demand,101450,megawatthours,2025-09-06 02:00:00+00:00
+2025-09-06T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,94612,megawatthours,2025-09-06 02:00:00+00:00
+2025-09-06T03,PJM,"PJM Interconnection, LLC",D,Demand,95944,megawatthours,2025-09-06 03:00:00+00:00
+2025-09-06T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88382,megawatthours,2025-09-06 03:00:00+00:00
+2025-09-06T04,PJM,"PJM Interconnection, LLC",D,Demand,90524,megawatthours,2025-09-06 04:00:00+00:00
+2025-09-06T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83425,megawatthours,2025-09-06 04:00:00+00:00
+2025-09-06T05,PJM,"PJM Interconnection, LLC",D,Demand,85643,megawatthours,2025-09-06 05:00:00+00:00
+2025-09-06T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80338,megawatthours,2025-09-06 05:00:00+00:00
+2025-09-06T06,PJM,"PJM Interconnection, LLC",D,Demand,82686,megawatthours,2025-09-06 06:00:00+00:00
+2025-09-06T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77511,megawatthours,2025-09-06 06:00:00+00:00
+2025-09-06T07,PJM,"PJM Interconnection, LLC",D,Demand,80407,megawatthours,2025-09-06 07:00:00+00:00
+2025-09-06T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75571,megawatthours,2025-09-06 07:00:00+00:00
+2025-09-06T08,PJM,"PJM Interconnection, LLC",D,Demand,79534,megawatthours,2025-09-06 08:00:00+00:00
+2025-09-06T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74521,megawatthours,2025-09-06 08:00:00+00:00
+2025-09-06T09,PJM,"PJM Interconnection, LLC",D,Demand,78794,megawatthours,2025-09-06 09:00:00+00:00
+2025-09-06T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74916,megawatthours,2025-09-06 09:00:00+00:00
+2025-09-06T10,PJM,"PJM Interconnection, LLC",D,Demand,79178,megawatthours,2025-09-06 10:00:00+00:00
+2025-09-06T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76012,megawatthours,2025-09-06 10:00:00+00:00
+2025-09-06T11,PJM,"PJM Interconnection, LLC",D,Demand,80519,megawatthours,2025-09-06 11:00:00+00:00
+2025-09-06T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78052,megawatthours,2025-09-06 11:00:00+00:00
+2025-09-06T12,PJM,"PJM Interconnection, LLC",D,Demand,82272,megawatthours,2025-09-06 12:00:00+00:00
+2025-09-06T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,81640,megawatthours,2025-09-06 12:00:00+00:00
+2025-09-06T13,PJM,"PJM Interconnection, LLC",D,Demand,85632,megawatthours,2025-09-06 13:00:00+00:00
+2025-09-06T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85383,megawatthours,2025-09-06 13:00:00+00:00
+2025-09-06T14,PJM,"PJM Interconnection, LLC",D,Demand,89072,megawatthours,2025-09-06 14:00:00+00:00
+2025-09-06T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88890,megawatthours,2025-09-06 14:00:00+00:00
+2025-09-06T15,PJM,"PJM Interconnection, LLC",D,Demand,92768,megawatthours,2025-09-06 15:00:00+00:00
+2025-09-06T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,91764,megawatthours,2025-09-06 15:00:00+00:00
+2025-09-06T16,PJM,"PJM Interconnection, LLC",D,Demand,96199,megawatthours,2025-09-06 16:00:00+00:00
+2025-09-06T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,94424,megawatthours,2025-09-06 16:00:00+00:00
+2025-09-06T17,PJM,"PJM Interconnection, LLC",D,Demand,98928,megawatthours,2025-09-06 17:00:00+00:00
+2025-09-06T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96398,megawatthours,2025-09-06 17:00:00+00:00
+2025-09-06T18,PJM,"PJM Interconnection, LLC",D,Demand,101511,megawatthours,2025-09-06 18:00:00+00:00
+2025-09-06T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97935,megawatthours,2025-09-06 18:00:00+00:00
+2025-09-06T19,PJM,"PJM Interconnection, LLC",D,Demand,102938,megawatthours,2025-09-06 19:00:00+00:00
+2025-09-06T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,98676,megawatthours,2025-09-06 19:00:00+00:00
+2025-09-06T20,PJM,"PJM Interconnection, LLC",D,Demand,102222,megawatthours,2025-09-06 20:00:00+00:00
+2025-09-06T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99186,megawatthours,2025-09-06 20:00:00+00:00
+2025-09-06T21,PJM,"PJM Interconnection, LLC",D,Demand,101777,megawatthours,2025-09-06 21:00:00+00:00
+2025-09-06T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99165,megawatthours,2025-09-06 21:00:00+00:00
+2025-09-06T22,PJM,"PJM Interconnection, LLC",D,Demand,100208,megawatthours,2025-09-06 22:00:00+00:00
+2025-09-06T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97519,megawatthours,2025-09-06 22:00:00+00:00
+2025-09-06T23,PJM,"PJM Interconnection, LLC",D,Demand,98591,megawatthours,2025-09-06 23:00:00+00:00
+2025-09-06T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,94958,megawatthours,2025-09-06 23:00:00+00:00
+2025-09-07T00,PJM,"PJM Interconnection, LLC",D,Demand,96410,megawatthours,2025-09-07 00:00:00+00:00
+2025-09-07T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92798,megawatthours,2025-09-07 00:00:00+00:00
+2025-09-07T01,PJM,"PJM Interconnection, LLC",D,Demand,94931,megawatthours,2025-09-07 01:00:00+00:00
+2025-09-07T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90066,megawatthours,2025-09-07 01:00:00+00:00
+2025-09-07T02,PJM,"PJM Interconnection, LLC",D,Demand,91411,megawatthours,2025-09-07 02:00:00+00:00
+2025-09-07T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85848,megawatthours,2025-09-07 02:00:00+00:00
+2025-09-07T03,PJM,"PJM Interconnection, LLC",D,Demand,86948,megawatthours,2025-09-07 03:00:00+00:00
+2025-09-07T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,81114,megawatthours,2025-09-07 03:00:00+00:00
+2025-09-07T04,PJM,"PJM Interconnection, LLC",D,Demand,82381,megawatthours,2025-09-07 04:00:00+00:00
+2025-09-07T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76789,megawatthours,2025-09-07 04:00:00+00:00
+2025-09-07T05,PJM,"PJM Interconnection, LLC",D,Demand,78370,megawatthours,2025-09-07 05:00:00+00:00
+2025-09-07T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75127,megawatthours,2025-09-07 05:00:00+00:00
+2025-09-07T06,PJM,"PJM Interconnection, LLC",D,Demand,74945,megawatthours,2025-09-07 06:00:00+00:00
+2025-09-07T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72622,megawatthours,2025-09-07 06:00:00+00:00
+2025-09-07T07,PJM,"PJM Interconnection, LLC",D,Demand,73269,megawatthours,2025-09-07 07:00:00+00:00
+2025-09-07T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,71042,megawatthours,2025-09-07 07:00:00+00:00
+2025-09-07T08,PJM,"PJM Interconnection, LLC",D,Demand,73423,megawatthours,2025-09-07 08:00:00+00:00
+2025-09-07T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70342,megawatthours,2025-09-07 08:00:00+00:00
+2025-09-07T09,PJM,"PJM Interconnection, LLC",D,Demand,72810,megawatthours,2025-09-07 09:00:00+00:00
+2025-09-07T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70548,megawatthours,2025-09-07 09:00:00+00:00
+2025-09-07T10,PJM,"PJM Interconnection, LLC",D,Demand,72919,megawatthours,2025-09-07 10:00:00+00:00
+2025-09-07T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,71160,megawatthours,2025-09-07 10:00:00+00:00
+2025-09-07T11,PJM,"PJM Interconnection, LLC",D,Demand,73937,megawatthours,2025-09-07 11:00:00+00:00
+2025-09-07T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72353,megawatthours,2025-09-07 11:00:00+00:00
+2025-09-07T12,PJM,"PJM Interconnection, LLC",D,Demand,75315,megawatthours,2025-09-07 12:00:00+00:00
+2025-09-07T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74598,megawatthours,2025-09-07 12:00:00+00:00
+2025-09-07T13,PJM,"PJM Interconnection, LLC",D,Demand,78034,megawatthours,2025-09-07 13:00:00+00:00
+2025-09-07T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76654,megawatthours,2025-09-07 13:00:00+00:00
+2025-09-07T14,PJM,"PJM Interconnection, LLC",D,Demand,80001,megawatthours,2025-09-07 14:00:00+00:00
+2025-09-07T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77955,megawatthours,2025-09-07 14:00:00+00:00
+2025-09-07T15,PJM,"PJM Interconnection, LLC",D,Demand,81572,megawatthours,2025-09-07 15:00:00+00:00
+2025-09-07T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,79273,megawatthours,2025-09-07 15:00:00+00:00
+2025-09-07T16,PJM,"PJM Interconnection, LLC",D,Demand,82608,megawatthours,2025-09-07 16:00:00+00:00
+2025-09-07T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80570,megawatthours,2025-09-07 16:00:00+00:00
+2025-09-07T17,PJM,"PJM Interconnection, LLC",D,Demand,82998,megawatthours,2025-09-07 17:00:00+00:00
+2025-09-07T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,81761,megawatthours,2025-09-07 17:00:00+00:00
+2025-09-07T18,PJM,"PJM Interconnection, LLC",D,Demand,82983,megawatthours,2025-09-07 18:00:00+00:00
+2025-09-07T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,82713,megawatthours,2025-09-07 18:00:00+00:00
+2025-09-07T19,PJM,"PJM Interconnection, LLC",D,Demand,83036,megawatthours,2025-09-07 19:00:00+00:00
+2025-09-07T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84333,megawatthours,2025-09-07 19:00:00+00:00
+2025-09-07T20,PJM,"PJM Interconnection, LLC",D,Demand,83687,megawatthours,2025-09-07 20:00:00+00:00
+2025-09-07T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,86296,megawatthours,2025-09-07 20:00:00+00:00
+2025-09-07T21,PJM,"PJM Interconnection, LLC",D,Demand,86064,megawatthours,2025-09-07 21:00:00+00:00
+2025-09-07T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88489,megawatthours,2025-09-07 21:00:00+00:00
+2025-09-07T22,PJM,"PJM Interconnection, LLC",D,Demand,88471,megawatthours,2025-09-07 22:00:00+00:00
+2025-09-07T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88959,megawatthours,2025-09-07 22:00:00+00:00
+2025-09-07T23,PJM,"PJM Interconnection, LLC",D,Demand,89195,megawatthours,2025-09-07 23:00:00+00:00
+2025-09-07T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88503,megawatthours,2025-09-07 23:00:00+00:00
+2025-09-08T00,PJM,"PJM Interconnection, LLC",D,Demand,88963,megawatthours,2025-09-08 00:00:00+00:00
+2025-09-08T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87926,megawatthours,2025-09-08 00:00:00+00:00
+2025-09-08T01,PJM,"PJM Interconnection, LLC",D,Demand,88884,megawatthours,2025-09-08 01:00:00+00:00
+2025-09-08T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85975,megawatthours,2025-09-08 01:00:00+00:00
+2025-09-08T02,PJM,"PJM Interconnection, LLC",D,Demand,85219,megawatthours,2025-09-08 02:00:00+00:00
+2025-09-08T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,81941,megawatthours,2025-09-08 02:00:00+00:00
+2025-09-08T03,PJM,"PJM Interconnection, LLC",D,Demand,80412,megawatthours,2025-09-08 03:00:00+00:00
+2025-09-08T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77386,megawatthours,2025-09-08 03:00:00+00:00
+2025-09-08T04,PJM,"PJM Interconnection, LLC",D,Demand,76092,megawatthours,2025-09-08 04:00:00+00:00
+2025-09-08T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73901,megawatthours,2025-09-08 04:00:00+00:00
+2025-09-08T05,PJM,"PJM Interconnection, LLC",D,Demand,74708,megawatthours,2025-09-08 05:00:00+00:00
+2025-09-08T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,71195,megawatthours,2025-09-08 05:00:00+00:00
+2025-09-08T06,PJM,"PJM Interconnection, LLC",D,Demand,72744,megawatthours,2025-09-08 06:00:00+00:00
+2025-09-08T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,69842,megawatthours,2025-09-08 06:00:00+00:00
+2025-09-08T07,PJM,"PJM Interconnection, LLC",D,Demand,71430,megawatthours,2025-09-08 07:00:00+00:00
+2025-09-08T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,69239,megawatthours,2025-09-08 07:00:00+00:00
+2025-09-08T08,PJM,"PJM Interconnection, LLC",D,Demand,70853,megawatthours,2025-09-08 08:00:00+00:00
+2025-09-08T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70313,megawatthours,2025-09-08 08:00:00+00:00
+2025-09-08T09,PJM,"PJM Interconnection, LLC",D,Demand,71405,megawatthours,2025-09-08 09:00:00+00:00
+2025-09-08T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73663,megawatthours,2025-09-08 09:00:00+00:00
+2025-09-08T10,PJM,"PJM Interconnection, LLC",D,Demand,73354,megawatthours,2025-09-08 10:00:00+00:00
+2025-09-08T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78868,megawatthours,2025-09-08 10:00:00+00:00
+2025-09-08T11,PJM,"PJM Interconnection, LLC",D,Demand,79011,megawatthours,2025-09-08 11:00:00+00:00
+2025-09-08T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,82416,megawatthours,2025-09-08 11:00:00+00:00
+2025-09-08T12,PJM,"PJM Interconnection, LLC",D,Demand,82459,megawatthours,2025-09-08 12:00:00+00:00
+2025-09-08T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83786,megawatthours,2025-09-08 12:00:00+00:00
+2025-09-08T13,PJM,"PJM Interconnection, LLC",D,Demand,83431,megawatthours,2025-09-08 13:00:00+00:00
+2025-09-08T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84048,megawatthours,2025-09-08 13:00:00+00:00
+2025-09-08T14,PJM,"PJM Interconnection, LLC",D,Demand,84919,megawatthours,2025-09-08 14:00:00+00:00
+2025-09-08T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84696,megawatthours,2025-09-08 14:00:00+00:00
+2025-09-08T15,PJM,"PJM Interconnection, LLC",D,Demand,86391,megawatthours,2025-09-08 15:00:00+00:00
+2025-09-08T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85469,megawatthours,2025-09-08 15:00:00+00:00
+2025-09-08T16,PJM,"PJM Interconnection, LLC",D,Demand,86506,megawatthours,2025-09-08 16:00:00+00:00
+2025-09-08T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,86667,megawatthours,2025-09-08 16:00:00+00:00
+2025-09-08T17,PJM,"PJM Interconnection, LLC",D,Demand,87399,megawatthours,2025-09-08 17:00:00+00:00
+2025-09-08T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88283,megawatthours,2025-09-08 17:00:00+00:00
+2025-09-08T18,PJM,"PJM Interconnection, LLC",D,Demand,88023,megawatthours,2025-09-08 18:00:00+00:00
+2025-09-08T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,89611,megawatthours,2025-09-08 18:00:00+00:00
+2025-09-08T19,PJM,"PJM Interconnection, LLC",D,Demand,88711,megawatthours,2025-09-08 19:00:00+00:00
+2025-09-08T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90967,megawatthours,2025-09-08 19:00:00+00:00
+2025-09-08T20,PJM,"PJM Interconnection, LLC",D,Demand,90508,megawatthours,2025-09-08 20:00:00+00:00
+2025-09-08T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92773,megawatthours,2025-09-08 20:00:00+00:00
+2025-09-08T21,PJM,"PJM Interconnection, LLC",D,Demand,93078,megawatthours,2025-09-08 21:00:00+00:00
+2025-09-08T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,94549,megawatthours,2025-09-08 21:00:00+00:00
+2025-09-08T22,PJM,"PJM Interconnection, LLC",D,Demand,95291,megawatthours,2025-09-08 22:00:00+00:00
+2025-09-08T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,94717,megawatthours,2025-09-08 22:00:00+00:00
+2025-09-08T23,PJM,"PJM Interconnection, LLC",D,Demand,95677,megawatthours,2025-09-08 23:00:00+00:00
+2025-09-08T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93628,megawatthours,2025-09-08 23:00:00+00:00
+2025-09-09T00,PJM,"PJM Interconnection, LLC",D,Demand,94782,megawatthours,2025-09-09 00:00:00+00:00
+2025-09-09T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92481,megawatthours,2025-09-09 00:00:00+00:00
+2025-09-09T01,PJM,"PJM Interconnection, LLC",D,Demand,93725,megawatthours,2025-09-09 01:00:00+00:00
+2025-09-09T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,89599,megawatthours,2025-09-09 01:00:00+00:00
+2025-09-09T02,PJM,"PJM Interconnection, LLC",D,Demand,89414,megawatthours,2025-09-09 02:00:00+00:00
+2025-09-09T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84308,megawatthours,2025-09-09 02:00:00+00:00
+2025-09-09T03,PJM,"PJM Interconnection, LLC",D,Demand,83745,megawatthours,2025-09-09 03:00:00+00:00
+2025-09-09T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78910,megawatthours,2025-09-09 03:00:00+00:00
+2025-09-09T04,PJM,"PJM Interconnection, LLC",D,Demand,79278,megawatthours,2025-09-09 04:00:00+00:00
+2025-09-09T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74949,megawatthours,2025-09-09 04:00:00+00:00
+2025-09-09T05,PJM,"PJM Interconnection, LLC",D,Demand,77142,megawatthours,2025-09-09 05:00:00+00:00
+2025-09-09T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,71539,megawatthours,2025-09-09 05:00:00+00:00
+2025-09-09T06,PJM,"PJM Interconnection, LLC",D,Demand,74860,megawatthours,2025-09-09 06:00:00+00:00
+2025-09-09T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,69968,megawatthours,2025-09-09 06:00:00+00:00
+2025-09-09T07,PJM,"PJM Interconnection, LLC",D,Demand,73187,megawatthours,2025-09-09 07:00:00+00:00
+2025-09-09T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,69232,megawatthours,2025-09-09 07:00:00+00:00
+2025-09-09T08,PJM,"PJM Interconnection, LLC",D,Demand,72198,megawatthours,2025-09-09 08:00:00+00:00
+2025-09-09T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70122,megawatthours,2025-09-09 08:00:00+00:00
+2025-09-09T09,PJM,"PJM Interconnection, LLC",D,Demand,72513,megawatthours,2025-09-09 09:00:00+00:00
+2025-09-09T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73295,megawatthours,2025-09-09 09:00:00+00:00
+2025-09-09T10,PJM,"PJM Interconnection, LLC",D,Demand,75092,megawatthours,2025-09-09 10:00:00+00:00
+2025-09-09T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78525,megawatthours,2025-09-09 10:00:00+00:00
+2025-09-09T11,PJM,"PJM Interconnection, LLC",D,Demand,80403,megawatthours,2025-09-09 11:00:00+00:00
+2025-09-09T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,82227,megawatthours,2025-09-09 11:00:00+00:00
+2025-09-09T12,PJM,"PJM Interconnection, LLC",D,Demand,83152,megawatthours,2025-09-09 12:00:00+00:00
+2025-09-09T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83792,megawatthours,2025-09-09 12:00:00+00:00
+2025-09-09T13,PJM,"PJM Interconnection, LLC",D,Demand,84269,megawatthours,2025-09-09 13:00:00+00:00
+2025-09-09T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84064,megawatthours,2025-09-09 13:00:00+00:00
+2025-09-09T14,PJM,"PJM Interconnection, LLC",D,Demand,85037,megawatthours,2025-09-09 14:00:00+00:00
+2025-09-09T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84845,megawatthours,2025-09-09 14:00:00+00:00
+2025-09-09T15,PJM,"PJM Interconnection, LLC",D,Demand,86304,megawatthours,2025-09-09 15:00:00+00:00
+2025-09-09T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85835,megawatthours,2025-09-09 15:00:00+00:00
+2025-09-09T16,PJM,"PJM Interconnection, LLC",D,Demand,87167,megawatthours,2025-09-09 16:00:00+00:00
+2025-09-09T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87394,megawatthours,2025-09-09 16:00:00+00:00
+2025-09-09T17,PJM,"PJM Interconnection, LLC",D,Demand,87646,megawatthours,2025-09-09 17:00:00+00:00
+2025-09-09T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,89414,megawatthours,2025-09-09 17:00:00+00:00
+2025-09-09T18,PJM,"PJM Interconnection, LLC",D,Demand,88600,megawatthours,2025-09-09 18:00:00+00:00
+2025-09-09T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,91158,megawatthours,2025-09-09 18:00:00+00:00
+2025-09-09T19,PJM,"PJM Interconnection, LLC",D,Demand,90201,megawatthours,2025-09-09 19:00:00+00:00
+2025-09-09T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92900,megawatthours,2025-09-09 19:00:00+00:00
+2025-09-09T20,PJM,"PJM Interconnection, LLC",D,Demand,92244,megawatthours,2025-09-09 20:00:00+00:00
+2025-09-09T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95139,megawatthours,2025-09-09 20:00:00+00:00
+2025-09-09T21,PJM,"PJM Interconnection, LLC",D,Demand,94649,megawatthours,2025-09-09 21:00:00+00:00
+2025-09-09T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97001,megawatthours,2025-09-09 21:00:00+00:00
+2025-09-09T22,PJM,"PJM Interconnection, LLC",D,Demand,96442,megawatthours,2025-09-09 22:00:00+00:00
+2025-09-09T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96975,megawatthours,2025-09-09 22:00:00+00:00
+2025-09-09T23,PJM,"PJM Interconnection, LLC",D,Demand,96678,megawatthours,2025-09-09 23:00:00+00:00
+2025-09-09T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95471,megawatthours,2025-09-09 23:00:00+00:00
+2025-09-10T00,PJM,"PJM Interconnection, LLC",D,Demand,96020,megawatthours,2025-09-10 00:00:00+00:00
+2025-09-10T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93956,megawatthours,2025-09-10 00:00:00+00:00
+2025-09-10T01,PJM,"PJM Interconnection, LLC",D,Demand,95337,megawatthours,2025-09-10 01:00:00+00:00
+2025-09-10T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90760,megawatthours,2025-09-10 01:00:00+00:00
+2025-09-10T02,PJM,"PJM Interconnection, LLC",D,Demand,91231,megawatthours,2025-09-10 02:00:00+00:00
+2025-09-10T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85194,megawatthours,2025-09-10 02:00:00+00:00
+2025-09-10T03,PJM,"PJM Interconnection, LLC",D,Demand,85368,megawatthours,2025-09-10 03:00:00+00:00
+2025-09-10T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,79593,megawatthours,2025-09-10 03:00:00+00:00
+2025-09-10T04,PJM,"PJM Interconnection, LLC",D,Demand,80971,megawatthours,2025-09-10 04:00:00+00:00
+2025-09-10T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75564,megawatthours,2025-09-10 04:00:00+00:00
+2025-09-10T05,PJM,"PJM Interconnection, LLC",D,Demand,79100,megawatthours,2025-09-10 05:00:00+00:00
+2025-09-10T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72474,megawatthours,2025-09-10 05:00:00+00:00
+2025-09-10T06,PJM,"PJM Interconnection, LLC",D,Demand,76702,megawatthours,2025-09-10 06:00:00+00:00
+2025-09-10T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70662,megawatthours,2025-09-10 06:00:00+00:00
+2025-09-10T07,PJM,"PJM Interconnection, LLC",D,Demand,75068,megawatthours,2025-09-10 07:00:00+00:00
+2025-09-10T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,69788,megawatthours,2025-09-10 07:00:00+00:00
+2025-09-10T08,PJM,"PJM Interconnection, LLC",D,Demand,74224,megawatthours,2025-09-10 08:00:00+00:00
+2025-09-10T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70510,megawatthours,2025-09-10 08:00:00+00:00
+2025-09-10T09,PJM,"PJM Interconnection, LLC",D,Demand,74813,megawatthours,2025-09-10 09:00:00+00:00
+2025-09-10T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73423,megawatthours,2025-09-10 09:00:00+00:00
+2025-09-10T10,PJM,"PJM Interconnection, LLC",D,Demand,78020,megawatthours,2025-09-10 10:00:00+00:00
+2025-09-10T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78599,megawatthours,2025-09-10 10:00:00+00:00
+2025-09-10T11,PJM,"PJM Interconnection, LLC",D,Demand,82074,megawatthours,2025-09-10 11:00:00+00:00
+2025-09-10T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,82385,megawatthours,2025-09-10 11:00:00+00:00
+2025-09-10T12,PJM,"PJM Interconnection, LLC",D,Demand,85419,megawatthours,2025-09-10 12:00:00+00:00
+2025-09-10T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84429,megawatthours,2025-09-10 12:00:00+00:00
+2025-09-10T13,PJM,"PJM Interconnection, LLC",D,Demand,87003,megawatthours,2025-09-10 13:00:00+00:00
+2025-09-10T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85588,megawatthours,2025-09-10 13:00:00+00:00
+2025-09-10T14,PJM,"PJM Interconnection, LLC",D,Demand,89300,megawatthours,2025-09-10 14:00:00+00:00
+2025-09-10T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87048,megawatthours,2025-09-10 14:00:00+00:00
+2025-09-10T15,PJM,"PJM Interconnection, LLC",D,Demand,90598,megawatthours,2025-09-10 15:00:00+00:00
+2025-09-10T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88416,megawatthours,2025-09-10 15:00:00+00:00
+2025-09-10T16,PJM,"PJM Interconnection, LLC",D,Demand,91269,megawatthours,2025-09-10 16:00:00+00:00
+2025-09-10T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90306,megawatthours,2025-09-10 16:00:00+00:00
+2025-09-10T17,PJM,"PJM Interconnection, LLC",D,Demand,92449,megawatthours,2025-09-10 17:00:00+00:00
+2025-09-10T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92406,megawatthours,2025-09-10 17:00:00+00:00
+2025-09-10T18,PJM,"PJM Interconnection, LLC",D,Demand,93395,megawatthours,2025-09-10 18:00:00+00:00
+2025-09-10T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,94171,megawatthours,2025-09-10 18:00:00+00:00
+2025-09-10T19,PJM,"PJM Interconnection, LLC",D,Demand,94433,megawatthours,2025-09-10 19:00:00+00:00
+2025-09-10T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95774,megawatthours,2025-09-10 19:00:00+00:00
+2025-09-10T20,PJM,"PJM Interconnection, LLC",D,Demand,95979,megawatthours,2025-09-10 20:00:00+00:00
+2025-09-10T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97776,megawatthours,2025-09-10 20:00:00+00:00
+2025-09-10T21,PJM,"PJM Interconnection, LLC",D,Demand,98255,megawatthours,2025-09-10 21:00:00+00:00
+2025-09-10T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99383,megawatthours,2025-09-10 21:00:00+00:00
+2025-09-10T22,PJM,"PJM Interconnection, LLC",D,Demand,99845,megawatthours,2025-09-10 22:00:00+00:00
+2025-09-10T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99089,megawatthours,2025-09-10 22:00:00+00:00
+2025-09-10T23,PJM,"PJM Interconnection, LLC",D,Demand,99937,megawatthours,2025-09-10 23:00:00+00:00
+2025-09-10T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97463,megawatthours,2025-09-10 23:00:00+00:00
+2025-09-11T00,PJM,"PJM Interconnection, LLC",D,Demand,99300,megawatthours,2025-09-11 00:00:00+00:00
+2025-09-11T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95586,megawatthours,2025-09-11 00:00:00+00:00
+2025-09-11T01,PJM,"PJM Interconnection, LLC",D,Demand,98222,megawatthours,2025-09-11 01:00:00+00:00
+2025-09-11T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92326,megawatthours,2025-09-11 01:00:00+00:00
+2025-09-11T02,PJM,"PJM Interconnection, LLC",D,Demand,94145,megawatthours,2025-09-11 02:00:00+00:00
+2025-09-11T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,86697,megawatthours,2025-09-11 02:00:00+00:00
+2025-09-11T03,PJM,"PJM Interconnection, LLC",D,Demand,88342,megawatthours,2025-09-11 03:00:00+00:00
+2025-09-11T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,81021,megawatthours,2025-09-11 03:00:00+00:00
+2025-09-11T04,PJM,"PJM Interconnection, LLC",D,Demand,84215,megawatthours,2025-09-11 04:00:00+00:00
+2025-09-11T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76354,megawatthours,2025-09-11 04:00:00+00:00
+2025-09-11T05,PJM,"PJM Interconnection, LLC",D,Demand,81217,megawatthours,2025-09-11 05:00:00+00:00
+2025-09-11T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73561,megawatthours,2025-09-11 05:00:00+00:00
+2025-09-11T06,PJM,"PJM Interconnection, LLC",D,Demand,78330,megawatthours,2025-09-11 06:00:00+00:00
+2025-09-11T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,71605,megawatthours,2025-09-11 06:00:00+00:00
+2025-09-11T07,PJM,"PJM Interconnection, LLC",D,Demand,76502,megawatthours,2025-09-11 07:00:00+00:00
+2025-09-11T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70490,megawatthours,2025-09-11 07:00:00+00:00
+2025-09-11T08,PJM,"PJM Interconnection, LLC",D,Demand,75432,megawatthours,2025-09-11 08:00:00+00:00
+2025-09-11T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,71181,megawatthours,2025-09-11 08:00:00+00:00
+2025-09-11T09,PJM,"PJM Interconnection, LLC",D,Demand,75577,megawatthours,2025-09-11 09:00:00+00:00
+2025-09-11T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74168,megawatthours,2025-09-11 09:00:00+00:00
+2025-09-11T10,PJM,"PJM Interconnection, LLC",D,Demand,78431,megawatthours,2025-09-11 10:00:00+00:00
+2025-09-11T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,79208,megawatthours,2025-09-11 10:00:00+00:00
+2025-09-11T11,PJM,"PJM Interconnection, LLC",D,Demand,83367,megawatthours,2025-09-11 11:00:00+00:00
+2025-09-11T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83078,megawatthours,2025-09-11 11:00:00+00:00
+2025-09-11T12,PJM,"PJM Interconnection, LLC",D,Demand,86883,megawatthours,2025-09-11 12:00:00+00:00
+2025-09-11T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85298,megawatthours,2025-09-11 12:00:00+00:00
+2025-09-11T13,PJM,"PJM Interconnection, LLC",D,Demand,89314,megawatthours,2025-09-11 13:00:00+00:00
+2025-09-11T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,86662,megawatthours,2025-09-11 13:00:00+00:00
+2025-09-11T14,PJM,"PJM Interconnection, LLC",D,Demand,91125,megawatthours,2025-09-11 14:00:00+00:00
+2025-09-11T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88576,megawatthours,2025-09-11 14:00:00+00:00
+2025-09-11T15,PJM,"PJM Interconnection, LLC",D,Demand,93216,megawatthours,2025-09-11 15:00:00+00:00
+2025-09-11T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,91052,megawatthours,2025-09-11 15:00:00+00:00
+2025-09-11T16,PJM,"PJM Interconnection, LLC",D,Demand,94844,megawatthours,2025-09-11 16:00:00+00:00
+2025-09-11T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93757,megawatthours,2025-09-11 16:00:00+00:00
+2025-09-11T17,PJM,"PJM Interconnection, LLC",D,Demand,95947,megawatthours,2025-09-11 17:00:00+00:00
+2025-09-11T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96890,megawatthours,2025-09-11 17:00:00+00:00
+2025-09-11T18,PJM,"PJM Interconnection, LLC",D,Demand,98796,megawatthours,2025-09-11 18:00:00+00:00
+2025-09-11T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99421,megawatthours,2025-09-11 18:00:00+00:00
+2025-09-11T19,PJM,"PJM Interconnection, LLC",D,Demand,101385,megawatthours,2025-09-11 19:00:00+00:00
+2025-09-11T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,101638,megawatthours,2025-09-11 19:00:00+00:00
+2025-09-11T20,PJM,"PJM Interconnection, LLC",D,Demand,104197,megawatthours,2025-09-11 20:00:00+00:00
+2025-09-11T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103664,megawatthours,2025-09-11 20:00:00+00:00
+2025-09-11T21,PJM,"PJM Interconnection, LLC",D,Demand,107008,megawatthours,2025-09-11 21:00:00+00:00
+2025-09-11T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105010,megawatthours,2025-09-11 21:00:00+00:00
+2025-09-11T22,PJM,"PJM Interconnection, LLC",D,Demand,108404,megawatthours,2025-09-11 22:00:00+00:00
+2025-09-11T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104294,megawatthours,2025-09-11 22:00:00+00:00
+2025-09-11T23,PJM,"PJM Interconnection, LLC",D,Demand,107406,megawatthours,2025-09-11 23:00:00+00:00
+2025-09-11T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,101785,megawatthours,2025-09-11 23:00:00+00:00
+2025-09-12T00,PJM,"PJM Interconnection, LLC",D,Demand,104713,megawatthours,2025-09-12 00:00:00+00:00
+2025-09-12T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99669,megawatthours,2025-09-12 00:00:00+00:00
+2025-09-12T01,PJM,"PJM Interconnection, LLC",D,Demand,102056,megawatthours,2025-09-12 01:00:00+00:00
+2025-09-12T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95760,megawatthours,2025-09-12 01:00:00+00:00
+2025-09-12T02,PJM,"PJM Interconnection, LLC",D,Demand,97073,megawatthours,2025-09-12 02:00:00+00:00
+2025-09-12T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,89528,megawatthours,2025-09-12 02:00:00+00:00
+2025-09-12T03,PJM,"PJM Interconnection, LLC",D,Demand,90702,megawatthours,2025-09-12 03:00:00+00:00
+2025-09-12T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83369,megawatthours,2025-09-12 03:00:00+00:00
+2025-09-12T04,PJM,"PJM Interconnection, LLC",D,Demand,85663,megawatthours,2025-09-12 04:00:00+00:00
+2025-09-12T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78087,megawatthours,2025-09-12 04:00:00+00:00
+2025-09-12T05,PJM,"PJM Interconnection, LLC",D,Demand,82485,megawatthours,2025-09-12 05:00:00+00:00
+2025-09-12T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75385,megawatthours,2025-09-12 05:00:00+00:00
+2025-09-12T06,PJM,"PJM Interconnection, LLC",D,Demand,79200,megawatthours,2025-09-12 06:00:00+00:00
+2025-09-12T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73135,megawatthours,2025-09-12 06:00:00+00:00
+2025-09-12T07,PJM,"PJM Interconnection, LLC",D,Demand,76751,megawatthours,2025-09-12 07:00:00+00:00
+2025-09-12T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,71755,megawatthours,2025-09-12 07:00:00+00:00
+2025-09-12T08,PJM,"PJM Interconnection, LLC",D,Demand,75496,megawatthours,2025-09-12 08:00:00+00:00
+2025-09-12T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72048,megawatthours,2025-09-12 08:00:00+00:00
+2025-09-12T09,PJM,"PJM Interconnection, LLC",D,Demand,75376,megawatthours,2025-09-12 09:00:00+00:00
+2025-09-12T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74586,megawatthours,2025-09-12 09:00:00+00:00
+2025-09-12T10,PJM,"PJM Interconnection, LLC",D,Demand,77645,megawatthours,2025-09-12 10:00:00+00:00
+2025-09-12T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,79429,megawatthours,2025-09-12 10:00:00+00:00
+2025-09-12T11,PJM,"PJM Interconnection, LLC",D,Demand,82414,megawatthours,2025-09-12 11:00:00+00:00
+2025-09-12T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83116,megawatthours,2025-09-12 11:00:00+00:00
+2025-09-12T12,PJM,"PJM Interconnection, LLC",D,Demand,85791,megawatthours,2025-09-12 12:00:00+00:00
+2025-09-12T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85674,megawatthours,2025-09-12 12:00:00+00:00
+2025-09-12T13,PJM,"PJM Interconnection, LLC",D,Demand,87720,megawatthours,2025-09-12 13:00:00+00:00
+2025-09-12T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87616,megawatthours,2025-09-12 13:00:00+00:00
+2025-09-12T14,PJM,"PJM Interconnection, LLC",D,Demand,89534,megawatthours,2025-09-12 14:00:00+00:00
+2025-09-12T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90240,megawatthours,2025-09-12 14:00:00+00:00
+2025-09-12T15,PJM,"PJM Interconnection, LLC",D,Demand,91724,megawatthours,2025-09-12 15:00:00+00:00
+2025-09-12T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93060,megawatthours,2025-09-12 15:00:00+00:00
+2025-09-12T16,PJM,"PJM Interconnection, LLC",D,Demand,93636,megawatthours,2025-09-12 16:00:00+00:00
+2025-09-12T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96429,megawatthours,2025-09-12 16:00:00+00:00
+2025-09-12T17,PJM,"PJM Interconnection, LLC",D,Demand,95905,megawatthours,2025-09-12 17:00:00+00:00
+2025-09-12T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100012,megawatthours,2025-09-12 17:00:00+00:00
+2025-09-12T18,PJM,"PJM Interconnection, LLC",D,Demand,99307,megawatthours,2025-09-12 18:00:00+00:00
+2025-09-12T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103070,megawatthours,2025-09-12 18:00:00+00:00
+2025-09-12T19,PJM,"PJM Interconnection, LLC",D,Demand,102592,megawatthours,2025-09-12 19:00:00+00:00
+2025-09-12T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105568,megawatthours,2025-09-12 19:00:00+00:00
+2025-09-12T20,PJM,"PJM Interconnection, LLC",D,Demand,105562,megawatthours,2025-09-12 20:00:00+00:00
+2025-09-12T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,107800,megawatthours,2025-09-12 20:00:00+00:00
+2025-09-12T21,PJM,"PJM Interconnection, LLC",D,Demand,108389,megawatthours,2025-09-12 21:00:00+00:00
+2025-09-12T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,108668,megawatthours,2025-09-12 21:00:00+00:00
+2025-09-12T22,PJM,"PJM Interconnection, LLC",D,Demand,109757,megawatthours,2025-09-12 22:00:00+00:00
+2025-09-12T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,106517,megawatthours,2025-09-12 22:00:00+00:00
+2025-09-12T23,PJM,"PJM Interconnection, LLC",D,Demand,107768,megawatthours,2025-09-12 23:00:00+00:00
+2025-09-12T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102983,megawatthours,2025-09-12 23:00:00+00:00
+2025-09-13T00,PJM,"PJM Interconnection, LLC",D,Demand,103826,megawatthours,2025-09-13 00:00:00+00:00
+2025-09-13T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99714,megawatthours,2025-09-13 00:00:00+00:00
+2025-09-13T01,PJM,"PJM Interconnection, LLC",D,Demand,100271,megawatthours,2025-09-13 01:00:00+00:00
+2025-09-13T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95314,megawatthours,2025-09-13 01:00:00+00:00
+2025-09-13T02,PJM,"PJM Interconnection, LLC",D,Demand,95400,megawatthours,2025-09-13 02:00:00+00:00
+2025-09-13T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,89583,megawatthours,2025-09-13 02:00:00+00:00
+2025-09-13T03,PJM,"PJM Interconnection, LLC",D,Demand,90026,megawatthours,2025-09-13 03:00:00+00:00
+2025-09-13T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83622,megawatthours,2025-09-13 03:00:00+00:00
+2025-09-13T04,PJM,"PJM Interconnection, LLC",D,Demand,85242,megawatthours,2025-09-13 04:00:00+00:00
+2025-09-13T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78486,megawatthours,2025-09-13 04:00:00+00:00
+2025-09-13T05,PJM,"PJM Interconnection, LLC",D,Demand,81970,megawatthours,2025-09-13 05:00:00+00:00
+2025-09-13T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75288,megawatthours,2025-09-13 05:00:00+00:00
+2025-09-13T06,PJM,"PJM Interconnection, LLC",D,Demand,79022,megawatthours,2025-09-13 06:00:00+00:00
+2025-09-13T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72695,megawatthours,2025-09-13 06:00:00+00:00
+2025-09-13T07,PJM,"PJM Interconnection, LLC",D,Demand,76458,megawatthours,2025-09-13 07:00:00+00:00
+2025-09-13T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70941,megawatthours,2025-09-13 07:00:00+00:00
+2025-09-13T08,PJM,"PJM Interconnection, LLC",D,Demand,74804,megawatthours,2025-09-13 08:00:00+00:00
+2025-09-13T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70197,megawatthours,2025-09-13 08:00:00+00:00
+2025-09-13T09,PJM,"PJM Interconnection, LLC",D,Demand,74080,megawatthours,2025-09-13 09:00:00+00:00
+2025-09-13T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70802,megawatthours,2025-09-13 09:00:00+00:00
+2025-09-13T10,PJM,"PJM Interconnection, LLC",D,Demand,74493,megawatthours,2025-09-13 10:00:00+00:00
+2025-09-13T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72262,megawatthours,2025-09-13 10:00:00+00:00
+2025-09-13T11,PJM,"PJM Interconnection, LLC",D,Demand,76037,megawatthours,2025-09-13 11:00:00+00:00
+2025-09-13T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74117,megawatthours,2025-09-13 11:00:00+00:00
+2025-09-13T12,PJM,"PJM Interconnection, LLC",D,Demand,77223,megawatthours,2025-09-13 12:00:00+00:00
+2025-09-13T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77241,megawatthours,2025-09-13 12:00:00+00:00
+2025-09-13T13,PJM,"PJM Interconnection, LLC",D,Demand,79807,megawatthours,2025-09-13 13:00:00+00:00
+2025-09-13T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80566,megawatthours,2025-09-13 13:00:00+00:00
+2025-09-13T14,PJM,"PJM Interconnection, LLC",D,Demand,82391,megawatthours,2025-09-13 14:00:00+00:00
+2025-09-13T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83923,megawatthours,2025-09-13 14:00:00+00:00
+2025-09-13T15,PJM,"PJM Interconnection, LLC",D,Demand,84809,megawatthours,2025-09-13 15:00:00+00:00
+2025-09-13T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87114,megawatthours,2025-09-13 15:00:00+00:00
+2025-09-13T16,PJM,"PJM Interconnection, LLC",D,Demand,87683,megawatthours,2025-09-13 16:00:00+00:00
+2025-09-13T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90454,megawatthours,2025-09-13 16:00:00+00:00
+2025-09-13T17,PJM,"PJM Interconnection, LLC",D,Demand,90355,megawatthours,2025-09-13 17:00:00+00:00
+2025-09-13T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93669,megawatthours,2025-09-13 17:00:00+00:00
+2025-09-13T18,PJM,"PJM Interconnection, LLC",D,Demand,93314,megawatthours,2025-09-13 18:00:00+00:00
+2025-09-13T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96783,megawatthours,2025-09-13 18:00:00+00:00
+2025-09-13T19,PJM,"PJM Interconnection, LLC",D,Demand,96415,megawatthours,2025-09-13 19:00:00+00:00
+2025-09-13T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99681,megawatthours,2025-09-13 19:00:00+00:00
+2025-09-13T20,PJM,"PJM Interconnection, LLC",D,Demand,99344,megawatthours,2025-09-13 20:00:00+00:00
+2025-09-13T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102418,megawatthours,2025-09-13 20:00:00+00:00
+2025-09-13T21,PJM,"PJM Interconnection, LLC",D,Demand,102146,megawatthours,2025-09-13 21:00:00+00:00
+2025-09-13T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104029,megawatthours,2025-09-13 21:00:00+00:00
+2025-09-13T22,PJM,"PJM Interconnection, LLC",D,Demand,103348,megawatthours,2025-09-13 22:00:00+00:00
+2025-09-13T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102898,megawatthours,2025-09-13 22:00:00+00:00
+2025-09-13T23,PJM,"PJM Interconnection, LLC",D,Demand,101999,megawatthours,2025-09-13 23:00:00+00:00
+2025-09-13T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100322,megawatthours,2025-09-13 23:00:00+00:00
+2025-09-14T00,PJM,"PJM Interconnection, LLC",D,Demand,99558,megawatthours,2025-09-14 00:00:00+00:00
+2025-09-14T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97570,megawatthours,2025-09-14 00:00:00+00:00
+2025-09-14T01,PJM,"PJM Interconnection, LLC",D,Demand,97383,megawatthours,2025-09-14 01:00:00+00:00
+2025-09-14T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93606,megawatthours,2025-09-14 01:00:00+00:00
+2025-09-14T02,PJM,"PJM Interconnection, LLC",D,Demand,93347,megawatthours,2025-09-14 02:00:00+00:00
+2025-09-14T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88408,megawatthours,2025-09-14 02:00:00+00:00
+2025-09-14T03,PJM,"PJM Interconnection, LLC",D,Demand,88486,megawatthours,2025-09-14 03:00:00+00:00
+2025-09-14T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83069,megawatthours,2025-09-14 03:00:00+00:00
+2025-09-14T04,PJM,"PJM Interconnection, LLC",D,Demand,83926,megawatthours,2025-09-14 04:00:00+00:00
+2025-09-14T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78280,megawatthours,2025-09-14 04:00:00+00:00
+2025-09-14T05,PJM,"PJM Interconnection, LLC",D,Demand,80513,megawatthours,2025-09-14 05:00:00+00:00
+2025-09-14T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74751,megawatthours,2025-09-14 05:00:00+00:00
+2025-09-14T06,PJM,"PJM Interconnection, LLC",D,Demand,78649,megawatthours,2025-09-14 06:00:00+00:00
+2025-09-14T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72209,megawatthours,2025-09-14 06:00:00+00:00
+2025-09-14T07,PJM,"PJM Interconnection, LLC",D,Demand,76560,megawatthours,2025-09-14 07:00:00+00:00
+2025-09-14T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70357,megawatthours,2025-09-14 07:00:00+00:00
+2025-09-14T08,PJM,"PJM Interconnection, LLC",D,Demand,74787,megawatthours,2025-09-14 08:00:00+00:00
+2025-09-14T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,69545,megawatthours,2025-09-14 08:00:00+00:00
+2025-09-14T09,PJM,"PJM Interconnection, LLC",D,Demand,73673,megawatthours,2025-09-14 09:00:00+00:00
+2025-09-14T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,69648,megawatthours,2025-09-14 09:00:00+00:00
+2025-09-14T10,PJM,"PJM Interconnection, LLC",D,Demand,73594,megawatthours,2025-09-14 10:00:00+00:00
+2025-09-14T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70556,megawatthours,2025-09-14 10:00:00+00:00
+2025-09-14T11,PJM,"PJM Interconnection, LLC",D,Demand,74320,megawatthours,2025-09-14 11:00:00+00:00
+2025-09-14T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72117,megawatthours,2025-09-14 11:00:00+00:00
+2025-09-14T12,PJM,"PJM Interconnection, LLC",D,Demand,75243,megawatthours,2025-09-14 12:00:00+00:00
+2025-09-14T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75442,megawatthours,2025-09-14 12:00:00+00:00
+2025-09-14T13,PJM,"PJM Interconnection, LLC",D,Demand,78364,megawatthours,2025-09-14 13:00:00+00:00
+2025-09-14T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,79299,megawatthours,2025-09-14 13:00:00+00:00
+2025-09-14T14,PJM,"PJM Interconnection, LLC",D,Demand,81799,megawatthours,2025-09-14 14:00:00+00:00
+2025-09-14T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83395,megawatthours,2025-09-14 14:00:00+00:00
+2025-09-14T15,PJM,"PJM Interconnection, LLC",D,Demand,85540,megawatthours,2025-09-14 15:00:00+00:00
+2025-09-14T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87894,megawatthours,2025-09-14 15:00:00+00:00
+2025-09-14T16,PJM,"PJM Interconnection, LLC",D,Demand,88791,megawatthours,2025-09-14 16:00:00+00:00
+2025-09-14T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92592,megawatthours,2025-09-14 16:00:00+00:00
+2025-09-14T17,PJM,"PJM Interconnection, LLC",D,Demand,93510,megawatthours,2025-09-14 17:00:00+00:00
+2025-09-14T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97098,megawatthours,2025-09-14 17:00:00+00:00
+2025-09-14T18,PJM,"PJM Interconnection, LLC",D,Demand,98500,megawatthours,2025-09-14 18:00:00+00:00
+2025-09-14T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,101105,megawatthours,2025-09-14 18:00:00+00:00
+2025-09-14T19,PJM,"PJM Interconnection, LLC",D,Demand,103129,megawatthours,2025-09-14 19:00:00+00:00
+2025-09-14T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104935,megawatthours,2025-09-14 19:00:00+00:00
+2025-09-14T20,PJM,"PJM Interconnection, LLC",D,Demand,107045,megawatthours,2025-09-14 20:00:00+00:00
+2025-09-14T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,108404,megawatthours,2025-09-14 20:00:00+00:00
+2025-09-14T21,PJM,"PJM Interconnection, LLC",D,Demand,110061,megawatthours,2025-09-14 21:00:00+00:00
+2025-09-14T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,110663,megawatthours,2025-09-14 21:00:00+00:00
+2025-09-14T22,PJM,"PJM Interconnection, LLC",D,Demand,111903,megawatthours,2025-09-14 22:00:00+00:00
+2025-09-14T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,109834,megawatthours,2025-09-14 22:00:00+00:00
+2025-09-14T23,PJM,"PJM Interconnection, LLC",D,Demand,110643,megawatthours,2025-09-14 23:00:00+00:00
+2025-09-14T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,107240,megawatthours,2025-09-14 23:00:00+00:00
+2025-09-15T00,PJM,"PJM Interconnection, LLC",D,Demand,108004,megawatthours,2025-09-15 00:00:00+00:00
+2025-09-15T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104169,megawatthours,2025-09-15 00:00:00+00:00
+2025-09-15T01,PJM,"PJM Interconnection, LLC",D,Demand,105441,megawatthours,2025-09-15 01:00:00+00:00
+2025-09-15T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99334,megawatthours,2025-09-15 01:00:00+00:00
+2025-09-15T02,PJM,"PJM Interconnection, LLC",D,Demand,99537,megawatthours,2025-09-15 02:00:00+00:00
+2025-09-15T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93211,megawatthours,2025-09-15 02:00:00+00:00
+2025-09-15T03,PJM,"PJM Interconnection, LLC",D,Demand,93235,megawatthours,2025-09-15 03:00:00+00:00
+2025-09-15T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87171,megawatthours,2025-09-15 03:00:00+00:00
+2025-09-15T04,PJM,"PJM Interconnection, LLC",D,Demand,87939,megawatthours,2025-09-15 04:00:00+00:00
+2025-09-15T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,81684,megawatthours,2025-09-15 04:00:00+00:00
+2025-09-15T05,PJM,"PJM Interconnection, LLC",D,Demand,84239,megawatthours,2025-09-15 05:00:00+00:00
+2025-09-15T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78065,megawatthours,2025-09-15 05:00:00+00:00
+2025-09-15T06,PJM,"PJM Interconnection, LLC",D,Demand,80764,megawatthours,2025-09-15 06:00:00+00:00
+2025-09-15T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75631,megawatthours,2025-09-15 06:00:00+00:00
+2025-09-15T07,PJM,"PJM Interconnection, LLC",D,Demand,78399,megawatthours,2025-09-15 07:00:00+00:00
+2025-09-15T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74164,megawatthours,2025-09-15 07:00:00+00:00
+2025-09-15T08,PJM,"PJM Interconnection, LLC",D,Demand,77083,megawatthours,2025-09-15 08:00:00+00:00
+2025-09-15T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74391,megawatthours,2025-09-15 08:00:00+00:00
+2025-09-15T09,PJM,"PJM Interconnection, LLC",D,Demand,77531,megawatthours,2025-09-15 09:00:00+00:00
+2025-09-15T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77392,megawatthours,2025-09-15 09:00:00+00:00
+2025-09-15T10,PJM,"PJM Interconnection, LLC",D,Demand,80613,megawatthours,2025-09-15 10:00:00+00:00
+2025-09-15T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,82636,megawatthours,2025-09-15 10:00:00+00:00
+2025-09-15T11,PJM,"PJM Interconnection, LLC",D,Demand,85254,megawatthours,2025-09-15 11:00:00+00:00
+2025-09-15T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,86647,megawatthours,2025-09-15 11:00:00+00:00
+2025-09-15T12,PJM,"PJM Interconnection, LLC",D,Demand,88085,megawatthours,2025-09-15 12:00:00+00:00
+2025-09-15T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,89595,megawatthours,2025-09-15 12:00:00+00:00
+2025-09-15T13,PJM,"PJM Interconnection, LLC",D,Demand,90408,megawatthours,2025-09-15 13:00:00+00:00
+2025-09-15T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92574,megawatthours,2025-09-15 13:00:00+00:00
+2025-09-15T14,PJM,"PJM Interconnection, LLC",D,Demand,93053,megawatthours,2025-09-15 14:00:00+00:00
+2025-09-15T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96345,megawatthours,2025-09-15 14:00:00+00:00
+2025-09-15T15,PJM,"PJM Interconnection, LLC",D,Demand,96196,megawatthours,2025-09-15 15:00:00+00:00
+2025-09-15T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100288,megawatthours,2025-09-15 15:00:00+00:00
+2025-09-15T16,PJM,"PJM Interconnection, LLC",D,Demand,99680,megawatthours,2025-09-15 16:00:00+00:00
+2025-09-15T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104540,megawatthours,2025-09-15 16:00:00+00:00
+2025-09-15T17,PJM,"PJM Interconnection, LLC",D,Demand,103990,megawatthours,2025-09-15 17:00:00+00:00
+2025-09-15T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,108823,megawatthours,2025-09-15 17:00:00+00:00
+2025-09-15T18,PJM,"PJM Interconnection, LLC",D,Demand,108092,megawatthours,2025-09-15 18:00:00+00:00
+2025-09-15T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,112061,megawatthours,2025-09-15 18:00:00+00:00
+2025-09-15T19,PJM,"PJM Interconnection, LLC",D,Demand,110888,megawatthours,2025-09-15 19:00:00+00:00
+2025-09-15T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,114503,megawatthours,2025-09-15 19:00:00+00:00
+2025-09-15T20,PJM,"PJM Interconnection, LLC",D,Demand,113375,megawatthours,2025-09-15 20:00:00+00:00
+2025-09-15T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,116513,megawatthours,2025-09-15 20:00:00+00:00
+2025-09-15T21,PJM,"PJM Interconnection, LLC",D,Demand,115066,megawatthours,2025-09-15 21:00:00+00:00
+2025-09-15T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,117399,megawatthours,2025-09-15 21:00:00+00:00
+2025-09-15T22,PJM,"PJM Interconnection, LLC",D,Demand,115332,megawatthours,2025-09-15 22:00:00+00:00
+2025-09-15T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,115630,megawatthours,2025-09-15 22:00:00+00:00
+2025-09-15T23,PJM,"PJM Interconnection, LLC",D,Demand,113601,megawatthours,2025-09-15 23:00:00+00:00
+2025-09-15T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,112109,megawatthours,2025-09-15 23:00:00+00:00
+2025-09-16T00,PJM,"PJM Interconnection, LLC",D,Demand,111037,megawatthours,2025-09-16 00:00:00+00:00
+2025-09-16T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,108549,megawatthours,2025-09-16 00:00:00+00:00
+2025-09-16T01,PJM,"PJM Interconnection, LLC",D,Demand,107995,megawatthours,2025-09-16 01:00:00+00:00
+2025-09-16T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102845,megawatthours,2025-09-16 01:00:00+00:00
+2025-09-16T02,PJM,"PJM Interconnection, LLC",D,Demand,101959,megawatthours,2025-09-16 02:00:00+00:00
+2025-09-16T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95565,megawatthours,2025-09-16 02:00:00+00:00
+2025-09-16T03,PJM,"PJM Interconnection, LLC",D,Demand,94783,megawatthours,2025-09-16 03:00:00+00:00
+2025-09-16T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88637,megawatthours,2025-09-16 03:00:00+00:00
+2025-09-16T04,PJM,"PJM Interconnection, LLC",D,Demand,89754,megawatthours,2025-09-16 04:00:00+00:00
+2025-09-16T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83081,megawatthours,2025-09-16 04:00:00+00:00
+2025-09-16T05,PJM,"PJM Interconnection, LLC",D,Demand,85415,megawatthours,2025-09-16 05:00:00+00:00
+2025-09-16T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,79132,megawatthours,2025-09-16 05:00:00+00:00
+2025-09-16T06,PJM,"PJM Interconnection, LLC",D,Demand,81497,megawatthours,2025-09-16 06:00:00+00:00
+2025-09-16T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76613,megawatthours,2025-09-16 06:00:00+00:00
+2025-09-16T07,PJM,"PJM Interconnection, LLC",D,Demand,79102,megawatthours,2025-09-16 07:00:00+00:00
+2025-09-16T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75134,megawatthours,2025-09-16 07:00:00+00:00
+2025-09-16T08,PJM,"PJM Interconnection, LLC",D,Demand,77495,megawatthours,2025-09-16 08:00:00+00:00
+2025-09-16T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75393,megawatthours,2025-09-16 08:00:00+00:00
+2025-09-16T09,PJM,"PJM Interconnection, LLC",D,Demand,77778,megawatthours,2025-09-16 09:00:00+00:00
+2025-09-16T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78308,megawatthours,2025-09-16 09:00:00+00:00
+2025-09-16T10,PJM,"PJM Interconnection, LLC",D,Demand,80436,megawatthours,2025-09-16 10:00:00+00:00
+2025-09-16T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83805,megawatthours,2025-09-16 10:00:00+00:00
+2025-09-16T11,PJM,"PJM Interconnection, LLC",D,Demand,85515,megawatthours,2025-09-16 11:00:00+00:00
+2025-09-16T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87731,megawatthours,2025-09-16 11:00:00+00:00
+2025-09-16T12,PJM,"PJM Interconnection, LLC",D,Demand,88573,megawatthours,2025-09-16 12:00:00+00:00
+2025-09-16T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90099,megawatthours,2025-09-16 12:00:00+00:00
+2025-09-16T13,PJM,"PJM Interconnection, LLC",D,Demand,89775,megawatthours,2025-09-16 13:00:00+00:00
+2025-09-16T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92009,megawatthours,2025-09-16 13:00:00+00:00
+2025-09-16T14,PJM,"PJM Interconnection, LLC",D,Demand,91500,megawatthours,2025-09-16 14:00:00+00:00
+2025-09-16T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,94464,megawatthours,2025-09-16 14:00:00+00:00
+2025-09-16T15,PJM,"PJM Interconnection, LLC",D,Demand,94003,megawatthours,2025-09-16 15:00:00+00:00
+2025-09-16T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97150,megawatthours,2025-09-16 15:00:00+00:00
+2025-09-16T16,PJM,"PJM Interconnection, LLC",D,Demand,96228,megawatthours,2025-09-16 16:00:00+00:00
+2025-09-16T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100078,megawatthours,2025-09-16 16:00:00+00:00
+2025-09-16T17,PJM,"PJM Interconnection, LLC",D,Demand,98694,megawatthours,2025-09-16 17:00:00+00:00
+2025-09-16T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103123,megawatthours,2025-09-16 17:00:00+00:00
+2025-09-16T18,PJM,"PJM Interconnection, LLC",D,Demand,101502,megawatthours,2025-09-16 18:00:00+00:00
+2025-09-16T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105338,megawatthours,2025-09-16 18:00:00+00:00
+2025-09-16T19,PJM,"PJM Interconnection, LLC",D,Demand,103476,megawatthours,2025-09-16 19:00:00+00:00
+2025-09-16T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,106962,megawatthours,2025-09-16 19:00:00+00:00
+2025-09-16T20,PJM,"PJM Interconnection, LLC",D,Demand,104893,megawatthours,2025-09-16 20:00:00+00:00
+2025-09-16T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,108626,megawatthours,2025-09-16 20:00:00+00:00
+2025-09-16T21,PJM,"PJM Interconnection, LLC",D,Demand,106472,megawatthours,2025-09-16 21:00:00+00:00
+2025-09-16T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,109299,megawatthours,2025-09-16 21:00:00+00:00
+2025-09-16T22,PJM,"PJM Interconnection, LLC",D,Demand,106847,megawatthours,2025-09-16 22:00:00+00:00
+2025-09-16T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,108012,megawatthours,2025-09-16 22:00:00+00:00
+2025-09-16T23,PJM,"PJM Interconnection, LLC",D,Demand,105887,megawatthours,2025-09-16 23:00:00+00:00
+2025-09-16T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105478,megawatthours,2025-09-16 23:00:00+00:00
+2025-09-17T00,PJM,"PJM Interconnection, LLC",D,Demand,104500,megawatthours,2025-09-17 00:00:00+00:00
+2025-09-17T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103127,megawatthours,2025-09-17 00:00:00+00:00
+2025-09-17T01,PJM,"PJM Interconnection, LLC",D,Demand,101849,megawatthours,2025-09-17 01:00:00+00:00
+2025-09-17T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,98108,megawatthours,2025-09-17 01:00:00+00:00
+2025-09-17T02,PJM,"PJM Interconnection, LLC",D,Demand,96914,megawatthours,2025-09-17 02:00:00+00:00
+2025-09-17T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,91680,megawatthours,2025-09-17 02:00:00+00:00
+2025-09-17T03,PJM,"PJM Interconnection, LLC",D,Demand,90622,megawatthours,2025-09-17 03:00:00+00:00
+2025-09-17T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85438,megawatthours,2025-09-17 03:00:00+00:00
+2025-09-17T04,PJM,"PJM Interconnection, LLC",D,Demand,85624,megawatthours,2025-09-17 04:00:00+00:00
+2025-09-17T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80522,megawatthours,2025-09-17 04:00:00+00:00
+2025-09-17T05,PJM,"PJM Interconnection, LLC",D,Demand,82204,megawatthours,2025-09-17 05:00:00+00:00
+2025-09-17T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76898,megawatthours,2025-09-17 05:00:00+00:00
+2025-09-17T06,PJM,"PJM Interconnection, LLC",D,Demand,79005,megawatthours,2025-09-17 06:00:00+00:00
+2025-09-17T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74629,megawatthours,2025-09-17 06:00:00+00:00
+2025-09-17T07,PJM,"PJM Interconnection, LLC",D,Demand,77135,megawatthours,2025-09-17 07:00:00+00:00
+2025-09-17T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73427,megawatthours,2025-09-17 07:00:00+00:00
+2025-09-17T08,PJM,"PJM Interconnection, LLC",D,Demand,75754,megawatthours,2025-09-17 08:00:00+00:00
+2025-09-17T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73797,megawatthours,2025-09-17 08:00:00+00:00
+2025-09-17T09,PJM,"PJM Interconnection, LLC",D,Demand,76183,megawatthours,2025-09-17 09:00:00+00:00
+2025-09-17T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76719,megawatthours,2025-09-17 09:00:00+00:00
+2025-09-17T10,PJM,"PJM Interconnection, LLC",D,Demand,79060,megawatthours,2025-09-17 10:00:00+00:00
+2025-09-17T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,82025,megawatthours,2025-09-17 10:00:00+00:00
+2025-09-17T11,PJM,"PJM Interconnection, LLC",D,Demand,84566,megawatthours,2025-09-17 11:00:00+00:00
+2025-09-17T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85864,megawatthours,2025-09-17 11:00:00+00:00
+2025-09-17T12,PJM,"PJM Interconnection, LLC",D,Demand,87582,megawatthours,2025-09-17 12:00:00+00:00
+2025-09-17T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88178,megawatthours,2025-09-17 12:00:00+00:00
+2025-09-17T13,PJM,"PJM Interconnection, LLC",D,Demand,89078,megawatthours,2025-09-17 13:00:00+00:00
+2025-09-17T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90229,megawatthours,2025-09-17 13:00:00+00:00
+2025-09-17T14,PJM,"PJM Interconnection, LLC",D,Demand,91073,megawatthours,2025-09-17 14:00:00+00:00
+2025-09-17T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92659,megawatthours,2025-09-17 14:00:00+00:00
+2025-09-17T15,PJM,"PJM Interconnection, LLC",D,Demand,93655,megawatthours,2025-09-17 15:00:00+00:00
+2025-09-17T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95085,megawatthours,2025-09-17 15:00:00+00:00
+2025-09-17T16,PJM,"PJM Interconnection, LLC",D,Demand,96277,megawatthours,2025-09-17 16:00:00+00:00
+2025-09-17T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97835,megawatthours,2025-09-17 16:00:00+00:00
+2025-09-17T17,PJM,"PJM Interconnection, LLC",D,Demand,98659,megawatthours,2025-09-17 17:00:00+00:00
+2025-09-17T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100668,megawatthours,2025-09-17 17:00:00+00:00
+2025-09-17T18,PJM,"PJM Interconnection, LLC",D,Demand,100666,megawatthours,2025-09-17 18:00:00+00:00
+2025-09-17T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102920,megawatthours,2025-09-17 18:00:00+00:00
+2025-09-17T19,PJM,"PJM Interconnection, LLC",D,Demand,102700,megawatthours,2025-09-17 19:00:00+00:00
+2025-09-17T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104793,megawatthours,2025-09-17 19:00:00+00:00
+2025-09-17T20,PJM,"PJM Interconnection, LLC",D,Demand,104517,megawatthours,2025-09-17 20:00:00+00:00
+2025-09-17T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,106678,megawatthours,2025-09-17 20:00:00+00:00
+2025-09-17T21,PJM,"PJM Interconnection, LLC",D,Demand,106481,megawatthours,2025-09-17 21:00:00+00:00
+2025-09-17T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,107705,megawatthours,2025-09-17 21:00:00+00:00
+2025-09-17T22,PJM,"PJM Interconnection, LLC",D,Demand,107591,megawatthours,2025-09-17 22:00:00+00:00
+2025-09-17T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,106812,megawatthours,2025-09-17 22:00:00+00:00
+2025-09-17T23,PJM,"PJM Interconnection, LLC",D,Demand,106773,megawatthours,2025-09-17 23:00:00+00:00
+2025-09-17T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104657,megawatthours,2025-09-17 23:00:00+00:00
+2025-09-18T00,PJM,"PJM Interconnection, LLC",D,Demand,105173,megawatthours,2025-09-18 00:00:00+00:00
+2025-09-18T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102441,megawatthours,2025-09-18 00:00:00+00:00
+2025-09-18T01,PJM,"PJM Interconnection, LLC",D,Demand,102914,megawatthours,2025-09-18 01:00:00+00:00
+2025-09-18T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97968,megawatthours,2025-09-18 01:00:00+00:00
+2025-09-18T02,PJM,"PJM Interconnection, LLC",D,Demand,97659,megawatthours,2025-09-18 02:00:00+00:00
+2025-09-18T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,91647,megawatthours,2025-09-18 02:00:00+00:00
+2025-09-18T03,PJM,"PJM Interconnection, LLC",D,Demand,92394,megawatthours,2025-09-18 03:00:00+00:00
+2025-09-18T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85441,megawatthours,2025-09-18 03:00:00+00:00
+2025-09-18T04,PJM,"PJM Interconnection, LLC",D,Demand,86977,megawatthours,2025-09-18 04:00:00+00:00
+2025-09-18T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80391,megawatthours,2025-09-18 04:00:00+00:00
+2025-09-18T05,PJM,"PJM Interconnection, LLC",D,Demand,83503,megawatthours,2025-09-18 05:00:00+00:00
+2025-09-18T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76643,megawatthours,2025-09-18 05:00:00+00:00
+2025-09-18T06,PJM,"PJM Interconnection, LLC",D,Demand,80317,megawatthours,2025-09-18 06:00:00+00:00
+2025-09-18T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74465,megawatthours,2025-09-18 06:00:00+00:00
+2025-09-18T07,PJM,"PJM Interconnection, LLC",D,Demand,78126,megawatthours,2025-09-18 07:00:00+00:00
+2025-09-18T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73171,megawatthours,2025-09-18 07:00:00+00:00
+2025-09-18T08,PJM,"PJM Interconnection, LLC",D,Demand,76952,megawatthours,2025-09-18 08:00:00+00:00
+2025-09-18T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73725,megawatthours,2025-09-18 08:00:00+00:00
+2025-09-18T09,PJM,"PJM Interconnection, LLC",D,Demand,77380,megawatthours,2025-09-18 09:00:00+00:00
+2025-09-18T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76770,megawatthours,2025-09-18 09:00:00+00:00
+2025-09-18T10,PJM,"PJM Interconnection, LLC",D,Demand,80399,megawatthours,2025-09-18 10:00:00+00:00
+2025-09-18T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,82156,megawatthours,2025-09-18 10:00:00+00:00
+2025-09-18T11,PJM,"PJM Interconnection, LLC",D,Demand,85227,megawatthours,2025-09-18 11:00:00+00:00
+2025-09-18T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,86081,megawatthours,2025-09-18 11:00:00+00:00
+2025-09-18T12,PJM,"PJM Interconnection, LLC",D,Demand,88030,megawatthours,2025-09-18 12:00:00+00:00
+2025-09-18T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88673,megawatthours,2025-09-18 12:00:00+00:00
+2025-09-18T13,PJM,"PJM Interconnection, LLC",D,Demand,89816,megawatthours,2025-09-18 13:00:00+00:00
+2025-09-18T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90757,megawatthours,2025-09-18 13:00:00+00:00
+2025-09-18T14,PJM,"PJM Interconnection, LLC",D,Demand,91850,megawatthours,2025-09-18 14:00:00+00:00
+2025-09-18T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93630,megawatthours,2025-09-18 14:00:00+00:00
+2025-09-18T15,PJM,"PJM Interconnection, LLC",D,Demand,94502,megawatthours,2025-09-18 15:00:00+00:00
+2025-09-18T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97203,megawatthours,2025-09-18 15:00:00+00:00
+2025-09-18T16,PJM,"PJM Interconnection, LLC",D,Demand,97835,megawatthours,2025-09-18 16:00:00+00:00
+2025-09-18T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,101034,megawatthours,2025-09-18 16:00:00+00:00
+2025-09-18T17,PJM,"PJM Interconnection, LLC",D,Demand,101330,megawatthours,2025-09-18 17:00:00+00:00
+2025-09-18T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105199,megawatthours,2025-09-18 17:00:00+00:00
+2025-09-18T18,PJM,"PJM Interconnection, LLC",D,Demand,105818,megawatthours,2025-09-18 18:00:00+00:00
+2025-09-18T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,108626,megawatthours,2025-09-18 18:00:00+00:00
+2025-09-18T19,PJM,"PJM Interconnection, LLC",D,Demand,110047,megawatthours,2025-09-18 19:00:00+00:00
+2025-09-18T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,111593,megawatthours,2025-09-18 19:00:00+00:00
+2025-09-18T20,PJM,"PJM Interconnection, LLC",D,Demand,114183,megawatthours,2025-09-18 20:00:00+00:00
+2025-09-18T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,114109,megawatthours,2025-09-18 20:00:00+00:00
+2025-09-18T21,PJM,"PJM Interconnection, LLC",D,Demand,117993,megawatthours,2025-09-18 21:00:00+00:00
+2025-09-18T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,115599,megawatthours,2025-09-18 21:00:00+00:00
+2025-09-18T22,PJM,"PJM Interconnection, LLC",D,Demand,119591,megawatthours,2025-09-18 22:00:00+00:00
+2025-09-18T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,114509,megawatthours,2025-09-18 22:00:00+00:00
+2025-09-18T23,PJM,"PJM Interconnection, LLC",D,Demand,117694,megawatthours,2025-09-18 23:00:00+00:00
+2025-09-18T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,111413,megawatthours,2025-09-18 23:00:00+00:00
+2025-09-19T00,PJM,"PJM Interconnection, LLC",D,Demand,113860,megawatthours,2025-09-19 00:00:00+00:00
+2025-09-19T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,108696,megawatthours,2025-09-19 00:00:00+00:00
+2025-09-19T01,PJM,"PJM Interconnection, LLC",D,Demand,109902,megawatthours,2025-09-19 01:00:00+00:00
+2025-09-19T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103487,megawatthours,2025-09-19 01:00:00+00:00
+2025-09-19T02,PJM,"PJM Interconnection, LLC",D,Demand,103669,megawatthours,2025-09-19 02:00:00+00:00
+2025-09-19T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96388,megawatthours,2025-09-19 02:00:00+00:00
+2025-09-19T03,PJM,"PJM Interconnection, LLC",D,Demand,97586,megawatthours,2025-09-19 03:00:00+00:00
+2025-09-19T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,89657,megawatthours,2025-09-19 03:00:00+00:00
+2025-09-19T04,PJM,"PJM Interconnection, LLC",D,Demand,91707,megawatthours,2025-09-19 04:00:00+00:00
+2025-09-19T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83643,megawatthours,2025-09-19 04:00:00+00:00
+2025-09-19T05,PJM,"PJM Interconnection, LLC",D,Demand,86540,megawatthours,2025-09-19 05:00:00+00:00
+2025-09-19T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80066,megawatthours,2025-09-19 05:00:00+00:00
+2025-09-19T06,PJM,"PJM Interconnection, LLC",D,Demand,82705,megawatthours,2025-09-19 06:00:00+00:00
+2025-09-19T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77318,megawatthours,2025-09-19 06:00:00+00:00
+2025-09-19T07,PJM,"PJM Interconnection, LLC",D,Demand,79845,megawatthours,2025-09-19 07:00:00+00:00
+2025-09-19T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75440,megawatthours,2025-09-19 07:00:00+00:00
+2025-09-19T08,PJM,"PJM Interconnection, LLC",D,Demand,78523,megawatthours,2025-09-19 08:00:00+00:00
+2025-09-19T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75397,megawatthours,2025-09-19 08:00:00+00:00
+2025-09-19T09,PJM,"PJM Interconnection, LLC",D,Demand,78497,megawatthours,2025-09-19 09:00:00+00:00
+2025-09-19T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77780,megawatthours,2025-09-19 09:00:00+00:00
+2025-09-19T10,PJM,"PJM Interconnection, LLC",D,Demand,81104,megawatthours,2025-09-19 10:00:00+00:00
+2025-09-19T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,82776,megawatthours,2025-09-19 10:00:00+00:00
+2025-09-19T11,PJM,"PJM Interconnection, LLC",D,Demand,85316,megawatthours,2025-09-19 11:00:00+00:00
+2025-09-19T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,86502,megawatthours,2025-09-19 11:00:00+00:00
+2025-09-19T12,PJM,"PJM Interconnection, LLC",D,Demand,88087,megawatthours,2025-09-19 12:00:00+00:00
+2025-09-19T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,89499,megawatthours,2025-09-19 12:00:00+00:00
+2025-09-19T13,PJM,"PJM Interconnection, LLC",D,Demand,91021,megawatthours,2025-09-19 13:00:00+00:00
+2025-09-19T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92303,megawatthours,2025-09-19 13:00:00+00:00
+2025-09-19T14,PJM,"PJM Interconnection, LLC",D,Demand,94344,megawatthours,2025-09-19 14:00:00+00:00
+2025-09-19T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96235,megawatthours,2025-09-19 14:00:00+00:00
+2025-09-19T15,PJM,"PJM Interconnection, LLC",D,Demand,98032,megawatthours,2025-09-19 15:00:00+00:00
+2025-09-19T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100430,megawatthours,2025-09-19 15:00:00+00:00
+2025-09-19T16,PJM,"PJM Interconnection, LLC",D,Demand,101621,megawatthours,2025-09-19 16:00:00+00:00
+2025-09-19T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105327,megawatthours,2025-09-19 16:00:00+00:00
+2025-09-19T17,PJM,"PJM Interconnection, LLC",D,Demand,106122,megawatthours,2025-09-19 17:00:00+00:00
+2025-09-19T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,110094,megawatthours,2025-09-19 17:00:00+00:00
+2025-09-19T18,PJM,"PJM Interconnection, LLC",D,Demand,111855,megawatthours,2025-09-19 18:00:00+00:00
+2025-09-19T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,114151,megawatthours,2025-09-19 18:00:00+00:00
+2025-09-19T19,PJM,"PJM Interconnection, LLC",D,Demand,116502,megawatthours,2025-09-19 19:00:00+00:00
+2025-09-19T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,117242,megawatthours,2025-09-19 19:00:00+00:00
+2025-09-19T20,PJM,"PJM Interconnection, LLC",D,Demand,120036,megawatthours,2025-09-19 20:00:00+00:00
+2025-09-19T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,119710,megawatthours,2025-09-19 20:00:00+00:00
+2025-09-19T21,PJM,"PJM Interconnection, LLC",D,Demand,122305,megawatthours,2025-09-19 21:00:00+00:00
+2025-09-19T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,120184,megawatthours,2025-09-19 21:00:00+00:00
+2025-09-19T22,PJM,"PJM Interconnection, LLC",D,Demand,122368,megawatthours,2025-09-19 22:00:00+00:00
+2025-09-19T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,117253,megawatthours,2025-09-19 22:00:00+00:00
+2025-09-19T23,PJM,"PJM Interconnection, LLC",D,Demand,118519,megawatthours,2025-09-19 23:00:00+00:00
+2025-09-19T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,112910,megawatthours,2025-09-19 23:00:00+00:00
+2025-09-20T00,PJM,"PJM Interconnection, LLC",D,Demand,113266,megawatthours,2025-09-20 00:00:00+00:00
+2025-09-20T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,108956,megawatthours,2025-09-20 00:00:00+00:00
+2025-09-20T01,PJM,"PJM Interconnection, LLC",D,Demand,108756,megawatthours,2025-09-20 01:00:00+00:00
+2025-09-20T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103076,megawatthours,2025-09-20 01:00:00+00:00
+2025-09-20T02,PJM,"PJM Interconnection, LLC",D,Demand,103063,megawatthours,2025-09-20 02:00:00+00:00
+2025-09-20T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96377,megawatthours,2025-09-20 02:00:00+00:00
+2025-09-20T03,PJM,"PJM Interconnection, LLC",D,Demand,96797,megawatthours,2025-09-20 03:00:00+00:00
+2025-09-20T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,89795,megawatthours,2025-09-20 03:00:00+00:00
+2025-09-20T04,PJM,"PJM Interconnection, LLC",D,Demand,91051,megawatthours,2025-09-20 04:00:00+00:00
+2025-09-20T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84378,megawatthours,2025-09-20 04:00:00+00:00
+2025-09-20T05,PJM,"PJM Interconnection, LLC",D,Demand,87050,megawatthours,2025-09-20 05:00:00+00:00
+2025-09-20T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80421,megawatthours,2025-09-20 05:00:00+00:00
+2025-09-20T06,PJM,"PJM Interconnection, LLC",D,Demand,83217,megawatthours,2025-09-20 06:00:00+00:00
+2025-09-20T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77262,megawatthours,2025-09-20 06:00:00+00:00
+2025-09-20T07,PJM,"PJM Interconnection, LLC",D,Demand,80440,megawatthours,2025-09-20 07:00:00+00:00
+2025-09-20T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75038,megawatthours,2025-09-20 07:00:00+00:00
+2025-09-20T08,PJM,"PJM Interconnection, LLC",D,Demand,78578,megawatthours,2025-09-20 08:00:00+00:00
+2025-09-20T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73754,megawatthours,2025-09-20 08:00:00+00:00
+2025-09-20T09,PJM,"PJM Interconnection, LLC",D,Demand,77442,megawatthours,2025-09-20 09:00:00+00:00
+2025-09-20T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74069,megawatthours,2025-09-20 09:00:00+00:00
+2025-09-20T10,PJM,"PJM Interconnection, LLC",D,Demand,77491,megawatthours,2025-09-20 10:00:00+00:00
+2025-09-20T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75485,megawatthours,2025-09-20 10:00:00+00:00
+2025-09-20T11,PJM,"PJM Interconnection, LLC",D,Demand,78540,megawatthours,2025-09-20 11:00:00+00:00
+2025-09-20T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77075,megawatthours,2025-09-20 11:00:00+00:00
+2025-09-20T12,PJM,"PJM Interconnection, LLC",D,Demand,80007,megawatthours,2025-09-20 12:00:00+00:00
+2025-09-20T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80107,megawatthours,2025-09-20 12:00:00+00:00
+2025-09-20T13,PJM,"PJM Interconnection, LLC",D,Demand,82174,megawatthours,2025-09-20 13:00:00+00:00
+2025-09-20T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83632,megawatthours,2025-09-20 13:00:00+00:00
+2025-09-20T14,PJM,"PJM Interconnection, LLC",D,Demand,84792,megawatthours,2025-09-20 14:00:00+00:00
+2025-09-20T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87223,megawatthours,2025-09-20 14:00:00+00:00
+2025-09-20T15,PJM,"PJM Interconnection, LLC",D,Demand,87795,megawatthours,2025-09-20 15:00:00+00:00
+2025-09-20T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90502,megawatthours,2025-09-20 15:00:00+00:00
+2025-09-20T16,PJM,"PJM Interconnection, LLC",D,Demand,91436,megawatthours,2025-09-20 16:00:00+00:00
+2025-09-20T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93912,megawatthours,2025-09-20 16:00:00+00:00
+2025-09-20T17,PJM,"PJM Interconnection, LLC",D,Demand,94432,megawatthours,2025-09-20 17:00:00+00:00
+2025-09-20T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96971,megawatthours,2025-09-20 17:00:00+00:00
+2025-09-20T18,PJM,"PJM Interconnection, LLC",D,Demand,97316,megawatthours,2025-09-20 18:00:00+00:00
+2025-09-20T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99669,megawatthours,2025-09-20 18:00:00+00:00
+2025-09-20T19,PJM,"PJM Interconnection, LLC",D,Demand,99991,megawatthours,2025-09-20 19:00:00+00:00
+2025-09-20T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102027,megawatthours,2025-09-20 19:00:00+00:00
+2025-09-20T20,PJM,"PJM Interconnection, LLC",D,Demand,102731,megawatthours,2025-09-20 20:00:00+00:00
+2025-09-20T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104253,megawatthours,2025-09-20 20:00:00+00:00
+2025-09-20T21,PJM,"PJM Interconnection, LLC",D,Demand,104255,megawatthours,2025-09-20 21:00:00+00:00
+2025-09-20T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105145,megawatthours,2025-09-20 21:00:00+00:00
+2025-09-20T22,PJM,"PJM Interconnection, LLC",D,Demand,104642,megawatthours,2025-09-20 22:00:00+00:00
+2025-09-20T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103471,megawatthours,2025-09-20 22:00:00+00:00
+2025-09-20T23,PJM,"PJM Interconnection, LLC",D,Demand,102409,megawatthours,2025-09-20 23:00:00+00:00
+2025-09-20T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100618,megawatthours,2025-09-20 23:00:00+00:00
+2025-09-21T00,PJM,"PJM Interconnection, LLC",D,Demand,99957,megawatthours,2025-09-21 00:00:00+00:00
+2025-09-21T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97851,megawatthours,2025-09-21 00:00:00+00:00
+2025-09-21T01,PJM,"PJM Interconnection, LLC",D,Demand,97375,megawatthours,2025-09-21 01:00:00+00:00
+2025-09-21T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93351,megawatthours,2025-09-21 01:00:00+00:00
+2025-09-21T02,PJM,"PJM Interconnection, LLC",D,Demand,93621,megawatthours,2025-09-21 02:00:00+00:00
+2025-09-21T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88120,megawatthours,2025-09-21 02:00:00+00:00
+2025-09-21T03,PJM,"PJM Interconnection, LLC",D,Demand,88810,megawatthours,2025-09-21 03:00:00+00:00
+2025-09-21T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,82855,megawatthours,2025-09-21 03:00:00+00:00
+2025-09-21T04,PJM,"PJM Interconnection, LLC",D,Demand,84966,megawatthours,2025-09-21 04:00:00+00:00
+2025-09-21T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78847,megawatthours,2025-09-21 04:00:00+00:00
+2025-09-21T05,PJM,"PJM Interconnection, LLC",D,Demand,81791,megawatthours,2025-09-21 05:00:00+00:00
+2025-09-21T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75829,megawatthours,2025-09-21 05:00:00+00:00
+2025-09-21T06,PJM,"PJM Interconnection, LLC",D,Demand,79381,megawatthours,2025-09-21 06:00:00+00:00
+2025-09-21T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73368,megawatthours,2025-09-21 06:00:00+00:00
+2025-09-21T07,PJM,"PJM Interconnection, LLC",D,Demand,77179,megawatthours,2025-09-21 07:00:00+00:00
+2025-09-21T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,71621,megawatthours,2025-09-21 07:00:00+00:00
+2025-09-21T08,PJM,"PJM Interconnection, LLC",D,Demand,75504,megawatthours,2025-09-21 08:00:00+00:00
+2025-09-21T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70804,megawatthours,2025-09-21 08:00:00+00:00
+2025-09-21T09,PJM,"PJM Interconnection, LLC",D,Demand,74727,megawatthours,2025-09-21 09:00:00+00:00
+2025-09-21T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70933,megawatthours,2025-09-21 09:00:00+00:00
+2025-09-21T10,PJM,"PJM Interconnection, LLC",D,Demand,74606,megawatthours,2025-09-21 10:00:00+00:00
+2025-09-21T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,71976,megawatthours,2025-09-21 10:00:00+00:00
+2025-09-21T11,PJM,"PJM Interconnection, LLC",D,Demand,75466,megawatthours,2025-09-21 11:00:00+00:00
+2025-09-21T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73267,megawatthours,2025-09-21 11:00:00+00:00
+2025-09-21T12,PJM,"PJM Interconnection, LLC",D,Demand,76957,megawatthours,2025-09-21 12:00:00+00:00
+2025-09-21T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76042,megawatthours,2025-09-21 12:00:00+00:00
+2025-09-21T13,PJM,"PJM Interconnection, LLC",D,Demand,79801,megawatthours,2025-09-21 13:00:00+00:00
+2025-09-21T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,79445,megawatthours,2025-09-21 13:00:00+00:00
+2025-09-21T14,PJM,"PJM Interconnection, LLC",D,Demand,82872,megawatthours,2025-09-21 14:00:00+00:00
+2025-09-21T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,82828,megawatthours,2025-09-21 14:00:00+00:00
+2025-09-21T15,PJM,"PJM Interconnection, LLC",D,Demand,85630,megawatthours,2025-09-21 15:00:00+00:00
+2025-09-21T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,86222,megawatthours,2025-09-21 15:00:00+00:00
+2025-09-21T16,PJM,"PJM Interconnection, LLC",D,Demand,88859,megawatthours,2025-09-21 16:00:00+00:00
+2025-09-21T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,89595,megawatthours,2025-09-21 16:00:00+00:00
+2025-09-21T17,PJM,"PJM Interconnection, LLC",D,Demand,91522,megawatthours,2025-09-21 17:00:00+00:00
+2025-09-21T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92679,megawatthours,2025-09-21 17:00:00+00:00
+2025-09-21T18,PJM,"PJM Interconnection, LLC",D,Demand,94498,megawatthours,2025-09-21 18:00:00+00:00
+2025-09-21T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95200,megawatthours,2025-09-21 18:00:00+00:00
+2025-09-21T19,PJM,"PJM Interconnection, LLC",D,Demand,96880,megawatthours,2025-09-21 19:00:00+00:00
+2025-09-21T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97545,megawatthours,2025-09-21 19:00:00+00:00
+2025-09-21T20,PJM,"PJM Interconnection, LLC",D,Demand,98888,megawatthours,2025-09-21 20:00:00+00:00
+2025-09-21T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99897,megawatthours,2025-09-21 20:00:00+00:00
+2025-09-21T21,PJM,"PJM Interconnection, LLC",D,Demand,100516,megawatthours,2025-09-21 21:00:00+00:00
+2025-09-21T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,101318,megawatthours,2025-09-21 21:00:00+00:00
+2025-09-21T22,PJM,"PJM Interconnection, LLC",D,Demand,101702,megawatthours,2025-09-21 22:00:00+00:00
+2025-09-21T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100709,megawatthours,2025-09-21 22:00:00+00:00
+2025-09-21T23,PJM,"PJM Interconnection, LLC",D,Demand,100694,megawatthours,2025-09-21 23:00:00+00:00
+2025-09-21T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,98886,megawatthours,2025-09-21 23:00:00+00:00
+2025-09-22T00,PJM,"PJM Interconnection, LLC",D,Demand,100242,megawatthours,2025-09-22 00:00:00+00:00
+2025-09-22T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97076,megawatthours,2025-09-22 00:00:00+00:00
+2025-09-22T01,PJM,"PJM Interconnection, LLC",D,Demand,98189,megawatthours,2025-09-22 01:00:00+00:00
+2025-09-22T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92966,megawatthours,2025-09-22 01:00:00+00:00
+2025-09-22T02,PJM,"PJM Interconnection, LLC",D,Demand,93891,megawatthours,2025-09-22 02:00:00+00:00
+2025-09-22T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87681,megawatthours,2025-09-22 02:00:00+00:00
+2025-09-22T03,PJM,"PJM Interconnection, LLC",D,Demand,88745,megawatthours,2025-09-22 03:00:00+00:00
+2025-09-22T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,82425,megawatthours,2025-09-22 03:00:00+00:00
+2025-09-22T04,PJM,"PJM Interconnection, LLC",D,Demand,84372,megawatthours,2025-09-22 04:00:00+00:00
+2025-09-22T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78377,megawatthours,2025-09-22 04:00:00+00:00
+2025-09-22T05,PJM,"PJM Interconnection, LLC",D,Demand,81675,megawatthours,2025-09-22 05:00:00+00:00
+2025-09-22T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75277,megawatthours,2025-09-22 05:00:00+00:00
+2025-09-22T06,PJM,"PJM Interconnection, LLC",D,Demand,78975,megawatthours,2025-09-22 06:00:00+00:00
+2025-09-22T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73385,megawatthours,2025-09-22 06:00:00+00:00
+2025-09-22T07,PJM,"PJM Interconnection, LLC",D,Demand,77166,megawatthours,2025-09-22 07:00:00+00:00
+2025-09-22T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72371,megawatthours,2025-09-22 07:00:00+00:00
+2025-09-22T08,PJM,"PJM Interconnection, LLC",D,Demand,76195,megawatthours,2025-09-22 08:00:00+00:00
+2025-09-22T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72932,megawatthours,2025-09-22 08:00:00+00:00
+2025-09-22T09,PJM,"PJM Interconnection, LLC",D,Demand,76997,megawatthours,2025-09-22 09:00:00+00:00
+2025-09-22T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76130,megawatthours,2025-09-22 09:00:00+00:00
+2025-09-22T10,PJM,"PJM Interconnection, LLC",D,Demand,80418,megawatthours,2025-09-22 10:00:00+00:00
+2025-09-22T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,81580,megawatthours,2025-09-22 10:00:00+00:00
+2025-09-22T11,PJM,"PJM Interconnection, LLC",D,Demand,84901,megawatthours,2025-09-22 11:00:00+00:00
+2025-09-22T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85437,megawatthours,2025-09-22 11:00:00+00:00
+2025-09-22T12,PJM,"PJM Interconnection, LLC",D,Demand,88492,megawatthours,2025-09-22 12:00:00+00:00
+2025-09-22T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87371,megawatthours,2025-09-22 12:00:00+00:00
+2025-09-22T13,PJM,"PJM Interconnection, LLC",D,Demand,91060,megawatthours,2025-09-22 13:00:00+00:00
+2025-09-22T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88928,megawatthours,2025-09-22 13:00:00+00:00
+2025-09-22T14,PJM,"PJM Interconnection, LLC",D,Demand,92733,megawatthours,2025-09-22 14:00:00+00:00
+2025-09-22T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,91033,megawatthours,2025-09-22 14:00:00+00:00
+2025-09-22T15,PJM,"PJM Interconnection, LLC",D,Demand,94696,megawatthours,2025-09-22 15:00:00+00:00
+2025-09-22T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93185,megawatthours,2025-09-22 15:00:00+00:00
+2025-09-22T16,PJM,"PJM Interconnection, LLC",D,Demand,96716,megawatthours,2025-09-22 16:00:00+00:00
+2025-09-22T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95732,megawatthours,2025-09-22 16:00:00+00:00
+2025-09-22T17,PJM,"PJM Interconnection, LLC",D,Demand,99172,megawatthours,2025-09-22 17:00:00+00:00
+2025-09-22T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,98454,megawatthours,2025-09-22 17:00:00+00:00
+2025-09-22T18,PJM,"PJM Interconnection, LLC",D,Demand,101777,megawatthours,2025-09-22 18:00:00+00:00
+2025-09-22T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100578,megawatthours,2025-09-22 18:00:00+00:00
+2025-09-22T19,PJM,"PJM Interconnection, LLC",D,Demand,103570,megawatthours,2025-09-22 19:00:00+00:00
+2025-09-22T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102382,megawatthours,2025-09-22 19:00:00+00:00
+2025-09-22T20,PJM,"PJM Interconnection, LLC",D,Demand,104996,megawatthours,2025-09-22 20:00:00+00:00
+2025-09-22T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104243,megawatthours,2025-09-22 20:00:00+00:00
+2025-09-22T21,PJM,"PJM Interconnection, LLC",D,Demand,107100,megawatthours,2025-09-22 21:00:00+00:00
+2025-09-22T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105544,megawatthours,2025-09-22 21:00:00+00:00
+2025-09-22T22,PJM,"PJM Interconnection, LLC",D,Demand,108179,megawatthours,2025-09-22 22:00:00+00:00
+2025-09-22T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104975,megawatthours,2025-09-22 22:00:00+00:00
+2025-09-22T23,PJM,"PJM Interconnection, LLC",D,Demand,107375,megawatthours,2025-09-22 23:00:00+00:00
+2025-09-22T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103247,megawatthours,2025-09-22 23:00:00+00:00
+2025-09-23T00,PJM,"PJM Interconnection, LLC",D,Demand,106481,megawatthours,2025-09-23 00:00:00+00:00
+2025-09-23T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,101472,megawatthours,2025-09-23 00:00:00+00:00
+2025-09-23T01,PJM,"PJM Interconnection, LLC",D,Demand,103823,megawatthours,2025-09-23 01:00:00+00:00
+2025-09-23T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97138,megawatthours,2025-09-23 01:00:00+00:00
+2025-09-23T02,PJM,"PJM Interconnection, LLC",D,Demand,98909,megawatthours,2025-09-23 02:00:00+00:00
+2025-09-23T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90837,megawatthours,2025-09-23 02:00:00+00:00
+2025-09-23T03,PJM,"PJM Interconnection, LLC",D,Demand,93225,megawatthours,2025-09-23 03:00:00+00:00
+2025-09-23T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84765,megawatthours,2025-09-23 03:00:00+00:00
+2025-09-23T04,PJM,"PJM Interconnection, LLC",D,Demand,88724,megawatthours,2025-09-23 04:00:00+00:00
+2025-09-23T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80559,megawatthours,2025-09-23 04:00:00+00:00
+2025-09-23T05,PJM,"PJM Interconnection, LLC",D,Demand,85445,megawatthours,2025-09-23 05:00:00+00:00
+2025-09-23T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76786,megawatthours,2025-09-23 05:00:00+00:00
+2025-09-23T06,PJM,"PJM Interconnection, LLC",D,Demand,82054,megawatthours,2025-09-23 06:00:00+00:00
+2025-09-23T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74699,megawatthours,2025-09-23 06:00:00+00:00
+2025-09-23T07,PJM,"PJM Interconnection, LLC",D,Demand,80005,megawatthours,2025-09-23 07:00:00+00:00
+2025-09-23T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73569,megawatthours,2025-09-23 07:00:00+00:00
+2025-09-23T08,PJM,"PJM Interconnection, LLC",D,Demand,78679,megawatthours,2025-09-23 08:00:00+00:00
+2025-09-23T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74077,megawatthours,2025-09-23 08:00:00+00:00
+2025-09-23T09,PJM,"PJM Interconnection, LLC",D,Demand,79168,megawatthours,2025-09-23 09:00:00+00:00
+2025-09-23T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77138,megawatthours,2025-09-23 09:00:00+00:00
+2025-09-23T10,PJM,"PJM Interconnection, LLC",D,Demand,81870,megawatthours,2025-09-23 10:00:00+00:00
+2025-09-23T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,82685,megawatthours,2025-09-23 10:00:00+00:00
+2025-09-23T11,PJM,"PJM Interconnection, LLC",D,Demand,86156,megawatthours,2025-09-23 11:00:00+00:00
+2025-09-23T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,86784,megawatthours,2025-09-23 11:00:00+00:00
+2025-09-23T12,PJM,"PJM Interconnection, LLC",D,Demand,89817,megawatthours,2025-09-23 12:00:00+00:00
+2025-09-23T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,89149,megawatthours,2025-09-23 12:00:00+00:00
+2025-09-23T13,PJM,"PJM Interconnection, LLC",D,Demand,91985,megawatthours,2025-09-23 13:00:00+00:00
+2025-09-23T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90889,megawatthours,2025-09-23 13:00:00+00:00
+2025-09-23T14,PJM,"PJM Interconnection, LLC",D,Demand,94106,megawatthours,2025-09-23 14:00:00+00:00
+2025-09-23T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93282,megawatthours,2025-09-23 14:00:00+00:00
+2025-09-23T15,PJM,"PJM Interconnection, LLC",D,Demand,96520,megawatthours,2025-09-23 15:00:00+00:00
+2025-09-23T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96045,megawatthours,2025-09-23 15:00:00+00:00
+2025-09-23T16,PJM,"PJM Interconnection, LLC",D,Demand,98662,megawatthours,2025-09-23 16:00:00+00:00
+2025-09-23T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99226,megawatthours,2025-09-23 16:00:00+00:00
+2025-09-23T17,PJM,"PJM Interconnection, LLC",D,Demand,101788,megawatthours,2025-09-23 17:00:00+00:00
+2025-09-23T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102659,megawatthours,2025-09-23 17:00:00+00:00
+2025-09-23T18,PJM,"PJM Interconnection, LLC",D,Demand,105925,megawatthours,2025-09-23 18:00:00+00:00
+2025-09-23T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105452,megawatthours,2025-09-23 18:00:00+00:00
+2025-09-23T19,PJM,"PJM Interconnection, LLC",D,Demand,109719,megawatthours,2025-09-23 19:00:00+00:00
+2025-09-23T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,107784,megawatthours,2025-09-23 19:00:00+00:00
+2025-09-23T20,PJM,"PJM Interconnection, LLC",D,Demand,112760,megawatthours,2025-09-23 20:00:00+00:00
+2025-09-23T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,109987,megawatthours,2025-09-23 20:00:00+00:00
+2025-09-23T21,PJM,"PJM Interconnection, LLC",D,Demand,114624,megawatthours,2025-09-23 21:00:00+00:00
+2025-09-23T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,111126,megawatthours,2025-09-23 21:00:00+00:00
+2025-09-23T22,PJM,"PJM Interconnection, LLC",D,Demand,114822,megawatthours,2025-09-23 22:00:00+00:00
+2025-09-23T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,110208,megawatthours,2025-09-23 22:00:00+00:00
+2025-09-23T23,PJM,"PJM Interconnection, LLC",D,Demand,113105,megawatthours,2025-09-23 23:00:00+00:00
+2025-09-23T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,107930,megawatthours,2025-09-23 23:00:00+00:00
+2025-09-24T00,PJM,"PJM Interconnection, LLC",D,Demand,111710,megawatthours,2025-09-24 00:00:00+00:00
+2025-09-24T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105619,megawatthours,2025-09-24 00:00:00+00:00
+2025-09-24T01,PJM,"PJM Interconnection, LLC",D,Demand,108740,megawatthours,2025-09-24 01:00:00+00:00
+2025-09-24T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100704,megawatthours,2025-09-24 01:00:00+00:00
+2025-09-24T02,PJM,"PJM Interconnection, LLC",D,Demand,103688,megawatthours,2025-09-24 02:00:00+00:00
+2025-09-24T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,94149,megawatthours,2025-09-24 02:00:00+00:00
+2025-09-24T03,PJM,"PJM Interconnection, LLC",D,Demand,97896,megawatthours,2025-09-24 03:00:00+00:00
+2025-09-24T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87821,megawatthours,2025-09-24 03:00:00+00:00
+2025-09-24T04,PJM,"PJM Interconnection, LLC",D,Demand,92843,megawatthours,2025-09-24 04:00:00+00:00
+2025-09-24T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83237,megawatthours,2025-09-24 04:00:00+00:00
+2025-09-24T05,PJM,"PJM Interconnection, LLC",D,Demand,88515,megawatthours,2025-09-24 05:00:00+00:00
+2025-09-24T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80905,megawatthours,2025-09-24 05:00:00+00:00
+2025-09-24T06,PJM,"PJM Interconnection, LLC",D,Demand,85031,megawatthours,2025-09-24 06:00:00+00:00
+2025-09-24T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78380,megawatthours,2025-09-24 06:00:00+00:00
+2025-09-24T07,PJM,"PJM Interconnection, LLC",D,Demand,82878,megawatthours,2025-09-24 07:00:00+00:00
+2025-09-24T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77017,megawatthours,2025-09-24 07:00:00+00:00
+2025-09-24T08,PJM,"PJM Interconnection, LLC",D,Demand,81351,megawatthours,2025-09-24 08:00:00+00:00
+2025-09-24T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77305,megawatthours,2025-09-24 08:00:00+00:00
+2025-09-24T09,PJM,"PJM Interconnection, LLC",D,Demand,81618,megawatthours,2025-09-24 09:00:00+00:00
+2025-09-24T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80206,megawatthours,2025-09-24 09:00:00+00:00
+2025-09-24T10,PJM,"PJM Interconnection, LLC",D,Demand,84301,megawatthours,2025-09-24 10:00:00+00:00
+2025-09-24T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85739,megawatthours,2025-09-24 10:00:00+00:00
+2025-09-24T11,PJM,"PJM Interconnection, LLC",D,Demand,89142,megawatthours,2025-09-24 11:00:00+00:00
+2025-09-24T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,89804,megawatthours,2025-09-24 11:00:00+00:00
+2025-09-24T12,PJM,"PJM Interconnection, LLC",D,Demand,92809,megawatthours,2025-09-24 12:00:00+00:00
+2025-09-24T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,91987,megawatthours,2025-09-24 12:00:00+00:00
+2025-09-24T13,PJM,"PJM Interconnection, LLC",D,Demand,95064,megawatthours,2025-09-24 13:00:00+00:00
+2025-09-24T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93886,megawatthours,2025-09-24 13:00:00+00:00
+2025-09-24T14,PJM,"PJM Interconnection, LLC",D,Demand,97431,megawatthours,2025-09-24 14:00:00+00:00
+2025-09-24T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96296,megawatthours,2025-09-24 14:00:00+00:00
+2025-09-24T15,PJM,"PJM Interconnection, LLC",D,Demand,99471,megawatthours,2025-09-24 15:00:00+00:00
+2025-09-24T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,98853,megawatthours,2025-09-24 15:00:00+00:00
+2025-09-24T16,PJM,"PJM Interconnection, LLC",D,Demand,102225,megawatthours,2025-09-24 16:00:00+00:00
+2025-09-24T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,101724,megawatthours,2025-09-24 16:00:00+00:00
+2025-09-24T17,PJM,"PJM Interconnection, LLC",D,Demand,103785,megawatthours,2025-09-24 17:00:00+00:00
+2025-09-24T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104738,megawatthours,2025-09-24 17:00:00+00:00
+2025-09-24T18,PJM,"PJM Interconnection, LLC",D,Demand,105148,megawatthours,2025-09-24 18:00:00+00:00
+2025-09-24T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,106912,megawatthours,2025-09-24 18:00:00+00:00
+2025-09-24T19,PJM,"PJM Interconnection, LLC",D,Demand,106323,megawatthours,2025-09-24 19:00:00+00:00
+2025-09-24T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,108658,megawatthours,2025-09-24 19:00:00+00:00
+2025-09-24T20,PJM,"PJM Interconnection, LLC",D,Demand,106739,megawatthours,2025-09-24 20:00:00+00:00
+2025-09-24T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,110323,megawatthours,2025-09-24 20:00:00+00:00
+2025-09-24T21,PJM,"PJM Interconnection, LLC",D,Demand,106993,megawatthours,2025-09-24 21:00:00+00:00
+2025-09-24T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,111099,megawatthours,2025-09-24 21:00:00+00:00
+2025-09-24T22,PJM,"PJM Interconnection, LLC",D,Demand,107327,megawatthours,2025-09-24 22:00:00+00:00
+2025-09-24T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,109744,megawatthours,2025-09-24 22:00:00+00:00
+2025-09-24T23,PJM,"PJM Interconnection, LLC",D,Demand,106919,megawatthours,2025-09-24 23:00:00+00:00
+2025-09-24T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,107426,megawatthours,2025-09-24 23:00:00+00:00
+2025-09-25T00,PJM,"PJM Interconnection, LLC",D,Demand,106760,megawatthours,2025-09-25 00:00:00+00:00
+2025-09-25T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104979,megawatthours,2025-09-25 00:00:00+00:00
+2025-09-25T01,PJM,"PJM Interconnection, LLC",D,Demand,104991,megawatthours,2025-09-25 01:00:00+00:00
+2025-09-25T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100534,megawatthours,2025-09-25 01:00:00+00:00
+2025-09-25T02,PJM,"PJM Interconnection, LLC",D,Demand,100771,megawatthours,2025-09-25 02:00:00+00:00
+2025-09-25T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,94213,megawatthours,2025-09-25 02:00:00+00:00
+2025-09-25T03,PJM,"PJM Interconnection, LLC",D,Demand,95196,megawatthours,2025-09-25 03:00:00+00:00
+2025-09-25T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88051,megawatthours,2025-09-25 03:00:00+00:00
+2025-09-25T04,PJM,"PJM Interconnection, LLC",D,Demand,90612,megawatthours,2025-09-25 04:00:00+00:00
+2025-09-25T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84007,megawatthours,2025-09-25 04:00:00+00:00
+2025-09-25T05,PJM,"PJM Interconnection, LLC",D,Demand,87767,megawatthours,2025-09-25 05:00:00+00:00
+2025-09-25T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,79988,megawatthours,2025-09-25 05:00:00+00:00
+2025-09-25T06,PJM,"PJM Interconnection, LLC",D,Demand,85099,megawatthours,2025-09-25 06:00:00+00:00
+2025-09-25T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77839,megawatthours,2025-09-25 06:00:00+00:00
+2025-09-25T07,PJM,"PJM Interconnection, LLC",D,Demand,82897,megawatthours,2025-09-25 07:00:00+00:00
+2025-09-25T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76740,megawatthours,2025-09-25 07:00:00+00:00
+2025-09-25T08,PJM,"PJM Interconnection, LLC",D,Demand,81978,megawatthours,2025-09-25 08:00:00+00:00
+2025-09-25T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77344,megawatthours,2025-09-25 08:00:00+00:00
+2025-09-25T09,PJM,"PJM Interconnection, LLC",D,Demand,82419,megawatthours,2025-09-25 09:00:00+00:00
+2025-09-25T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80483,megawatthours,2025-09-25 09:00:00+00:00
+2025-09-25T10,PJM,"PJM Interconnection, LLC",D,Demand,85168,megawatthours,2025-09-25 10:00:00+00:00
+2025-09-25T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85937,megawatthours,2025-09-25 10:00:00+00:00
+2025-09-25T11,PJM,"PJM Interconnection, LLC",D,Demand,90053,megawatthours,2025-09-25 11:00:00+00:00
+2025-09-25T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,89888,megawatthours,2025-09-25 11:00:00+00:00
+2025-09-25T12,PJM,"PJM Interconnection, LLC",D,Demand,94135,megawatthours,2025-09-25 12:00:00+00:00
+2025-09-25T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92178,megawatthours,2025-09-25 12:00:00+00:00
+2025-09-25T13,PJM,"PJM Interconnection, LLC",D,Demand,96277,megawatthours,2025-09-25 13:00:00+00:00
+2025-09-25T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93888,megawatthours,2025-09-25 13:00:00+00:00
+2025-09-25T14,PJM,"PJM Interconnection, LLC",D,Demand,99131,megawatthours,2025-09-25 14:00:00+00:00
+2025-09-25T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95894,megawatthours,2025-09-25 14:00:00+00:00
+2025-09-25T15,PJM,"PJM Interconnection, LLC",D,Demand,101733,megawatthours,2025-09-25 15:00:00+00:00
+2025-09-25T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,98114,megawatthours,2025-09-25 15:00:00+00:00
+2025-09-25T16,PJM,"PJM Interconnection, LLC",D,Demand,103860,megawatthours,2025-09-25 16:00:00+00:00
+2025-09-25T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100320,megawatthours,2025-09-25 16:00:00+00:00
+2025-09-25T17,PJM,"PJM Interconnection, LLC",D,Demand,104725,megawatthours,2025-09-25 17:00:00+00:00
+2025-09-25T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102809,megawatthours,2025-09-25 17:00:00+00:00
+2025-09-25T18,PJM,"PJM Interconnection, LLC",D,Demand,106280,megawatthours,2025-09-25 18:00:00+00:00
+2025-09-25T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104398,megawatthours,2025-09-25 18:00:00+00:00
+2025-09-25T19,PJM,"PJM Interconnection, LLC",D,Demand,106403,megawatthours,2025-09-25 19:00:00+00:00
+2025-09-25T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105713,megawatthours,2025-09-25 19:00:00+00:00
+2025-09-25T20,PJM,"PJM Interconnection, LLC",D,Demand,108291,megawatthours,2025-09-25 20:00:00+00:00
+2025-09-25T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,106940,megawatthours,2025-09-25 20:00:00+00:00
+2025-09-25T21,PJM,"PJM Interconnection, LLC",D,Demand,110228,megawatthours,2025-09-25 21:00:00+00:00
+2025-09-25T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,107551,megawatthours,2025-09-25 21:00:00+00:00
+2025-09-25T22,PJM,"PJM Interconnection, LLC",D,Demand,111158,megawatthours,2025-09-25 22:00:00+00:00
+2025-09-25T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,106605,megawatthours,2025-09-25 22:00:00+00:00
+2025-09-25T23,PJM,"PJM Interconnection, LLC",D,Demand,110273,megawatthours,2025-09-25 23:00:00+00:00
+2025-09-25T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104661,megawatthours,2025-09-25 23:00:00+00:00
+2025-09-26T00,PJM,"PJM Interconnection, LLC",D,Demand,109260,megawatthours,2025-09-26 00:00:00+00:00
+2025-09-26T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102984,megawatthours,2025-09-26 00:00:00+00:00
+2025-09-26T01,PJM,"PJM Interconnection, LLC",D,Demand,106612,megawatthours,2025-09-26 01:00:00+00:00
+2025-09-26T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99110,megawatthours,2025-09-26 01:00:00+00:00
+2025-09-26T02,PJM,"PJM Interconnection, LLC",D,Demand,101638,megawatthours,2025-09-26 02:00:00+00:00
+2025-09-26T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,93201,megawatthours,2025-09-26 02:00:00+00:00
+2025-09-26T03,PJM,"PJM Interconnection, LLC",D,Demand,95874,megawatthours,2025-09-26 03:00:00+00:00
+2025-09-26T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87300,megawatthours,2025-09-26 03:00:00+00:00
+2025-09-26T04,PJM,"PJM Interconnection, LLC",D,Demand,91273,megawatthours,2025-09-26 04:00:00+00:00
+2025-09-26T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,82397,megawatthours,2025-09-26 04:00:00+00:00
+2025-09-26T05,PJM,"PJM Interconnection, LLC",D,Demand,86994,megawatthours,2025-09-26 05:00:00+00:00
+2025-09-26T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80567,megawatthours,2025-09-26 05:00:00+00:00
+2025-09-26T06,PJM,"PJM Interconnection, LLC",D,Demand,83701,megawatthours,2025-09-26 06:00:00+00:00
+2025-09-26T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78177,megawatthours,2025-09-26 06:00:00+00:00
+2025-09-26T07,PJM,"PJM Interconnection, LLC",D,Demand,81143,megawatthours,2025-09-26 07:00:00+00:00
+2025-09-26T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76781,megawatthours,2025-09-26 07:00:00+00:00
+2025-09-26T08,PJM,"PJM Interconnection, LLC",D,Demand,79711,megawatthours,2025-09-26 08:00:00+00:00
+2025-09-26T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77036,megawatthours,2025-09-26 08:00:00+00:00
+2025-09-26T09,PJM,"PJM Interconnection, LLC",D,Demand,79714,megawatthours,2025-09-26 09:00:00+00:00
+2025-09-26T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,79704,megawatthours,2025-09-26 09:00:00+00:00
+2025-09-26T10,PJM,"PJM Interconnection, LLC",D,Demand,82150,megawatthours,2025-09-26 10:00:00+00:00
+2025-09-26T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84824,megawatthours,2025-09-26 10:00:00+00:00
+2025-09-26T11,PJM,"PJM Interconnection, LLC",D,Demand,86324,megawatthours,2025-09-26 11:00:00+00:00
+2025-09-26T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88482,megawatthours,2025-09-26 11:00:00+00:00
+2025-09-26T12,PJM,"PJM Interconnection, LLC",D,Demand,89472,megawatthours,2025-09-26 12:00:00+00:00
+2025-09-26T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90597,megawatthours,2025-09-26 12:00:00+00:00
+2025-09-26T13,PJM,"PJM Interconnection, LLC",D,Demand,91701,megawatthours,2025-09-26 13:00:00+00:00
+2025-09-26T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92238,megawatthours,2025-09-26 13:00:00+00:00
+2025-09-26T14,PJM,"PJM Interconnection, LLC",D,Demand,94797,megawatthours,2025-09-26 14:00:00+00:00
+2025-09-26T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,94230,megawatthours,2025-09-26 14:00:00+00:00
+2025-09-26T15,PJM,"PJM Interconnection, LLC",D,Demand,97443,megawatthours,2025-09-26 15:00:00+00:00
+2025-09-26T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96396,megawatthours,2025-09-26 15:00:00+00:00
+2025-09-26T16,PJM,"PJM Interconnection, LLC",D,Demand,100253,megawatthours,2025-09-26 16:00:00+00:00
+2025-09-26T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,98884,megawatthours,2025-09-26 16:00:00+00:00
+2025-09-26T17,PJM,"PJM Interconnection, LLC",D,Demand,102305,megawatthours,2025-09-26 17:00:00+00:00
+2025-09-26T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,101552,megawatthours,2025-09-26 17:00:00+00:00
+2025-09-26T18,PJM,"PJM Interconnection, LLC",D,Demand,105952,megawatthours,2025-09-26 18:00:00+00:00
+2025-09-26T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103634,megawatthours,2025-09-26 18:00:00+00:00
+2025-09-26T19,PJM,"PJM Interconnection, LLC",D,Demand,108832,megawatthours,2025-09-26 19:00:00+00:00
+2025-09-26T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105160,megawatthours,2025-09-26 19:00:00+00:00
+2025-09-26T20,PJM,"PJM Interconnection, LLC",D,Demand,111814,megawatthours,2025-09-26 20:00:00+00:00
+2025-09-26T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,106461,megawatthours,2025-09-26 20:00:00+00:00
+2025-09-26T21,PJM,"PJM Interconnection, LLC",D,Demand,114228,megawatthours,2025-09-26 21:00:00+00:00
+2025-09-26T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,106722,megawatthours,2025-09-26 21:00:00+00:00
+2025-09-26T22,PJM,"PJM Interconnection, LLC",D,Demand,114632,megawatthours,2025-09-26 22:00:00+00:00
+2025-09-26T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104788,megawatthours,2025-09-26 22:00:00+00:00
+2025-09-26T23,PJM,"PJM Interconnection, LLC",D,Demand,111070,megawatthours,2025-09-26 23:00:00+00:00
+2025-09-26T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102342,megawatthours,2025-09-26 23:00:00+00:00
+2025-09-27T00,PJM,"PJM Interconnection, LLC",D,Demand,107345,megawatthours,2025-09-27 00:00:00+00:00
+2025-09-27T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100016,megawatthours,2025-09-27 00:00:00+00:00
+2025-09-27T01,PJM,"PJM Interconnection, LLC",D,Demand,103427,megawatthours,2025-09-27 01:00:00+00:00
+2025-09-27T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95773,megawatthours,2025-09-27 01:00:00+00:00
+2025-09-27T02,PJM,"PJM Interconnection, LLC",D,Demand,98625,megawatthours,2025-09-27 02:00:00+00:00
+2025-09-27T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90286,megawatthours,2025-09-27 02:00:00+00:00
+2025-09-27T03,PJM,"PJM Interconnection, LLC",D,Demand,93714,megawatthours,2025-09-27 03:00:00+00:00
+2025-09-27T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84607,megawatthours,2025-09-27 03:00:00+00:00
+2025-09-27T04,PJM,"PJM Interconnection, LLC",D,Demand,89110,megawatthours,2025-09-27 04:00:00+00:00
+2025-09-27T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80359,megawatthours,2025-09-27 04:00:00+00:00
+2025-09-27T05,PJM,"PJM Interconnection, LLC",D,Demand,84608,megawatthours,2025-09-27 05:00:00+00:00
+2025-09-27T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,77857,megawatthours,2025-09-27 05:00:00+00:00
+2025-09-27T06,PJM,"PJM Interconnection, LLC",D,Demand,80791,megawatthours,2025-09-27 06:00:00+00:00
+2025-09-27T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75043,megawatthours,2025-09-27 06:00:00+00:00
+2025-09-27T07,PJM,"PJM Interconnection, LLC",D,Demand,78468,megawatthours,2025-09-27 07:00:00+00:00
+2025-09-27T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,73221,megawatthours,2025-09-27 07:00:00+00:00
+2025-09-27T08,PJM,"PJM Interconnection, LLC",D,Demand,76691,megawatthours,2025-09-27 08:00:00+00:00
+2025-09-27T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72282,megawatthours,2025-09-27 08:00:00+00:00
+2025-09-27T09,PJM,"PJM Interconnection, LLC",D,Demand,75931,megawatthours,2025-09-27 09:00:00+00:00
+2025-09-27T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72839,megawatthours,2025-09-27 09:00:00+00:00
+2025-09-27T10,PJM,"PJM Interconnection, LLC",D,Demand,76392,megawatthours,2025-09-27 10:00:00+00:00
+2025-09-27T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74501,megawatthours,2025-09-27 10:00:00+00:00
+2025-09-27T11,PJM,"PJM Interconnection, LLC",D,Demand,77811,megawatthours,2025-09-27 11:00:00+00:00
+2025-09-27T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76280,megawatthours,2025-09-27 11:00:00+00:00
+2025-09-27T12,PJM,"PJM Interconnection, LLC",D,Demand,79551,megawatthours,2025-09-27 12:00:00+00:00
+2025-09-27T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,79044,megawatthours,2025-09-27 12:00:00+00:00
+2025-09-27T13,PJM,"PJM Interconnection, LLC",D,Demand,82460,megawatthours,2025-09-27 13:00:00+00:00
+2025-09-27T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,82015,megawatthours,2025-09-27 13:00:00+00:00
+2025-09-27T14,PJM,"PJM Interconnection, LLC",D,Demand,85755,megawatthours,2025-09-27 14:00:00+00:00
+2025-09-27T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84868,megawatthours,2025-09-27 14:00:00+00:00
+2025-09-27T15,PJM,"PJM Interconnection, LLC",D,Demand,89238,megawatthours,2025-09-27 15:00:00+00:00
+2025-09-27T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87506,megawatthours,2025-09-27 15:00:00+00:00
+2025-09-27T16,PJM,"PJM Interconnection, LLC",D,Demand,92167,megawatthours,2025-09-27 16:00:00+00:00
+2025-09-27T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90215,megawatthours,2025-09-27 16:00:00+00:00
+2025-09-27T17,PJM,"PJM Interconnection, LLC",D,Demand,94500,megawatthours,2025-09-27 17:00:00+00:00
+2025-09-27T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92812,megawatthours,2025-09-27 17:00:00+00:00
+2025-09-27T18,PJM,"PJM Interconnection, LLC",D,Demand,95845,megawatthours,2025-09-27 18:00:00+00:00
+2025-09-27T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95119,megawatthours,2025-09-27 18:00:00+00:00
+2025-09-27T19,PJM,"PJM Interconnection, LLC",D,Demand,98433,megawatthours,2025-09-27 19:00:00+00:00
+2025-09-27T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97159,megawatthours,2025-09-27 19:00:00+00:00
+2025-09-27T20,PJM,"PJM Interconnection, LLC",D,Demand,100516,megawatthours,2025-09-27 20:00:00+00:00
+2025-09-27T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99215,megawatthours,2025-09-27 20:00:00+00:00
+2025-09-27T21,PJM,"PJM Interconnection, LLC",D,Demand,101802,megawatthours,2025-09-27 21:00:00+00:00
+2025-09-27T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100095,megawatthours,2025-09-27 21:00:00+00:00
+2025-09-27T22,PJM,"PJM Interconnection, LLC",D,Demand,102453,megawatthours,2025-09-27 22:00:00+00:00
+2025-09-27T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,98857,megawatthours,2025-09-27 22:00:00+00:00
+2025-09-27T23,PJM,"PJM Interconnection, LLC",D,Demand,101558,megawatthours,2025-09-27 23:00:00+00:00
+2025-09-27T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96694,megawatthours,2025-09-27 23:00:00+00:00
+2025-09-28T00,PJM,"PJM Interconnection, LLC",D,Demand,99973,megawatthours,2025-09-28 00:00:00+00:00
+2025-09-28T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,94259,megawatthours,2025-09-28 00:00:00+00:00
+2025-09-28T01,PJM,"PJM Interconnection, LLC",D,Demand,97104,megawatthours,2025-09-28 01:00:00+00:00
+2025-09-28T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90322,megawatthours,2025-09-28 01:00:00+00:00
+2025-09-28T02,PJM,"PJM Interconnection, LLC",D,Demand,93228,megawatthours,2025-09-28 02:00:00+00:00
+2025-09-28T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,85538,megawatthours,2025-09-28 02:00:00+00:00
+2025-09-28T03,PJM,"PJM Interconnection, LLC",D,Demand,88668,megawatthours,2025-09-28 03:00:00+00:00
+2025-09-28T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,80569,megawatthours,2025-09-28 03:00:00+00:00
+2025-09-28T04,PJM,"PJM Interconnection, LLC",D,Demand,84661,megawatthours,2025-09-28 04:00:00+00:00
+2025-09-28T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76588,megawatthours,2025-09-28 04:00:00+00:00
+2025-09-28T05,PJM,"PJM Interconnection, LLC",D,Demand,80803,megawatthours,2025-09-28 05:00:00+00:00
+2025-09-28T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74838,megawatthours,2025-09-28 05:00:00+00:00
+2025-09-28T06,PJM,"PJM Interconnection, LLC",D,Demand,78119,megawatthours,2025-09-28 06:00:00+00:00
+2025-09-28T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72350,megawatthours,2025-09-28 06:00:00+00:00
+2025-09-28T07,PJM,"PJM Interconnection, LLC",D,Demand,75847,megawatthours,2025-09-28 07:00:00+00:00
+2025-09-28T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70682,megawatthours,2025-09-28 07:00:00+00:00
+2025-09-28T08,PJM,"PJM Interconnection, LLC",D,Demand,74164,megawatthours,2025-09-28 08:00:00+00:00
+2025-09-28T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,69931,megawatthours,2025-09-28 08:00:00+00:00
+2025-09-28T09,PJM,"PJM Interconnection, LLC",D,Demand,73296,megawatthours,2025-09-28 09:00:00+00:00
+2025-09-28T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,70134,megawatthours,2025-09-28 09:00:00+00:00
+2025-09-28T10,PJM,"PJM Interconnection, LLC",D,Demand,73348,megawatthours,2025-09-28 10:00:00+00:00
+2025-09-28T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,71262,megawatthours,2025-09-28 10:00:00+00:00
+2025-09-28T11,PJM,"PJM Interconnection, LLC",D,Demand,74698,megawatthours,2025-09-28 11:00:00+00:00
+2025-09-28T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,72706,megawatthours,2025-09-28 11:00:00+00:00
+2025-09-28T12,PJM,"PJM Interconnection, LLC",D,Demand,76144,megawatthours,2025-09-28 12:00:00+00:00
+2025-09-28T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75545,megawatthours,2025-09-28 12:00:00+00:00
+2025-09-28T13,PJM,"PJM Interconnection, LLC",D,Demand,78947,megawatthours,2025-09-28 13:00:00+00:00
+2025-09-28T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78872,megawatthours,2025-09-28 13:00:00+00:00
+2025-09-28T14,PJM,"PJM Interconnection, LLC",D,Demand,82281,megawatthours,2025-09-28 14:00:00+00:00
+2025-09-28T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,82221,megawatthours,2025-09-28 14:00:00+00:00
+2025-09-28T15,PJM,"PJM Interconnection, LLC",D,Demand,85676,megawatthours,2025-09-28 15:00:00+00:00
+2025-09-28T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,86057,megawatthours,2025-09-28 15:00:00+00:00
+2025-09-28T16,PJM,"PJM Interconnection, LLC",D,Demand,88808,megawatthours,2025-09-28 16:00:00+00:00
+2025-09-28T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90122,megawatthours,2025-09-28 16:00:00+00:00
+2025-09-28T17,PJM,"PJM Interconnection, LLC",D,Demand,93550,megawatthours,2025-09-28 17:00:00+00:00
+2025-09-28T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,94073,megawatthours,2025-09-28 17:00:00+00:00
+2025-09-28T18,PJM,"PJM Interconnection, LLC",D,Demand,98299,megawatthours,2025-09-28 18:00:00+00:00
+2025-09-28T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97511,megawatthours,2025-09-28 18:00:00+00:00
+2025-09-28T19,PJM,"PJM Interconnection, LLC",D,Demand,103011,megawatthours,2025-09-28 19:00:00+00:00
+2025-09-28T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100898,megawatthours,2025-09-28 19:00:00+00:00
+2025-09-28T20,PJM,"PJM Interconnection, LLC",D,Demand,107526,megawatthours,2025-09-28 20:00:00+00:00
+2025-09-28T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103868,megawatthours,2025-09-28 20:00:00+00:00
+2025-09-28T21,PJM,"PJM Interconnection, LLC",D,Demand,111206,megawatthours,2025-09-28 21:00:00+00:00
+2025-09-28T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,105586,megawatthours,2025-09-28 21:00:00+00:00
+2025-09-28T22,PJM,"PJM Interconnection, LLC",D,Demand,112853,megawatthours,2025-09-28 22:00:00+00:00
+2025-09-28T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,104840,megawatthours,2025-09-28 22:00:00+00:00
+2025-09-28T23,PJM,"PJM Interconnection, LLC",D,Demand,110457,megawatthours,2025-09-28 23:00:00+00:00
+2025-09-28T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102940,megawatthours,2025-09-28 23:00:00+00:00
+2025-09-29T00,PJM,"PJM Interconnection, LLC",D,Demand,107478,megawatthours,2025-09-29 00:00:00+00:00
+2025-09-29T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100505,megawatthours,2025-09-29 00:00:00+00:00
+2025-09-29T01,PJM,"PJM Interconnection, LLC",D,Demand,103749,megawatthours,2025-09-29 01:00:00+00:00
+2025-09-29T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95743,megawatthours,2025-09-29 01:00:00+00:00
+2025-09-29T02,PJM,"PJM Interconnection, LLC",D,Demand,97986,megawatthours,2025-09-29 02:00:00+00:00
+2025-09-29T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90016,megawatthours,2025-09-29 02:00:00+00:00
+2025-09-29T03,PJM,"PJM Interconnection, LLC",D,Demand,91651,megawatthours,2025-09-29 03:00:00+00:00
+2025-09-29T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84386,megawatthours,2025-09-29 03:00:00+00:00
+2025-09-29T04,PJM,"PJM Interconnection, LLC",D,Demand,86411,megawatthours,2025-09-29 04:00:00+00:00
+2025-09-29T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,79575,megawatthours,2025-09-29 04:00:00+00:00
+2025-09-29T05,PJM,"PJM Interconnection, LLC",D,Demand,82640,megawatthours,2025-09-29 05:00:00+00:00
+2025-09-29T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78520,megawatthours,2025-09-29 05:00:00+00:00
+2025-09-29T06,PJM,"PJM Interconnection, LLC",D,Demand,79304,megawatthours,2025-09-29 06:00:00+00:00
+2025-09-29T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76195,megawatthours,2025-09-29 06:00:00+00:00
+2025-09-29T07,PJM,"PJM Interconnection, LLC",D,Demand,77024,megawatthours,2025-09-29 07:00:00+00:00
+2025-09-29T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74820,megawatthours,2025-09-29 07:00:00+00:00
+2025-09-29T08,PJM,"PJM Interconnection, LLC",D,Demand,75804,megawatthours,2025-09-29 08:00:00+00:00
+2025-09-29T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75145,megawatthours,2025-09-29 08:00:00+00:00
+2025-09-29T09,PJM,"PJM Interconnection, LLC",D,Demand,76532,megawatthours,2025-09-29 09:00:00+00:00
+2025-09-29T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78318,megawatthours,2025-09-29 09:00:00+00:00
+2025-09-29T10,PJM,"PJM Interconnection, LLC",D,Demand,79655,megawatthours,2025-09-29 10:00:00+00:00
+2025-09-29T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,84056,megawatthours,2025-09-29 10:00:00+00:00
+2025-09-29T11,PJM,"PJM Interconnection, LLC",D,Demand,84552,megawatthours,2025-09-29 11:00:00+00:00
+2025-09-29T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88014,megawatthours,2025-09-29 11:00:00+00:00
+2025-09-29T12,PJM,"PJM Interconnection, LLC",D,Demand,88697,megawatthours,2025-09-29 12:00:00+00:00
+2025-09-29T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90432,megawatthours,2025-09-29 12:00:00+00:00
+2025-09-29T13,PJM,"PJM Interconnection, LLC",D,Demand,91611,megawatthours,2025-09-29 13:00:00+00:00
+2025-09-29T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,92916,megawatthours,2025-09-29 13:00:00+00:00
+2025-09-29T14,PJM,"PJM Interconnection, LLC",D,Demand,93474,megawatthours,2025-09-29 14:00:00+00:00
+2025-09-29T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,96190,megawatthours,2025-09-29 14:00:00+00:00
+2025-09-29T15,PJM,"PJM Interconnection, LLC",D,Demand,95661,megawatthours,2025-09-29 15:00:00+00:00
+2025-09-29T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,99771,megawatthours,2025-09-29 15:00:00+00:00
+2025-09-29T16,PJM,"PJM Interconnection, LLC",D,Demand,98629,megawatthours,2025-09-29 16:00:00+00:00
+2025-09-29T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103804,megawatthours,2025-09-29 16:00:00+00:00
+2025-09-29T17,PJM,"PJM Interconnection, LLC",D,Demand,101278,megawatthours,2025-09-29 17:00:00+00:00
+2025-09-29T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,108028,megawatthours,2025-09-29 17:00:00+00:00
+2025-09-29T18,PJM,"PJM Interconnection, LLC",D,Demand,104525,megawatthours,2025-09-29 18:00:00+00:00
+2025-09-29T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,111279,megawatthours,2025-09-29 18:00:00+00:00
+2025-09-29T19,PJM,"PJM Interconnection, LLC",D,Demand,107523,megawatthours,2025-09-29 19:00:00+00:00
+2025-09-29T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,113743,megawatthours,2025-09-29 19:00:00+00:00
+2025-09-29T20,PJM,"PJM Interconnection, LLC",D,Demand,109504,megawatthours,2025-09-29 20:00:00+00:00
+2025-09-29T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,115813,megawatthours,2025-09-29 20:00:00+00:00
+2025-09-29T21,PJM,"PJM Interconnection, LLC",D,Demand,111320,megawatthours,2025-09-29 21:00:00+00:00
+2025-09-29T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,116627,megawatthours,2025-09-29 21:00:00+00:00
+2025-09-29T22,PJM,"PJM Interconnection, LLC",D,Demand,111710,megawatthours,2025-09-29 22:00:00+00:00
+2025-09-29T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,114779,megawatthours,2025-09-29 22:00:00+00:00
+2025-09-29T23,PJM,"PJM Interconnection, LLC",D,Demand,110598,megawatthours,2025-09-29 23:00:00+00:00
+2025-09-29T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,111758,megawatthours,2025-09-29 23:00:00+00:00
+2025-09-30T00,PJM,"PJM Interconnection, LLC",D,Demand,108943,megawatthours,2025-09-30 00:00:00+00:00
+2025-09-30T00,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,108272,megawatthours,2025-09-30 00:00:00+00:00
+2025-09-30T01,PJM,"PJM Interconnection, LLC",D,Demand,106032,megawatthours,2025-09-30 01:00:00+00:00
+2025-09-30T01,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,102297,megawatthours,2025-09-30 01:00:00+00:00
+2025-09-30T02,PJM,"PJM Interconnection, LLC",D,Demand,100432,megawatthours,2025-09-30 02:00:00+00:00
+2025-09-30T02,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,95070,megawatthours,2025-09-30 02:00:00+00:00
+2025-09-30T03,PJM,"PJM Interconnection, LLC",D,Demand,94411,megawatthours,2025-09-30 03:00:00+00:00
+2025-09-30T03,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,88270,megawatthours,2025-09-30 03:00:00+00:00
+2025-09-30T04,PJM,"PJM Interconnection, LLC",D,Demand,89055,megawatthours,2025-09-30 04:00:00+00:00
+2025-09-30T04,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83064,megawatthours,2025-09-30 04:00:00+00:00
+2025-09-30T05,PJM,"PJM Interconnection, LLC",D,Demand,84696,megawatthours,2025-09-30 05:00:00+00:00
+2025-09-30T05,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78406,megawatthours,2025-09-30 05:00:00+00:00
+2025-09-30T06,PJM,"PJM Interconnection, LLC",D,Demand,81050,megawatthours,2025-09-30 06:00:00+00:00
+2025-09-30T06,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,76103,megawatthours,2025-09-30 06:00:00+00:00
+2025-09-30T07,PJM,"PJM Interconnection, LLC",D,Demand,78802,megawatthours,2025-09-30 07:00:00+00:00
+2025-09-30T07,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,74781,megawatthours,2025-09-30 07:00:00+00:00
+2025-09-30T08,PJM,"PJM Interconnection, LLC",D,Demand,77558,megawatthours,2025-09-30 08:00:00+00:00
+2025-09-30T08,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,75144,megawatthours,2025-09-30 08:00:00+00:00
+2025-09-30T09,PJM,"PJM Interconnection, LLC",D,Demand,77737,megawatthours,2025-09-30 09:00:00+00:00
+2025-09-30T09,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,78139,megawatthours,2025-09-30 09:00:00+00:00
+2025-09-30T10,PJM,"PJM Interconnection, LLC",D,Demand,80550,megawatthours,2025-09-30 10:00:00+00:00
+2025-09-30T10,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,83867,megawatthours,2025-09-30 10:00:00+00:00
+2025-09-30T11,PJM,"PJM Interconnection, LLC",D,Demand,85602,megawatthours,2025-09-30 11:00:00+00:00
+2025-09-30T11,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,87842,megawatthours,2025-09-30 11:00:00+00:00
+2025-09-30T12,PJM,"PJM Interconnection, LLC",D,Demand,89109,megawatthours,2025-09-30 12:00:00+00:00
+2025-09-30T12,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,90078,megawatthours,2025-09-30 12:00:00+00:00
+2025-09-30T13,PJM,"PJM Interconnection, LLC",D,Demand,91254,megawatthours,2025-09-30 13:00:00+00:00
+2025-09-30T13,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,91898,megawatthours,2025-09-30 13:00:00+00:00
+2025-09-30T14,PJM,"PJM Interconnection, LLC",D,Demand,93108,megawatthours,2025-09-30 14:00:00+00:00
+2025-09-30T14,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,94337,megawatthours,2025-09-30 14:00:00+00:00
+2025-09-30T15,PJM,"PJM Interconnection, LLC",D,Demand,95142,megawatthours,2025-09-30 15:00:00+00:00
+2025-09-30T15,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,97217,megawatthours,2025-09-30 15:00:00+00:00
+2025-09-30T16,PJM,"PJM Interconnection, LLC",D,Demand,96591,megawatthours,2025-09-30 16:00:00+00:00
+2025-09-30T16,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,100496,megawatthours,2025-09-30 16:00:00+00:00
+2025-09-30T17,PJM,"PJM Interconnection, LLC",D,Demand,98079,megawatthours,2025-09-30 17:00:00+00:00
+2025-09-30T17,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,103968,megawatthours,2025-09-30 17:00:00+00:00
+2025-09-30T18,PJM,"PJM Interconnection, LLC",D,Demand,101036,megawatthours,2025-09-30 18:00:00+00:00
+2025-09-30T18,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,106606,megawatthours,2025-09-30 18:00:00+00:00
+2025-09-30T19,PJM,"PJM Interconnection, LLC",D,Demand,103991,megawatthours,2025-09-30 19:00:00+00:00
+2025-09-30T19,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,108660,megawatthours,2025-09-30 19:00:00+00:00
+2025-09-30T20,PJM,"PJM Interconnection, LLC",D,Demand,106069,megawatthours,2025-09-30 20:00:00+00:00
+2025-09-30T20,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,110438,megawatthours,2025-09-30 20:00:00+00:00
+2025-09-30T21,PJM,"PJM Interconnection, LLC",D,Demand,108034,megawatthours,2025-09-30 21:00:00+00:00
+2025-09-30T21,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,110983,megawatthours,2025-09-30 21:00:00+00:00
+2025-09-30T22,PJM,"PJM Interconnection, LLC",D,Demand,108737,megawatthours,2025-09-30 22:00:00+00:00
+2025-09-30T22,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,109383,megawatthours,2025-09-30 22:00:00+00:00
+2025-09-30T23,PJM,"PJM Interconnection, LLC",D,Demand,107212,megawatthours,2025-09-30 23:00:00+00:00
+2025-09-30T23,PJM,"PJM Interconnection, LLC",DF,Day-ahead demand forecast,106967,megawatthours,2025-09-30 23:00:00+00:00

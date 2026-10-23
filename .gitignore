@@ -1,0 +1,28 @@
+# API keys and secrets
+.env
+.env.*
+!.env.example
+
+# Conda and Python environments
+.venv/
+venv/
+env/
+conda-env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# VS Code local settings
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
