@@ -26,3 +26,12 @@ __pycache__/
 # Temporary files
 *.log
 *.tmp
+
+# Local EIA caches and generated downloads; keep the checked-in working sample.
+.cache/eia/
+data/raw/*
+!data/raw/pjm_2025_09_eia_long.csv
+data/processed/*
+!data/processed/pjm_2025_09_hourly.csv
+docs/*_quality.json
+!docs/sample_quality.json
