@@ -24,39 +24,45 @@ We use publicly available electricity data from the **U.S. Energy Information Ad
 - **Initial Sample:** September 2025
 - **Variables:** Hourly electricity demand, demand forecasts, and timestamps
 
-We plan to expand the dataset to multiple balancing authorities and several years of historical data.
+The shared dataset uses PJM, ERCO (Texas), CISO (California), and ISNE (New England)
+for 2019–2025. See the [data dictionary](docs/DATA_DICTIONARY.md) and
+[partner handoff instructions](docs/DATASET_HANDOFF.md) for definitions and reproducible commands.
 
 ## Getting Started
 
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/EmersonCarm/data400-capstone-eia-demand-forecasting.git
+cd data400-capstone-eia-demand-forecasting
 ```
 
 ### 2. Create a Conda environment
 
 ```bash
-conda create -n data400 python=3.11 -y
-conda activate data400
+conda create -n data400-eia python=3.11 -y
+conda activate data400-eia
 ```
+
+For later sessions, activate the existing environment with `conda activate data400-eia`.
 
 ### 3. Install dependencies
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ### 4. Configure the EIA API key
 
-Create a `.env` file in the project's root directory:
+Copy `.env.example` to `.env` in the project's root directory and set your EIA key:
 
 ```env
 EIA_API_KEY=your_api_key_here
 ```
 
 The `.env` file is excluded from Git using `.gitignore`.
+You can also supply `EIA_API_KEY` through your environment. A key is required for
+downloads and refreshes; an existing matching cache can be read without a key.
 
 ### 5. Download the initial dataset
 
@@ -65,6 +71,61 @@ python scripts/pull_eia_sample.py
 ```
 
 The script downloads the initial hourly demand sample, processes it, and generates a basic data-quality report.
+
+To choose one balancing authority and an inclusive UTC hour range:
+
+```bash
+python scripts/pull_eia_sample.py --ba PJM --start 2025-09-01T00 --end 2025-09-02T23
+```
+
+Custom output filenames include the authority and exact date range. Running without
+arguments preserves the original September 2025 PJM sample and its filenames.
+Use `python scripts/pull_eia_sample.py --help` to see the options. The collector
+automatically pages through requests larger than 5,000 records and prints progress.
+It stops before saving files if a later page is empty or the reported total changes.
+
+### 6. Reuse or refresh a download
+
+Successful downloads create a validated JSON cache under `.cache/eia/`. Repeating
+the same region and date range reads that cache, makes no API requests, and
+regenerates the raw CSV, hourly CSV, and quality report. Cache entries are snapshots
+and have no automatic expiry. Use `--refresh` when you want current EIA revisions:
+
+```bash
+python scripts/pull_eia_sample.py --ba PJM --start 2025-01-01T00 --end 2025-12-31T23 --refresh
+```
+
+The first run after this upgrade downloads once to create the cache; existing CSVs
+alone do not count as a cache. A corrupt or mismatched cache requires `--refresh`.
+Failed downloads leave the previous complete cache in place. Cache files store
+only data rows and public request metadata, without the key or echoed request envelope.
+
+Generated downloads and caches stay local and are ignored by Git. The original
+September 2025 PJM sample remains committed. Missing measurements stay blank in
+the CSV and are counted in the quality report; the collector does not impute them.
+
+### 7. Build the shared dataset
+
+After downloading the four regional CSVs for the same 2019–2025 window, run:
+
+```bash
+python scripts/build_shared_dataset.py
+```
+
+This offline step creates `data/processed/demand_hourly.parquet`, a detailed
+missing-hour CSV, and a quality JSON with input/output checksums. It preserves
+missing values and sets `is_imputed=False`. The verified snapshot has 245,472 rows.
+See [DATASET_HANDOFF.md](docs/DATASET_HANDOFF.md) for the download loop and an example
+of reading the Parquet file in pandas. Install the updated requirements first;
+PyArrow is required for Parquet output.
+
+### 8. Run checks
+
+Run the offline collector checks without an API key or network access:
+
+```bash
+python -m unittest discover -s tests -v
+```
 
 ## Project Structure
 
@@ -75,9 +136,13 @@ data400-capstone/
 │   └── processed/       # Cleaned and formatted data
 ├── scripts/             # Data collection scripts
 ├── docs/                # Data quality reports
+├── tests/               # Offline collector tests
+├── .cache/eia/          # Local download caches (not committed)
 ├── .env                 # Private API key (not committed)
+├── .env.example         # Placeholder configuration
 ├── .gitignore
 ├── requirements.txt
+├── ai_use_disclosure.md
 └── README.md
 ```
 
@@ -91,9 +156,15 @@ data400-capstone/
 
 ## Project Status
 
-**Current Stage:** Initial data collection and project setup.
+**Current Stage:** Shared data foundation for EDA and feature engineering.
 
-The first step is verifying access to the EIA dataset and collecting a working sample. Further data processing, exploratory analysis, modeling, and evaluation will follow.
+The collector supports one balancing authority per run, inclusive UTC hour ranges,
+pagination, cache reuse, explicit refreshes, and quality reports. All four selected
+regions were downloaded for 2019–2025. The offline builder validates and combines
+their UTC hourly grids into the documented shared Parquet schema, with a detailed
+missing-measurement log. The verified snapshot has 147 missing demand measurements
+and 360 missing operator forecasts; these remain null. Exploratory analysis,
+feature engineering, modeling, and evaluation will follow.
 
 ## References
 
