@@ -24,7 +24,9 @@ We use publicly available electricity data from the **U.S. Energy Information Ad
 - **Initial Sample:** September 2025
 - **Variables:** Hourly electricity demand, demand forecasts, and timestamps
 
-We plan to expand the dataset to multiple balancing authorities and several years of historical data.
+The shared dataset uses PJM, ERCO (Texas), CISO (California), and ISNE (New England)
+for 2019–2025. See the [data dictionary](docs/DATA_DICTIONARY.md) and
+[partner handoff instructions](docs/DATASET_HANDOFF.md) for definitions and reproducible commands.
 
 ## Getting Started
 
@@ -102,7 +104,22 @@ Generated downloads and caches stay local and are ignored by Git. The original
 September 2025 PJM sample remains committed. Missing measurements stay blank in
 the CSV and are counted in the quality report; the collector does not impute them.
 
-### 7. Run checks
+### 7. Build the shared dataset
+
+After downloading the four regional CSVs for the same 2019–2025 window, run:
+
+```bash
+python scripts/build_shared_dataset.py
+```
+
+This offline step creates `data/processed/demand_hourly.parquet`, a detailed
+missing-hour CSV, and a quality JSON with input/output checksums. It preserves
+missing values and sets `is_imputed=False`. The verified snapshot has 245,472 rows.
+See [DATASET_HANDOFF.md](docs/DATASET_HANDOFF.md) for the download loop and an example
+of reading the Parquet file in pandas. Install the updated requirements first;
+PyArrow is required for Parquet output.
+
+### 8. Run checks
 
 Run the offline collector checks without an API key or network access:
 
@@ -139,13 +156,15 @@ data400-capstone/
 
 ## Project Status
 
-**Current Stage:** Configurable historical data collection.
+**Current Stage:** Shared data foundation for EDA and feature engineering.
 
 The collector supports one balancing authority per run, inclusive UTC hour ranges,
-pagination, cache reuse, explicit refreshes, and quality reports. A full-year PJM
-2025 download was checked: all 8,760 actual-demand hours are present, with 25 missing
-operator-forecast hours. Multi-region consolidation, the shared Parquet dataset,
-exploratory analysis, modeling, and evaluation will follow.
+pagination, cache reuse, explicit refreshes, and quality reports. All four selected
+regions were downloaded for 2019–2025. The offline builder validates and combines
+their UTC hourly grids into the documented shared Parquet schema, with a detailed
+missing-measurement log. The verified snapshot has 147 missing demand measurements
+and 360 missing operator forecasts; these remain null. Exploratory analysis,
+feature engineering, modeling, and evaluation will follow.
 
 ## References
 
