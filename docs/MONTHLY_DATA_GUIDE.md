@@ -32,7 +32,8 @@ The study calendar is January 2017–December 2025. The primary key is
 
 | File under `data/processed/monthly/` | Contents |
 | --- | --- |
-| `study_monthly.csv` | 108 outcome months and contemporaneous controls for exploration and subsequent lag construction |
+| `study_development.csv` | 60 months through December 2021 for Emerson's initial exploration, feature development, and validation |
+| `study_monthly.csv` | 108 months for Niloy's independent evaluation, staged later model runs, and historical analysis after procedure freeze |
 | `weather_station_monthly.csv` | 324 station-month summaries with valid-day counts and coverage checks |
 | `pjm_large_load_context.csv` | Nine annual Dominion Energy historical July peaks, with source metric and mapping status |
 | `quality.json` | Coverage counts, source metadata, protocol hash, and output checksums |
@@ -41,6 +42,7 @@ The study calendar is January 2017–December 2025. The primary key is
 | --- | --- |
 | `period` | Calendar month in `YYYY-MM` format |
 | `utility_id`, `utility_name`, `state` | EIA reporting identity, restricted to 19876 and VA |
+| `ownership` | EIA ownership classification retained from the utility-state source row |
 | `data_status`, `source_file` | EIA reporting status and original workbook name |
 | `revenue_thousand_usd` | Residential revenue in thousands of nominal dollars |
 | `sales_mwh` | Residential electricity sales in MWh |
@@ -56,7 +58,7 @@ The study calendar is January 2017–December 2025. The primary key is
 | `electricity_available_date` | Assumed observation month-end plus three calendar months |
 | `controls_available_date` | Assumed observation month-end plus one calendar month for the current control sources |
 
-Use the contemporaneous controls for exploratory analysis. Construct forecast
+Use the development table's contemporaneous controls for initial exploratory analysis. Construct forecast
 inputs separately with the availability functions described below. The
 inflation-adjusted price is a descriptive series. The primary forecast target is
 nominal `price_cents_per_kwh`.
@@ -156,8 +158,10 @@ the feature/model code is also necessary to verify what the model actually used.
 `last_released` repeats the most recently available price. `seasonal_naive` uses
 the target month one year earlier. The default CLI exports validation and
 calibration predictions, an origin audit, the protocol, empirical calibration
-radii, and a run manifest. The printed run ID hashes the input table, protocol,
-forecast implementation, and requested partitions. Existing artifacts with
+radii, and a run manifest. The manifest records the Git revision, tracked-worktree
+change status, Python version, and package versions. A copied checkout without Git
+metadata records the revision as null. The printed run ID hashes the input table,
+protocol, forecast implementation, runtime metadata, and requested partitions. Existing artifacts with
 different bytes under the same run ID cause an error.
 
 The calibration radius for each model is the finite-sample nominal 90% order
@@ -226,8 +230,12 @@ two baselines, and independent evaluator. A 2021 validation run gave MAE 0.94675
 cents/kWh for `last_released` and 0.522696 for `seasonal_naive`. These are validation
 results from the captured sources. Final test performance awaits the fixed model.
 
-Emerson can begin exploratory analysis using `study_monthly.csv` and the separate
-PJM context file. The next input Niloy needs is Emerson's feature/model code and
+Emerson can begin exploratory analysis with `study_development.csv`. Use its
+2017–2021 outcome history for feature proposals and model selection. Initial
+model choices use the 2021 validation forecasts. Full-window outcome plots and
+price-versus-PJM comparisons follow procedure freeze or are prepared separately
+by Niloy as the independent evaluator. Calibration outcomes are used to set the
+fixed procedure's error band. The next input Niloy needs is Emerson's feature/model code and
 12 validation forecasts in the documented format. Emerson should also provide
 the selected feature list, Ridge settings, preprocessing, and refit procedure
 chosen from validation. Review those before calibration and final testing. The

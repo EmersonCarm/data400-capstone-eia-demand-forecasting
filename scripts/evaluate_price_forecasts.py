@@ -8,8 +8,22 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from monthly_forecasting import ROOT, load_protocol, protocol_hash, validate_predictions
+from monthly_forecasting import PREDICTION_COLUMNS, ROOT, load_protocol, protocol_hash, runtime_metadata, validate_predictions
 from pull_monthly_sources import atomic_write
+
+
+def read_prediction_exports(paths):
+    frames = []
+    text_fields = ("state", "origin", "target_month", "model_id", "training_label_cutoff", "run_id", "protocol_sha256")
+    for path in paths:
+        frame = pd.read_csv(path, dtype={field: "string" for field in text_fields})
+        missing = set(PREDICTION_COLUMNS) - set(frame)
+        if missing:
+            raise ValueError(f"{path}: missing prediction-export columns: {sorted(missing)}")
+        if frame.empty:
+            raise ValueError(f"{path}: prediction export is empty.")
+        frames.append(frame)
+    return pd.concat(frames, ignore_index=True)
 
 
 def error_metrics(portion):
@@ -63,8 +77,9 @@ def main():
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     try:
-        predictions = pd.concat([pd.read_csv(path) for path in args.predictions], ignore_index=True)
+        predictions = read_prediction_exports(args.predictions)
         report = evaluate_predictions(predictions, pd.read_csv(args.data), args.partition, load_protocol())
+        report["runtime"] = runtime_metadata()
         report["source_sha256"] = hashlib.sha256(args.data.read_bytes()).hexdigest()
         report["prediction_files_sha256"] = {str(path): hashlib.sha256(path.read_bytes()).hexdigest() for path in args.predictions}
         content = json.dumps(report, indent=2, allow_nan=False) + "\n"

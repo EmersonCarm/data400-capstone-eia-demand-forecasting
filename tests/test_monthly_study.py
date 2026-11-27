@@ -99,6 +99,41 @@ class MonthlyStudyTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "checksum"):
                 sources.collect_sources(directory, [spec], session)
 
+    def test_http_200_error_payload_cannot_replace_a_usable_weather_manifest(self):
+        spec = next(item for item in sources.source_requests() if item["id"] == "weather_USW00093738")
+        response = requests.Response()
+        response.status_code = 200
+        response._content = json.dumps(self.weather()).encode()
+        session = Mock()
+        session.request.return_value = response
+        with tempfile.TemporaryDirectory() as temporary:
+            directory = Path(temporary)
+            sources.collect_sources(directory, [spec], session)
+            original = (directory / "manifest.json").read_bytes()
+            for payload in [[], {"error": "temporarily unavailable"}]:
+                with self.subTest(payload=payload):
+                    response._content = json.dumps(payload).encode()
+                    with self.assertRaises(ValueError):
+                        sources.collect_sources(directory, [spec], session, refresh=True)
+                    self.assertEqual((directory / "manifest.json").read_bytes(), original)
+
+    def test_http_200_bls_response_requires_the_requested_series(self):
+        spec = next(item for item in sources.source_requests() if item["id"] == "cpi")
+        response = requests.Response()
+        response.status_code = 200
+        response._content = b'{"status":"REQUEST_SUCCEEDED","Results":{"series":[]}}'
+        session = Mock()
+        session.request.return_value = response
+        with tempfile.TemporaryDirectory() as temporary, self.assertRaises(ValueError):
+            sources.collect_sources(Path(temporary), [spec], session)
+
+    def test_development_table_excludes_calibration_and_test_outcomes(self):
+        frame = pd.DataFrame({"period": pd.period_range("2017-01", "2025-12", freq="M").astype(str),
+                              "price_cents_per_kwh": range(108)})
+        development = study.development_table(frame)
+        self.assertEqual(len(development), 60)
+        self.assertEqual(development.period.max(), "2021-12")
+
 
 if __name__ == "__main__":
     unittest.main()

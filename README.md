@@ -51,6 +51,11 @@ months, weather and economic controls, and assumed availability dates. Separate
 files hold station weather coverage, annual PJM context, and quality checks.
 Raw data and generated outputs are ignored by Git.
 
+Emerson's initial exploration and model development use
+`data/processed/monthly/study_development.csv`, containing the 60 months through
+December 2021. Full-window outcome analysis follows the model-procedure freeze or
+is performed by the independent evaluator.
+
 The [monthly data and evaluation guide](docs/MONTHLY_DATA_GUIDE.md) explains units,
 missing values, source provenance, and the model export Emerson will supply.
 It includes the small, standalone 2019 price-builder example.

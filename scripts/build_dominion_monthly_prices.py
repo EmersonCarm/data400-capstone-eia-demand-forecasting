@@ -18,7 +18,7 @@ SHEET_NAME = "Sales Ultimate Cust. -States"
 FIELDS = (
     "period", "utility_id", "utility_name", "state", "data_status",
     "revenue_thousand_usd", "sales_mwh", "customers", "price_cents_per_kwh",
-    "kwh_per_customer", "source_file",
+    "kwh_per_customer", "ownership", "source_file",
 )
 
 
@@ -37,7 +37,7 @@ def read_year(path, year):
             raise ValueError(f"{path.name}: unexpected residential headers or units.")
 
         rows = []
-        for row_year, month, utility_id, name, state, _, status, revenue, sales, customers in source_rows:
+        for row_year, month, utility_id, name, state, ownership, status, revenue, sales, customers in source_rows:
             if (utility_id, state) != (UTILITY_ID, STATE):
                 continue
             if row_year != year or type(month) is not int or not 1 <= month <= 12:
@@ -49,7 +49,7 @@ def read_year(path, year):
             if int(customers) != customers:
                 raise ValueError(f"{path.name}: expected a whole customer count for {period}.")
             rows.append((period, UTILITY_ID, name, STATE, status, revenue, sales, int(customers),
-                         100 * revenue / sales, 1000 * sales / customers, path.name))
+                         100 * revenue / sales, 1000 * sales / customers, ownership, path.name))
     finally:
         workbook.close()
 

@@ -8,11 +8,14 @@ import json
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 from urllib.parse import urlencode
-from zipfile import ZipFile
+from zipfile import BadZipFile, ZipFile
 
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+
+from build_dominion_monthly_prices import read_year
+from monthly_source_parsers import normalize_cpi, normalize_gas, normalize_pjm, normalize_weather
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -79,6 +82,23 @@ def read_manifest(directory):
     return manifest
 
 
+def validate_source_snapshot(spec, path):
+    """Use the offline builder's parsers before promoting a new source manifest."""
+    try:
+        if spec["id"].startswith("electricity_"):
+            read_year(path, int(spec["id"].split("_")[-1]))
+        elif spec["id"].startswith("weather_"):
+            normalize_weather(json.loads(path.read_bytes()), spec["id"].removeprefix("weather_"))
+        elif spec["id"] == "cpi":
+            normalize_cpi(json.loads(path.read_bytes()))
+        elif spec["id"] == "gas":
+            normalize_gas(path.read_text(encoding="utf-8-sig"))
+        elif spec["id"] == "pjm":
+            normalize_pjm(path)
+    except (KeyError, TypeError, ValueError) as error:
+        raise ValueError(f"Invalid source contents for {spec['id']}: {error}") from error
+
+
 def collect_sources(directory, specs, session, *, legacy_dir=None, refresh=False):
     directory = Path(directory)
     if (directory / "manifest.json").exists() and not refresh:
@@ -114,6 +134,7 @@ def collect_sources(directory, specs, session, *, legacy_dir=None, refresh=False
         digest = hashlib.sha256(content).hexdigest()
         filename = f"{digest}{Path(spec['filename']).suffix}"
         atomic_write(directory / filename, content)
+        validate_source_snapshot(spec, directory / filename)
         entries.append(dict(spec, path=filename, sha256=digest, retrieved_at_utc=retrieved,
                             provenance=provenance))
         print(f"Cached {spec['id']}", flush=True)
@@ -135,7 +156,7 @@ def main():
             session.mount("https://", HTTPAdapter(max_retries=retries))
             manifest = collect_sources(args.output_dir, source_requests(), session,
                                        legacy_dir=ROOT / "data" / "raw" / "eia861m", refresh=args.refresh)
-    except (OSError, ValueError, requests.RequestException) as error:
+    except (OSError, ValueError, BadZipFile, requests.RequestException) as error:
         parser.error(str(error))
     print(f"Verified {len(manifest['sources'])} sources in {args.output_dir / 'manifest.json'}")
 

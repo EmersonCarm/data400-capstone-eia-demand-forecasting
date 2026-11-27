@@ -1,9 +1,12 @@
 """Shared monthly release rules, baseline methods, and forecast-export checks."""
 
 import hashlib
+from importlib.metadata import PackageNotFoundError, version
 import json
 from math import ceil
 from pathlib import Path
+import subprocess
+import sys
 
 import numpy as np
 import pandas as pd
@@ -24,21 +27,52 @@ def protocol_hash(protocol):
     return hashlib.sha256(json.dumps(protocol, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
 
 
+def runtime_metadata():
+    packages = {}
+    for package in ("pandas", "numpy", "requests", "urllib3", "openpyxl", "pyarrow", "python-dotenv"):
+        try:
+            packages[package] = version(package)
+        except PackageNotFoundError:
+            packages[package] = None
+    revision, dirty = None, None
+    try:
+        result = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True, check=True)
+        revision = result.stdout.strip()
+        result = subprocess.run(["git", "status", "--porcelain", "--untracked-files=no"],
+                                cwd=ROOT, capture_output=True, text=True, check=True)
+        dirty = bool(result.stdout.strip())
+    except (OSError, subprocess.CalledProcessError):
+        pass
+    return dict(python=sys.version.split()[0], packages=packages, git_revision=revision, git_worktree_dirty=dirty)
+
+
 def partition_months(partition, protocol):
     start, end = protocol["partitions"][partition]
     return pd.period_range(start, end, freq="M").astype(str).tolist()
 
 
 def availability_dates(periods, family, protocol):
-    return (pd.PeriodIndex(periods, freq="M") + protocol["release_delay_months"][family]).to_timestamp("M")
+    periods = pd.PeriodIndex(periods, freq="M")
+    if periods.hasnans:
+        raise ValueError("Observation periods must contain valid, nonmissing months.")
+    return (periods + protocol["release_delay_months"][family]).to_timestamp("M")
+
+
+def origin_date(origin):
+    if origin is None or pd.isna(origin):
+        raise ValueError("Forecast origin must be a valid date.")
+    date = pd.Timestamp(origin)
+    if pd.isna(date) or date.tzinfo is not None or date != date.normalize():
+        raise ValueError("Forecast origin must be a valid calendar date without a time component.")
+    return date
 
 
 def available_rows(data, origin, family, protocol):
-    return data.loc[availability_dates(data.period, family, protocol) <= pd.Timestamp(origin)].copy()
+    return data.loc[availability_dates(data.period, family, protocol) <= origin_date(origin)].copy()
 
 
 def require_available(periods, origin, family, protocol):
-    if (availability_dates(periods, family, protocol) > pd.Timestamp(origin)).any():
+    if (availability_dates(periods, family, protocol) > origin_date(origin)).any():
         raise ValueError(f"An {family} observation is unavailable at origin {origin}.")
 
 
@@ -114,13 +148,13 @@ def validate_predictions(predictions, data, partition, protocol):
     if not frame.horizon_months.eq(1).all():
         raise ValueError("Expected the declared one-month horizon.")
     target_periods = pd.PeriodIndex(frame.target_month, freq="M")
-    if target_periods.astype(str).tolist() != frame.target_month.tolist():
+    if target_periods.hasnans or target_periods.astype(str).tolist() != frame.target_month.tolist():
         raise ValueError("Target months must use YYYY-MM.")
     expected_origins = (target_periods - 1).to_timestamp("M").strftime("%Y-%m-%d")
     if frame.origin.tolist() != expected_origins.tolist():
         raise ValueError("Forecast origin must be the month-end before its target.")
     cutoff = pd.PeriodIndex(frame.training_label_cutoff, freq="M")
-    if cutoff.astype(str).tolist() != frame.training_label_cutoff.tolist():
+    if cutoff.hasnans or cutoff.astype(str).tolist() != frame.training_label_cutoff.tolist():
         raise ValueError("Training label cutoff must use YYYY-MM.")
     if (availability_dates(cutoff, "electricity", protocol) > pd.to_datetime(frame.origin)).any():
         raise ValueError("Training label cutoff is unavailable at the forecast origin.")

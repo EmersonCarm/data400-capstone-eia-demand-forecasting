@@ -8,7 +8,7 @@ from pathlib import Path
 import pandas as pd
 
 from monthly_forecasting import (PROTOCOL_PATH, ROOT, available_rows, baseline_predictions,
-                                 calibration_radii, load_protocol, protocol_hash, training_rows)
+                                 calibration_radii, load_protocol, protocol_hash, runtime_metadata, training_rows)
 from pull_monthly_sources import atomic_write
 
 
@@ -24,9 +24,11 @@ def main():
     try:
         data = pd.read_csv(args.data)
         protocol = load_protocol()
+        runtime = runtime_metadata()
         digest = hashlib.sha256(args.data.read_bytes() + PROTOCOL_PATH.read_bytes()
                                 + Path(__file__).read_bytes()
                                 + (ROOT / "scripts" / "monthly_forecasting.py").read_bytes()
+                                + json.dumps(runtime, sort_keys=True).encode()
                                 + ",".join(args.partitions).encode()).hexdigest()
         run_id = digest[:16]
         output_dir = args.output_dir / run_id
@@ -51,6 +53,7 @@ def main():
             portion = predictions.loc[predictions.target_month.between(start, end)]
             outputs[f"baseline_{partition}.csv"] = portion.to_csv(index=False).encode()
         manifest = dict(run_id=run_id, protocol_sha256=protocol_hash(protocol),
+                        runtime=runtime,
                         source_sha256=hashlib.sha256(args.data.read_bytes()).hexdigest(),
                         output_sha256={name: hashlib.sha256(content).hexdigest() for name, content in outputs.items()})
         outputs["run.json"] = (json.dumps(manifest, indent=2) + "\n").encode()

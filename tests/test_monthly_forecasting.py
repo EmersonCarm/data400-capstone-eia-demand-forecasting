@@ -1,5 +1,9 @@
 from pathlib import Path
+from importlib.metadata import version
+import json
+import subprocess
 import sys
+import tempfile
 import unittest
 
 import numpy as np
@@ -8,6 +12,7 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
 import monthly_forecasting as forecasting
+import evaluate_price_forecasts as evaluation
 from evaluate_price_forecasts import evaluate_predictions
 
 
@@ -86,6 +91,52 @@ class MonthlyForecastingTests(unittest.TestCase):
         predictions.loc[0, "upper_bound"] = predictions.loc[0, "lower_bound"] - 1
         with self.assertRaisesRegex(ValueError, "interval"):
             evaluate_predictions(predictions, self.data, "validation", self.protocol)
+
+    def test_missing_dates_cannot_bypass_availability_or_label_count_checks(self):
+        predictions = forecasting.baseline_predictions(self.data, ["validation"], self.protocol, "fixture")
+        predictions["training_label_cutoff"] = "NaT"
+        predictions["training_rows"] = 999
+        with self.assertRaises(ValueError):
+            evaluate_predictions(predictions, self.data, "validation", self.protocol)
+        for periods, origin in [([pd.NaT], "2023-12-31"), (["2023-09"], None),
+                                (["2023-09"], "NaT")]:
+            with self.subTest(periods=periods, origin=origin), self.assertRaises(ValueError):
+                forecasting.require_available(periods, origin, "electricity", self.protocol)
+
+    def test_each_supplied_forecast_file_must_have_its_own_complete_schema_and_rows(self):
+        baseline = forecasting.baseline_predictions(self.data, ["validation"], self.protocol, "fixture")
+        ridge = baseline.loc[baseline.model_id.eq("last_released")].copy()
+        ridge["model_id"] = "ridge"
+        with tempfile.TemporaryDirectory() as temporary:
+            directory = Path(temporary)
+            baseline_path, ridge_path = directory / "baseline.csv", directory / "ridge.csv"
+            self.data.to_csv(directory / "truth.csv", index=False)
+            command = [sys.executable, evaluation.__file__, "--data", str(directory / "truth.csv"),
+                       "--predictions", str(baseline_path), str(ridge_path),
+                       "--output", str(directory / "metrics.json")]
+            baseline.to_csv(baseline_path, index=False)
+            ridge.iloc[:0].to_csv(ridge_path, index=False)
+            empty = subprocess.run(command, capture_output=True, text=True)
+            self.assertNotEqual(empty.returncode, 0)
+            self.assertIn("empty", empty.stderr)
+            ridge.drop(columns=["lower_bound", "upper_bound"]).to_csv(ridge_path, index=False)
+            incomplete = subprocess.run(command, capture_output=True, text=True)
+            self.assertNotEqual(incomplete.returncode, 0)
+            self.assertIn("columns", incomplete.stderr)
+            baseline["run_id"] = "20261127"
+            ridge["run_id"] = "20261127"
+            baseline.to_csv(baseline_path, index=False)
+            ridge.to_csv(ridge_path, index=False)
+            complete = subprocess.run(command, capture_output=True, text=True)
+            self.assertEqual(complete.returncode, 0, complete.stderr)
+            report = json.loads((directory / "metrics.json").read_text())
+            self.assertEqual(set(report["models"]), {"last_released", "seasonal_naive", "ridge"})
+
+    def test_run_metadata_records_the_actual_environment_and_revision(self):
+        metadata = forecasting.runtime_metadata()
+        self.assertEqual(metadata["python"], sys.version.split()[0])
+        self.assertEqual(metadata["packages"]["pandas"], version("pandas"))
+        self.assertIn("git_revision", metadata)
 
 
 if __name__ == "__main__":

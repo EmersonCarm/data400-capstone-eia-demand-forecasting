@@ -45,6 +45,7 @@ class DominionMonthlyPricesTests(unittest.TestCase):
         self.assertEqual({(row["utility_id"], row["state"]) for row in rows}, {("19876", "VA")})
         self.assertEqual(float(rows[0]["price_cents_per_kwh"]), 12.5)
         self.assertEqual(float(rows[0]["kwh_per_customer"]), 2000)
+        self.assertEqual(rows[0]["ownership"], "Investor Owned")
 
     def test_rejects_repeated_month_even_when_row_count_is_correct(self):
         result = self.run_builder([*range(1, 12), 11])
