@@ -1,4 +1,7 @@
-# Shared dataset handoff
+# Hourly grid-demand dataset handoff
+
+The current residential-price study uses the [monthly data and evaluation guide](MONTHLY_DATA_GUIDE.md).
+This guide describes the earlier four-region hourly dataset for grid-demand context.
 
 ## What Emerson receives
 
