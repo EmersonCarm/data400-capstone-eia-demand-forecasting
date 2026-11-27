@@ -1,0 +1,64 @@
+DATA 400 TEAM PROJECT PROPOSAL
+Data Center Growth and Residential Electricity Costs
+Emerson Carmine and Niloy Saha
+November 8, 2026
+
+RESEARCH QUESTION AND MOTIVATION
+
+How have residential electricity prices in Virginia changed alongside data-center growth, and how accurately can we forecast future monthly prices using historical data?
+
+Our original project focused on predicting electricity demand from previous usage and seasonal patterns. We propose narrowing that work to a more specific community concern: electricity costs in areas experiencing data-center growth. This connects data analytics with energy economics and is relevant to residents, utilities, and local decision makers. New data-center proposals near Carlisle motivated our interest, but we will begin with Virginia because suitable historical data are available.
+
+Virginia's JLARC study examines data-center growth and potential electricity-cost implications, while EIA documents increasing electricity demand in the region. Our contribution will be a focused historical case study combined with a tested residential-price forecast and clear explanations of what the evidence supports.
+
+DATA AND SCOPE
+
+The main dataset will cover Dominion's Virginia residential customers from 2017 through 2025. Each observation will represent one utility's Virginia residential sector in one month. Initial checks identified 108 monthly observations with residential revenue, electricity sales, and customer counts. We will use these fields to calculate average electricity prices in cents per kilowatt-hour and examine electricity use per customer.
+
+We will combine EIA electricity data with NOAA temperature observations, BLS inflation data, and EIA natural gas prices. PJM's historical large-load information will provide context for data-center growth. Before comparing sources, we will check that their geographic coverage and definitions match. All required sources are public aggregates; individual household records are not needed.
+
+METHODS AND EVALUATION
+
+We will first examine price and consumption trends, seasonal patterns, missing values, and unusual changes. We will compare nominal and inflation-adjusted prices alongside documented large-load growth, considering weather and fuel prices as possible alternative explanations.
+
+For forecasting, we will compare Ridge regression with two simple baselines: the most recently published price and the price for the same month in the previous year. Candidate inputs will include past prices, calendar patterns, and lagged weather and fuel information.
+
+We will train on earlier years, use a separate later validation period to choose model settings, and reserve 2024-2025 for final testing. Forecasts will be evaluated in time order, using only information that would have been available at each forecast date. Reporting delays will be considered when constructing features, fitting models, and estimating uncertainty.
+
+We will report mean absolute error, root mean squared error, and errors by year and season. Earlier out-of-sample errors will provide indicative prediction ranges. The final model will be compared with both baselines on the same test months, even if the simpler method performs better.
+
+FEASIBILITY AND LIMITATIONS
+
+The main limitation is that public data-center measurements are much less detailed than residential electricity data. The historical analysis will therefore describe associations rather than claim that data centers caused a particular price change. The forecasting model will predict overall residential prices, not an isolated data-center surcharge. Average prices also differ from an individual household's tariff or bill.
+
+If the sources cannot be reliably matched, we will present their trends separately and retain the price-forecasting analysis. For practical interpretation, we may illustrate what specified price changes would mean at a fixed household electricity-use level. These will be clearly labeled scenarios rather than predictions of the cost caused by a new facility.
+
+TEAM AND DELIVERABLES
+
+Niloy will lead data preparation, quality checks, baselines, and evaluation. Emerson will lead exploratory analysis, feature development, and modeling. Both will review each other's work and prepare the report, Data and ReadMe Guide, presentation, and poster for the December 10 deadline.
+
+Repository:
+https://github.com/EmersonCarm/data400-capstone-eia-demand-forecasting
+
+DATA SOURCES AND RELATED WORK
+
+EIA monthly electricity data:
+https://www.eia.gov/electricity/data/eia861m/
+
+PJM load and large-load data:
+https://www.pjm.com/planning/resource-adequacy-planning/load-forecast-dev-process
+
+NOAA historical weather:
+https://www.ncei.noaa.gov/cdo-web/
+
+BLS inflation data:
+https://www.bls.gov/cpi/data.htm
+
+EIA monthly natural gas prices:
+https://www.eia.gov/dnav/ng/hist/rngwhhdm.htm
+
+Virginia JLARC study of data centers:
+https://jlarc.virginia.gov/landing-2024-data-centers-in-virginia.asp
+
+EIA analysis of Virginia electricity-demand growth:
+https://www.eia.gov/todayinenergy/detail.php?id=67664

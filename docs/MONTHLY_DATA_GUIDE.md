@@ -243,6 +243,60 @@ later comparison needs 12 calibration forecasts and 24 test forecasts from the
 fixed procedure. Both team members still own interpretation and the final report,
 presentation, and poster.
 
+## Resolving the remaining source limitations
+
+### Publication timing
+
+Replace an assumed availability date only after recording the source series,
+observation month, actual publication date, and evidence URL. EIA's back issues
+and BLS's archived releases provide starting points. A report publication date
+must be checked against the utility-level series being used. Save the source
+snapshot checksum with that evidence. [EIA back issues](https://www.eia.gov/electricity/monthly/backissues.php), [BLS archived CPI releases](https://www.bls.gov/bls/news-release/cpi.htm)
+
+Actual publication dates and original published values are separate parts of the
+audit. Reconstructing release dates still leaves revisions in current downloads.
+Keep the final-vintage designation until the original historical values can also
+be reconstructed. The current delay assumptions remain explicit in the protocol
+while that evidence is collected.
+
+### The missing CPI observation
+
+BLS confirms that October 2025 CPI survey data could not be collected and that
+the usual October release was not issued. Retain the missing source value and
+its footnote. The nominal electricity-price target is complete for that month.
+[BLS explanation of the October 2025 gap](https://www.bls.gov/cpi/additional-resources/2025-federal-government-shutdown-impact-cpi-faq.htm)
+
+For a model using CPI, Emerson should choose the missing-predictor rule during
+development and validation, then keep it fixed for calibration and testing.
+Options include a training-only imputer with a missing-value indicator, or a
+comparison model using price history, weather, and gas without CPI. Fit imputation
+statistics only on the eligible training rows at each forecast origin. Preserve
+all 24 test forecast months when the model can handle the missing control.
+
+BLS describes a geometric-mean approximation using the observations on either
+side of a missing month. Such an estimate belongs in a separately labeled
+descriptive series. Its later observation must already have been released before
+it can enter a historical forecast. [BLS missing-value approximation guidance](https://www.bls.gov/cpi/factsheets/approximating-missing-data.htm)
+
+### PJM provider and utility coverage
+
+PJM's Dominion discussion identifies Dominion Energy, NOVEC, ODEC, and REC as
+separate data contributors. Our parser selects the Dominion Energy provider
+sheet and preserves that identity. Its provider label alone does not establish
+the Virginia-only scope of EIA utility 19876. [PJM forecast supplement, Dominion section](https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/load-forecast-supplement-2026.pdf)
+
+A direct comparison requires evidence connecting the provider's historical
+large-load measurement to the utility's Virginia service population, including
+the states, providers, sectors, and measurement definitions covered. Use EIA's
+annual utility/service-territory files and Dominion's source documentation for
+that check. Preserve the annual peak-MW measurement separately from monthly
+residential sales and prices. [EIA annual utility data](https://www.eia.gov/electricity/data/eia861/)
+
+Until that match is established, use separate descriptive figures with explicit
+coverage labels. A confirmed service-area match would support a better-defined
+association study. Identifying a price change caused by data centers would also
+require a defensible causal research design.
+
 ## Standalone price sample
 
 The original price-only builder remains available for a small initial check.
