@@ -36,34 +36,45 @@ For later sessions, activate the existing environment with `conda activate data4
 python -m pip install -r requirements.txt
 ```
 
-### 4. Build the monthly residential price dataset
-
-Download the annual workbooks under **Sales and revenue → Detailed data → Year** on the
-[EIA-861M data page](https://www.eia.gov/electricity/data/eia861m/). Save them under
-`data/raw/eia861m/` with their original names. EIA uses `retail_sales_YYYY.xlsx` for
-2017–2020 and `sales_ult_cust_YYYY.xlsx` for 2021–2025.
-
-To try the 12-month sample, start with the
-[2019 workbook](https://www.eia.gov/electricity/data/eia861m/archive/xls/retail_sales_2019.xlsx):
+### 4. Build the monthly study data
 
 ```bash
-python scripts/build_dominion_monthly_prices.py --start-year 2019 --end-year 2019
+python scripts/pull_monthly_sources.py
+python scripts/build_monthly_study.py
 ```
 
-After downloading all nine workbooks, run the builder without flags for the full
-108-month dataset:
+The collector downloads public EIA, NOAA, BLS, and PJM sources without an API key.
+It reuses a complete, checksum-verified source manifest on subsequent runs.
+Use `--refresh` to capture current source revisions. The offline builder writes
+`data/processed/monthly/study_monthly.csv` with 108 Dominion Virginia residential
+months, weather and economic controls, and assumed availability dates. Separate
+files hold station weather coverage, annual PJM context, and quality checks.
+Raw data and generated outputs are ignored by Git.
+
+The [monthly data and evaluation guide](docs/MONTHLY_DATA_GUIDE.md) explains units,
+missing values, source provenance, and the model export Emerson will supply.
+It includes the small, standalone 2019 price-builder example.
+
+### 5. Run and score the fixed baselines
 
 ```bash
-python scripts/build_dominion_monthly_prices.py
+python scripts/run_price_baselines.py
 ```
 
-The builder runs offline and writes `data/processed/dominion_va_residential_2017_2025.csv`
-for the full range. Each row is one month of residential service for EIA utility
-19876 in Virginia. The builder checks the source units and requires all months to
-be present exactly once. It calculates average price in cents per kWh as `100 ×
-revenue_thousand_usd / sales_mwh`, and kWh per customer as `1000 × sales_mwh / customers`.
-Each row includes the source filename and EIA reporting status. The raw workbooks and
-generated CSVs are ignored by Git.
+This writes validation and calibration forecasts to a printed run directory
+under `data/processed/monthly/baselines/`. Substitute that directory for `RUN_DIR`:
+
+```bash
+python scripts/evaluate_price_forecasts.py \
+  --predictions RUN_DIR/baseline_validation.csv \
+  --partition validation --output RUN_DIR/validation_metrics.json
+```
+
+The fixed protocol is in `config/monthly_evaluation.json`. Forecasts use the last
+released electricity observation and the same month one year earlier. Availability
+dates implement declared reporting-delay assumptions for a final-vintage backtest.
+The default run covers 2021 validation and October 2022–September 2023 calibration.
+The guide describes the later 2024–2025 comparison once the model procedure is fixed.
 
 ## Hourly grid-demand data
 
@@ -173,9 +184,15 @@ data400-capstone/
 
 ## Project Status
 
-The Dominion Virginia dataset has 108 monthly observations for 2017–2025. The next
-step is to document the time split and build the two price baselines. The earlier
-hourly Parquet snapshot covers four regions and includes a missing-measurement log.
+Niloy's monthly data pipeline, release rules, two baselines, and independent scoring
+tools are implemented. The study has 108 months, 324 station-month weather summaries,
+and nine years of separately labeled PJM context. The current BLS snapshot has a
+missing October 2025 CPI value with its source footnote preserved.
+
+Emerson's exploratory analysis, feature development, and model forecasts are the
+next inputs for the model comparison. The final evaluation uses the fixed procedure
+and identical test months. The earlier hourly pipeline remains available for
+grid-demand context.
 
 ## References
 
