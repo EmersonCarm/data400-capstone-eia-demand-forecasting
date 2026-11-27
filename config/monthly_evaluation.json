@@ -1,0 +1,27 @@
+{
+  "protocol_version": 1,
+  "utility_id": 19876,
+  "state": "VA",
+  "source_start": "2017-01",
+  "source_end": "2025-12",
+  "training_start": "2018-01",
+  "horizon_months": 1,
+  "release_delay_months": {
+    "electricity": 3,
+    "weather": 1,
+    "cpi": 1,
+    "gas": 1
+  },
+  "release_delays_are_assumptions": true,
+  "backtest_vintage": "lagged_final_vintage",
+  "partitions": {
+    "validation": ["2021-01", "2021-12"],
+    "calibration": ["2022-10", "2023-09"],
+    "test": ["2024-01", "2025-12"]
+  },
+  "model_selection_available_date": "2022-03-31",
+  "calibration_available_date": "2023-12-31",
+  "nominal_interval_coverage": 0.9,
+  "warm_season_months": [5, 6, 7, 8, 9],
+  "baseline_models": ["last_released", "seasonal_naive"]
+}

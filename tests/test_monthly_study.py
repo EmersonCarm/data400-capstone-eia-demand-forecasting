@@ -39,6 +39,14 @@ class MonthlyStudyTests(unittest.TestCase):
             with self.subTest(rows=len(rows)), self.assertRaises(ValueError):
                 study.normalize_weather(rows, "USW00093738", "2017-01", "2017-01")
 
+    def test_missing_temperature_column_produces_missing_monthly_weather(self):
+        rows = self.weather()
+        for row in rows:
+            del row["TMAX"]
+        monthly = study.normalize_weather(rows, "USW00093738", "2017-01", "2017-01")
+        self.assertEqual(monthly.iloc[0].valid_days, 0)
+        self.assertTrue(pd.isna(monthly.iloc[0].tmean_c))
+
     def test_cpi_excludes_annual_average_and_rejects_duplicate_months(self):
         rows = [{"year": str(year), "period": f"M{month:02d}", "value": "250.5"}
                 for year in range(2017, 2026) for month in range(1, 13)]

@@ -11,6 +11,7 @@ from openpyxl import load_workbook
 import pandas as pd
 
 from build_dominion_monthly_prices import FIELDS, read_year
+from monthly_forecasting import availability_dates, load_protocol, protocol_hash
 from pull_monthly_sources import DEFAULT_DIRECTORY, ROOT, STATIONS, atomic_write, read_manifest, source_requests
 
 
@@ -39,7 +40,7 @@ def normalize_weather(records, station, start="2017-01", end="2025-12"):
     frame = frame.set_index("date").reindex(calendar)
     good = pd.Series(True, index=calendar)
     for field in ("TMAX", "TMIN"):
-        values = pd.to_numeric(frame.get(field), errors="coerce")
+        values = pd.to_numeric(frame.get(field, pd.Series(index=calendar, dtype=float)), errors="coerce")
         attributes = frame.get(f"{field}_ATTRIBUTES", pd.Series(index=calendar, dtype=str))
         flag_ok = attributes.fillna("").map(lambda value: len(value.split(",")) >= 3 and not value.split(",")[1].strip())
         good &= np.isfinite(values) & values.between(-100, 70) & flag_ok
@@ -173,8 +174,9 @@ def build_study(directory):
         cpi, on="period", validate="one_to_one").merge(gas, on="period", validate="one_to_one")
     base_cpi = cpi.loc[cpi.period.str.startswith("2017-"), "cpi_u"].mean()
     data["real_price_2017_cents_per_kwh"] = data.price_cents_per_kwh * base_cpi / data.cpi_u
-    data["electricity_available_date"] = (pd.PeriodIndex(data.period, freq="M") + 3).to_timestamp("M").strftime("%Y-%m-%d")
-    data["controls_available_date"] = (pd.PeriodIndex(data.period, freq="M") + 1).to_timestamp("M").strftime("%Y-%m-%d")
+    protocol = load_protocol()
+    data["electricity_available_date"] = availability_dates(data.period, "electricity", protocol).strftime("%Y-%m-%d")
+    data["controls_available_date"] = availability_dates(data.period, "weather", protocol).strftime("%Y-%m-%d")
     pjm = normalize_pjm(directory / entries["pjm"]["path"])
     quality = dict(months=len(data), first_period=data.period.iloc[0], last_period=data.period.iloc[-1],
                    utility_id=19876, state="VA", missing_target_months=int(data.price_cents_per_kwh.isna().sum()),
@@ -183,6 +185,7 @@ def build_study(directory):
                    missing_cpi_months=data.loc[data.cpi_u.isna(), "period"].tolist(),
                    source_manifest_sha256=hashlib.sha256((directory / "manifest.json").read_bytes()).hexdigest(),
                    sources=manifest["sources"], release_delays_are_assumptions=True,
+                   protocol_sha256=protocol_hash(protocol),
                    backtest_vintage="lagged_final_vintage", cpi_base="2017 annual mean",
                    weather_proxy="Equal weight across all three qualifying station-months; missing when any station fails.")
     return data, station_months, pjm, quality
