@@ -3,3 +3,4 @@ numpy>=2,<3
 requests>=2.31,<3
 python-dotenv>=1.0,<2
 pyarrow>=26,<27
+openpyxl>=3.1,<4

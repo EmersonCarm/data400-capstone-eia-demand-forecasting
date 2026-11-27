@@ -1,4 +1,4 @@
-# DATA 400 Capstone: Electricity Demand Forecasting
+# DATA 400 Capstone: Data Center Growth and Residential Electricity Costs
 
 **Team Members:** Emerson Carmine and Niloy Saha  
 **Course:** DATA 400 – Fall 2026  
@@ -6,27 +6,11 @@
 
 ## Project Overview
 
-This project aims to predict hourly electricity demand using historical electricity consumption data. We will explore how past usage, seasonal patterns, and calendar-related factors can help forecast future electricity demand.
-
-Our goal is to compare traditional forecasting methods with machine learning models and evaluate how accurately they predict electricity usage.
-
-### Research Question
-
-How accurately can historical electricity usage and calendar patterns predict future hourly electricity demand?
-
-## Dataset
-
-We use publicly available electricity data from the **U.S. Energy Information Administration (EIA)**.
-
-- **Source:** [EIA Open Data API](https://www.eia.gov/opendata/)
-- **Dataset:** EIA-930 Hourly Electric Grid Monitor
-- **Initial Region:** PJM (Pennsylvania–New Jersey–Maryland Interconnection)
-- **Initial Sample:** September 2025
-- **Variables:** Hourly electricity demand, demand forecasts, and timestamps
-
-The shared dataset uses PJM, ERCO (Texas), CISO (California), and ISNE (New England)
-for 2019–2025. See the [data dictionary](docs/DATA_DICTIONARY.md) and
-[partner handoff instructions](docs/DATASET_HANDOFF.md) for definitions and reproducible commands.
+How have residential electricity prices in Virginia changed alongside data-center growth,
+and how accurately can we forecast monthly prices? The primary dataset follows Dominion's
+Virginia residential customers from 2017 through 2025. The historical case study examines
+price and usage trends alongside documented large-load growth. The forecast targets overall
+residential prices. The project reserves 2024–2025 for the final forecast evaluation.
 
 ## Getting Started
 
@@ -52,7 +36,42 @@ For later sessions, activate the existing environment with `conda activate data4
 python -m pip install -r requirements.txt
 ```
 
-### 4. Configure the EIA API key
+### 4. Build the monthly residential price dataset
+
+Download the annual workbooks under **Sales and revenue → Detailed data → Year** on the
+[EIA-861M data page](https://www.eia.gov/electricity/data/eia861m/). Save them under
+`data/raw/eia861m/` with their original names. EIA uses `retail_sales_YYYY.xlsx` for
+2017–2020 and `sales_ult_cust_YYYY.xlsx` for 2021–2025.
+
+To try the 12-month sample, start with the
+[2019 workbook](https://www.eia.gov/electricity/data/eia861m/archive/xls/retail_sales_2019.xlsx):
+
+```bash
+python scripts/build_dominion_monthly_prices.py --start-year 2019 --end-year 2019
+```
+
+After downloading all nine workbooks, run the builder without flags for the full
+108-month dataset:
+
+```bash
+python scripts/build_dominion_monthly_prices.py
+```
+
+The builder runs offline and writes `data/processed/dominion_va_residential_2017_2025.csv`
+for the full range. Each row is one month of residential service for EIA utility
+19876 in Virginia. The builder checks the source units and requires all months to
+be present exactly once. It calculates average price in cents per kWh as `100 ×
+revenue_thousand_usd / sales_mwh`, and kWh per customer as `1000 × sales_mwh / customers`.
+Each row includes the source filename and EIA reporting status. The raw workbooks and
+generated CSVs are ignored by Git.
+
+## Hourly grid-demand data
+
+The earlier EIA-930 work covers PJM, ERCO (Texas), CISO (California), and ISNE (New England)
+for 2019–2025. It provides grid-demand context for the capstone. The [hourly data dictionary](docs/DATA_DICTIONARY.md)
+and [handoff guide](docs/DATASET_HANDOFF.md) explain the fields and download commands.
+
+### Configure the EIA API key
 
 Copy `.env.example` to `.env` in the project's root directory and set your EIA key:
 
@@ -64,7 +83,7 @@ The `.env` file is excluded from Git using `.gitignore`.
 You can also supply `EIA_API_KEY` through your environment. A key is required for
 downloads and refreshes; an existing matching cache can be read without a key.
 
-### 5. Download the initial dataset
+### Download the initial hourly sample
 
 ```bash
 python scripts/pull_eia_sample.py
@@ -84,7 +103,7 @@ Use `python scripts/pull_eia_sample.py --help` to see the options. The collector
 automatically pages through requests larger than 5,000 records and prints progress.
 It stops before saving files if a later page is empty or the reported total changes.
 
-### 6. Reuse or refresh a download
+### Reuse or refresh an hourly download
 
 Successful downloads create a validated JSON cache under `.cache/eia/`. Repeating
 the same region and date range reads that cache, makes no API requests, and
@@ -104,7 +123,7 @@ Generated downloads and caches stay local and are ignored by Git. The original
 September 2025 PJM sample remains committed. Missing measurements stay blank in
 the CSV and are counted in the quality report; the collector does not impute them.
 
-### 7. Build the shared dataset
+### Build the shared hourly dataset
 
 After downloading the four regional CSVs for the same 2019–2025 window, run:
 
@@ -119,9 +138,9 @@ See [DATASET_HANDOFF.md](docs/DATASET_HANDOFF.md) for the download loop and an e
 of reading the Parquet file in pandas. Install the updated requirements first;
 PyArrow is required for Parquet output.
 
-### 8. Run checks
+## Run checks
 
-Run the offline collector checks without an API key or network access:
+Run the offline data pipeline checks:
 
 ```bash
 python -m unittest discover -s tests -v
@@ -134,9 +153,9 @@ data400-capstone/
 ├── data/
 │   ├── raw/             # Original downloaded data
 │   └── processed/       # Cleaned and formatted data
-├── scripts/             # Data collection scripts
+├── scripts/             # Data collection and preparation scripts
 ├── docs/                # Data quality reports
-├── tests/               # Offline collector tests
+├── tests/               # Offline pipeline tests
 ├── .cache/eia/          # Local download caches (not committed)
 ├── .env                 # Private API key (not committed)
 ├── .env.example         # Placeholder configuration
@@ -148,25 +167,19 @@ data400-capstone/
 
 ## Planned Analysis
 
-- Explore daily, weekly, and seasonal electricity-demand patterns.
-- Build simple historical forecasting baselines.
-- Train Ridge Regression and LightGBM models.
-- Compare predictions using MAE, RMSE, and MAPE.
-- Analyze forecasting errors across different regions and seasons.
+- Examine monthly prices and residential electricity use alongside documented large-load trends.
+- Compare Ridge regression with the last published price and the price from the same month a year earlier.
+- Evaluate forecasts in time order, accounting for reporting delays. Report MAE and RMSE on the reserved test months.
 
 ## Project Status
 
-**Current Stage:** Shared data foundation for EDA and feature engineering.
-
-The collector supports one balancing authority per run, inclusive UTC hour ranges,
-pagination, cache reuse, explicit refreshes, and quality reports. All four selected
-regions were downloaded for 2019–2025. The offline builder validates and combines
-their UTC hourly grids into the documented shared Parquet schema, with a detailed
-missing-measurement log. The verified snapshot has 147 missing demand measurements
-and 360 missing operator forecasts; these remain null. Exploratory analysis,
-feature engineering, modeling, and evaluation will follow.
+The Dominion Virginia dataset has 108 monthly observations for 2017–2025. The next
+step is to document the time split and build the two price baselines. The earlier
+hourly Parquet snapshot covers four regions and includes a missing-measurement log.
 
 ## References
 
-- [U.S. Energy Information Administration](https://www.eia.gov/opendata/)
+- [EIA monthly utility sales and revenue data](https://www.eia.gov/electricity/data/eia861m/)
+- [EIA Hourly Electric Grid Monitor](https://www.eia.gov/electricity/gridmonitor/about)
+- [Virginia JLARC study of data centers](https://jlarc.virginia.gov/landing-2024-data-centers-in-virginia.asp)
 - Hong, T., & Fan, S. (2016). *Probabilistic electric load forecasting: A tutorial review.* International Journal of Forecasting.
